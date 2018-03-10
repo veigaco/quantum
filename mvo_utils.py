@@ -82,6 +82,21 @@ def recommend_allocs(px, frame, lb, freq, min_sum, max_sum, min_w, max_w, gamma)
     pdf = pd.DataFrame(port_perf, index=returns.index, columns=["M2-cvxopt"])
     return px_portion, returns, alloc, pdf
 
+# pending implementation using partials
+def quick_gamma(glist, c_px, t_w, lb, f, mi_g, ma_g, mi_w, ma_w):
+    if len(glist) <= 1: 
+        mid_g = glist[0]
+        mid_sr = get_sr_for_opt(c_px, t_w, lb, f, mi_g, ma_g, mi_w, ma_w, mid_g)
+        return mid_g, mid_sr
+    else:
+        mid = len(glist)//2; left = glist[:mid]; right = glist[mid:]
+        mid_l = left[len(left)//2]; mid_r = right[len(right)//2]
+        left_sr = get_sr_for_opt(c_px, t_w, lb, f, mi_g, ma_g, mi_w, ma_w, mid_l)
+        right_sr = get_sr_for_opt(c_px, t_w, lb, f, mi_g, ma_g, mi_w, ma_w, mid_r)
+        if left_sr > right_sr: sublist = left
+        else: sublist = right
+        return quick_gamma(sublist, c_px, t_w, lb, f, mi_g, ma_g, mi_w, ma_w)
+
 def period_allocs(w, irange):
     w = (recomend_allocs(w, irange) / max_w).astype(np.int)
     return w
@@ -149,6 +164,13 @@ def port_metrics(px, rec):
     port_risk = np.sqrt(np.dot(weights.T, np.dot(cov_matrix.values, weights))) * np.sqrt(mult)
     return port_return[0], port_risk[0][0]
 
+# return portfolio sharpe for a given optimization
+def get_sr_for_opt(c_px, t_w, lb, f, mi_g, ma_g, mi_w, ma_w, gamma):
+    px_p, _, alloc, pdf = recommend_allocs(c_px, t_w, lb, f, mi_g, ma_g, mi_w, ma_w, gamma)
+    rec = last_allocation(alloc, 0.01)
+    ret, risk = port_metrics(px_p, rec)
+    return ret / risk
+
 # Sector analytics
 def check_sector_vars(group, dwld_key, frame, gamma):
     lb_range = [i for i in range(5, 25, 10)]
@@ -162,7 +184,27 @@ def check_sector_vars(group, dwld_key, frame, gamma):
     plt.grid(axis='both', linestyle=':', linewidth=0.5)
     plt.title("M2 vs. " + dwld_key)
     plt.show()
-    
+
+# what is the difference between port with gammas 1..5?
+def rr_portfolios(g_list):
+    best_ports = pd.DataFrame([], index=g_list)
+    for g in g_list:
+        _, _, alloc, _ = recommend_allocs(consol_px, frame, lb, frequency, min_gross, max_gross, min_w, max_w, g)
+        rec = last_allocation(alloc, 0.01);
+        df1 = pd.DataFrame(rec.T.values, index=[g], columns=rec.index.tolist())
+        best_ports = best_ports.combine_first(df1)
+    return best_ports
+#rr_portfolios(top_gammas[:top]).T
+
+def sect_group_stats(recommend, col):
+    re_group = recommend.groupby(by=col)
+    print("Total % Allocation {0:.2f}".format(recommend.Allocation.sum() * 100));
+    sector_cols = ['Sector Weight', 'Avg Position']
+    sector_df = pd.DataFrame([], index=pd.unique(recommend[col]), columns=sector_cols)
+    sector_df[sector_df.columns[0]] = re_group.sum()
+    sector_df[sector_df.columns[1]] = re_group.mean()
+    return sector_df
+
 def run_sector_opt(group, dwld_key, frame, lback, w, gamma):
     px = load_pricing(dwld_key + '-hold-pricing.csv', 'Date') #this is inneficient, fix
     px_spy_etfs = load_pricing(group, 'Date') #this is inneficient, fix
@@ -174,8 +216,6 @@ def run_sector_opt(group, dwld_key, frame, lback, w, gamma):
         portfolio_metrics('M2', pdf);
         portfolio_metrics(dwld_key, pd.DataFrame(benchmark));
     return px_portion, returns, alloc, pdf, benchmark
-
-
 
 # Plot utilities
 # this method is not that useful, not thought out correctly
@@ -226,6 +266,20 @@ def load_pricing(f, idx_col):
     px.sort_index(ascending=True, inplace=True)
     if log: print("Loaded pricing for {}, with shape {}".format(f, px.shape))
     return px
+
+# Util function to load components for different benchmarks
+def load_consol_px(ticker_map, tm_key):
+    consol_px = pd.DataFrame([])
+    for key in ticker_map[tm_key]:
+        px = load_pricing(key + '-hold-pricing.csv', 'Date').copy()
+        ccols = set(consol_px.columns.tolist())
+        newcols = set(px.columns.tolist())
+        consol_px = consol_px.merge(
+            px[list(newcols.difference(ccols))], 
+            left_index=True, 
+            right_index=True, 
+            how='outer')
+    return consol_px
 
 # Downloads pricing on all components for each ETF
 def get_pricing(fname, ticker_list, start_date):
