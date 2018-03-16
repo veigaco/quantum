@@ -159,6 +159,7 @@ def port_metrics(px, rec):
     cov_matrix = returns.cov()
     weights = np.asarray(rec.values)
     mult = len(mean_daily_returns)
+    #mult = len(returns)
     #port_return = np.sum(mean_daily_returns.values * weights) * mult # bug fix
     port_return = np.dot(mean_daily_returns.values, weights) * mult
     port_risk = np.sqrt(np.dot(weights.T, np.dot(cov_matrix.values, weights))) * np.sqrt(mult)
