@@ -101,7 +101,8 @@ def plot_returns(return_vec):
 
 
 def Optimization(return_vec,gamma_val):
-    weights = np.array([0 for _ in range(len(return_vec.columns))])
+    #weights = np.array([0 for _ in range(len(return_vec.columns))])
+    weights =np.asarray([1/len(return_vec.columns) for _ in range(len(return_vec.columns))])
     mu = return_vec.mean().values ## vector de return mean
     n = len(mu) ## numero de compañias
     name = return_vec.mean().index.values.tolist() ## nombre de las compañias
@@ -147,3 +148,18 @@ def plot_Optimization(risk_data,ret_data,gamma_vals,sharpe,name,Sigma,mu):
     plt.ylabel('Return')
     plt.title(r"$\gamma = %.2f$" % gamma_vals[opt_gamma] + ";"+ "s="+str(round(sharpe[opt_gamma],2)))
     plt.show()
+    
+def get_subportfolio(portfolio_opt,min_weight,px_portion):
+    sub_portfolio = portfolio_opt[portfolio_opt["Allocation"] > min_weight]
+    if len(sub_portfolio)>0:
+        returns_subport = px_portion[sub_portfolio.index.tolist()]
+        mu_subportfolio = returns_subport.mean()
+        cov_matrix_subportfolio = returns_subport.cov()
+        weights_subportfolio = sub_portfolio["Allocation"]
+        n_dias = returns_subport.shape[0]
+        return_subportfolio = (np.dot(mu_subportfolio.values, weights_subportfolio)*n_dias)
+        risk_subportfolio = (np.sqrt(np.dot(weights_subportfolio.T, np.dot(cov_matrix_subportfolio.values, weights_subportfolio))))*(np.sqrt(n_dias))
+        sharpe_subportfolio = return_subportfolio/risk_subportfolio
+        return return_subportfolio,risk_subportfolio,sharpe_subportfolio,weights_subportfolio#,sub_portfolio,mu_subportfolio,cov_matrix_subportfolio
+    else:
+        return 0,0,0,[0]
