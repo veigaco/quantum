@@ -15,7 +15,7 @@ from time import sleep
 from MPT_utils import * 
 import cvxpy as cvx
 import numpy as np
-
+from scipy import stats
 
 # In[2]:
 
@@ -140,13 +140,14 @@ px_portion= px_portion.sort_index().pct_change(); px_portion.iloc[0] = 0 ## calc
 return_vec =px_portion.loc[:px_portion.tail(1).index[0]].tail(lb)#.dropna()
 
 ### grafico de comportamientos de returns
-plot_returns(return_vec)
+#plot_returns(return_vec)
 
 
 # In[6]:
 
 
-# Portfolio optimization with leverage limit.
+
+
 weights =np.asarray([1/len(return_vec.columns) for _ in range(len(return_vec.columns))])
 mu = return_vec.mean().values ## vector de return mean
 n = len(mu) ## numero de compañias
@@ -158,97 +159,117 @@ gamma = cvx.Parameter(sign='positive') ## aversion al riesgo
 ret = mu.T*w   # returns
 risk = cvx.quad_form(w, Sigma)
 # Portfolio optimization with leverage limit.
-Lmax = cvx.Parameter()
 prob = cvx.Problem(cvx.Maximize(ret - gamma*risk), 
                [cvx.sum_entries(w) == 1, 
-                cvx.norm(w, 1) <= Lmax])
-# Compute trade-off curve for each leverage limit.
+                cvx.norm(w, 1) <= 1.5,w<.05,w>-.05])
 
-L_vals = [1,1.5, 2, 4]
+
+
+
 SAMPLES = 100
 w_ = []
-risk_data = np.zeros((len(L_vals), SAMPLES))
-ret_data = np.zeros((len(L_vals), SAMPLES))
-sharpe= np.zeros((len(L_vals), SAMPLES))
+risk_data = np.zeros(SAMPLES)
+ret_data = np.zeros(SAMPLES)
+sharpe = np.zeros(SAMPLES)
 gamma_vals = np.logspace(-2, 3, num=SAMPLES)
-for k, L_val in enumerate(L_vals):
-    for i in range(SAMPLES):
-        Lmax.value = L_val
-        gamma.value = gamma_vals[i]
-        prob.solve()
-        if prob.status == 'optimal': 
-            #weights =[j[0] for j in w.value.tolist()]
-            risk_data[k, i] = sqrt(risk.value)
-            ret_data[k,i]= ret.value
-            #w_.append(weights)
-            sharpe[k,i]=ret.value/sqrt(risk.value)
-        if prob.status != 'optimal': 
-            print("No optimo para "+str(gamma_vals[i]))
-
-
-
-
-# Plot trade-off curves for each leverage limit.
-for idx, L_val in enumerate(L_vals):
-    plt.plot(risk_data[idx,:][risk_data[idx,:]>0], ret_data[idx,:][ret_data[idx,:]>0], label=r"$L^{\max}$ = %f.2" % L_val)
-
-for w_val in w_vals:
-    w.value = w_val
-    plt.plot(sqrt(risk.value), ret.value, 'bs')
-
-plt.xlabel('Standard deviation')
-plt.ylabel('Return')
-plt.legend(loc='lower right')
-plt.show()
-
-
-
-
-w_vals=[]
-L_vals = [2]
-ret_data_u=[]
-risk_data_u=[]
-# Portfolio optimization with a leverage limit and a bound on risk.
-prob = cvx.Problem(cvx.Maximize(ret), 
-              [cvx.sum_entries(w) == 1, 
-               cvx.norm(w, 1) <= Lmax,
-               risk <= .001])
-# Compute solution for different leverage limits.
-for k, L_val in enumerate(L_vals):
-    Lmax.value = L_val
+for i in range(SAMPLES):
+    gamma.value=gamma_vals[i]
     prob.solve()
-    w_vals.append( w.value )
-    ret_data_u.append(sqrt(risk.value))
-    risk_data_u.append(ret.value)
+    if prob.status == 'optimal':
+        risk_data[i] = sqrt(risk.value)
+        ret_data[i]= ret.value
+        w_.append([j[0] for j in w.value.tolist()])
+        sharpe[i]=ret.value/sqrt(risk.value)
 
+
+optimo = sharpe.argmax() ## indice de la gamma que optimiza esta estrategia
 # Plot bar graph of holdings for different leverage limits.
-colors = ['b', 'g', 'r']
-indices = np.argsort(mu.flatten())
 
-for idx, L_val in enumerate(L_vals):
-     plt.bar(np.arange(1,n+1) + 0.25*idx - 0.375, w_vals[idx][indices], color=colors[idx], 
-             label=r"$L^{\max}$ = %d" % L_val, width = 0.25)
-
+'''
+m=10
+plt.bar(np.arange(1,m+1), w_[optimo][:m], width = 0.25)
 plt.ylabel(r"$w_i$", fontsize=16)
 plt.xlabel(r"$i$", fontsize=16)
 plt.xlim([1-0.375, 10+.375])
-plt.xticks(np.arange(1,n+1))
+plt.xticks(np.arange(1,m+1))
 plt.show()
 
-from scipy import stats
-stats.describe(w_vals[0])
-plt.hist(w_vals[0], bins=np.arange(-.2, .2, 0.01))
+
+stats.describe(w_[optimo])
+plt.hist(w_[optimo], bins=np.arange(-.2, .2, 0.01))
 plt.title("distribucion de w")
 plt.show()
 
-sum(w_vals[0])
-sum(w_vals[0][w_vals[0]>0].tolist()[0])
-sum(w_vals[0][w_vals[0]<0].tolist()[0])
+
+sum(w_[optimo])
+print("L max es : "+ str(sum([j for j in w_[optimo] if j>0])))
+sum([j for j in w_[optimo] if j>0])
+sum([j for j in w_[optimo] if j<0])
+'''
+
+### de todas las posiciones que van short tomar un subconjunto y de las que van en long tambien
+
+short_position=[j for j in w_[optimo] if j<-.01]
+short_position=[j for j in short_position if j>-.05]
+sum([j for j in w_[optimo] if j<0])
+sum(short_position)
+long_position=[j for j in w_[optimo] if j>.01]
+long_position=[j for j in long_position if j<.05]
+sum([j for j in w_[optimo] if j>0])
+sum(long_position)
+weights_all=short_position+long_position
+
+short_names=[w_[optimo].index(j) for j in short_position]
+long_names=[w_[optimo].index(j) for j in long_position]
+
+short_names=[name[i] for i in short_names]
+long_names=[name[i] for i in long_names]
 
 
-recommend =pd.DataFrame(w_vals[0],index=name,columns=["w"])
+all_positions=short_names+long_names
+
+returns_subport = px_portion[all_positions]
+mu_subportfolio = returns_subport.mean()
+cov_matrix_subportfolio = returns_subport.cov()
+weights_subportfolio = np.array(weights_all).reshape(len(weights_all),1)
+n_dias = returns_subport.shape[0]
+return_subportfolio = (np.dot(mu_subportfolio.values, weights_subportfolio)*n_dias)
+risk_subportfolio = (np.sqrt(np.dot(weights_subportfolio.T, np.dot(cov_matrix_subportfolio.values, weights_subportfolio))))*(np.sqrt(n_dias))
+sharpe_subportfolio = return_subportfolio/risk_subportfolio
+
+recommend =pd.DataFrame(weights_all,index=all_positions,columns=["w"])
+
+stats.describe(weights_all)
 
 
+hist, bin_edges = np.histogram(weights_all, bins = np.arange(-.05, .05, 0.001))
+plt.bar(bin_edges[:-1], hist)
+plt.xlim(min(bin_edges), max(bin_edges))
+plt.show()   
+
+
+
+
+
+'''
+fig = plt.figure()
+ax = fig.add_subplot(111)
+for i in range(len(mu)):
+    plt.plot(sqrt(Sigma[i,i]), mu[i], 'ro')
+    ax.annotate(name[i], xy=(sqrt(Sigma[i,i]), mu[i]-.0003))
+
+for i in range(len(mu_subportfolio)):
+    plt.plot(sqrt(cov_matrix_subportfolio.values[i,i]), mu_subportfolio[i], 'bo')
+    ax.annotate(name[i], xy=(sqrt(cov_matrix_subportfolio.values[i,i]), mu_subportfolio[i]-.0003))
+
+#plt.suptitle('Opt con lb=20')
+plt.xlabel('Standard deviation')
+plt.ylabel('Return')
+#plt.title(r"$\gamma = %.2f$" % gamma_vals[opt_gamma] + ";"+ "s="+str(round(sharpe[opt_gamma],2)))
+plt.show()
+'''
+
+'''
 j=1
 n=10
 short_names=recommend[recommend["w"]<0].index.tolist()[1:n]
@@ -278,6 +299,32 @@ for i in long_names:
 
 plt.show()
 
+'''
+j=1
+plt_all=recommend.index.tolist()
+fig = plt.figure(figsize=(15,5))
+fig.subplots_adjust(left=0.2, wspace=0.6)
+for i in plt_all:
+    ax=fig.add_subplot(5,5,j) 
+    if recommend.loc[i][0]>0:
+        p="(l)"
+    else:
+        p="(s)"
+    ax.set_title(i+p)
+    ax.plot(consol_px[i].values)
+    j=j+1
+    #print(i)
+
+plt.show()
+
+
+plt.bar( range(len(plt_all)),recommend["w"].tolist(), width = 0.25)
+#plt.xticks(recommend.index.tolist())
+plt.ylabel(r"$w_i$", fontsize=16)
+plt.xlabel(r"$i$", fontsize=16)
+plt.xticks(range(len(recommend.index.tolist())), recommend.index.tolist(), size='small')
+# Set ticks labels for x-axis
+plt.show()
 
 
 # Outputs for trade execution
@@ -301,6 +348,9 @@ trading_df['Shares'] = trading_df['Dollar Value'] / trading_df['Price']
 
 #trading_df = trading_df.astype({'Dollar Value':np.int, 'Shares':np.int})
 trading_df.sort_index()
+
+
+
 
 
 ### subportfolio con short y long
@@ -378,6 +428,10 @@ for i in w_vals[0]:
 
 '''
 
+plt.his
 
+plt.hist(np.array(px_portion["A"].tolist()), bins=np.arange(-1, 0, 1))
+plt.title("distribucion de A")
+plt.show()
 
-
+px_portion.hist(column='A')
