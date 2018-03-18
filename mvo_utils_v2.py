@@ -203,11 +203,12 @@ def refresh_components(etfs):
 
 # Plots two series
 def plot_two_series(tsa, tsb, label1, label2, xlabel, ylabel, title):
-    ax = tsa.plot(); tsb.plot(ax=ax)
+    ax = tsa.plot(fontsize='small', figsize=(4,3))
+    tsb.plot(ax=ax)
     ax.set_xlabel(xlabel)
     ax.set_ylabel(ylabel)
-    ax.legend(loc='best')
-    ax.set_title(title)
+    ax.legend(loc='best', fontsize='small')
+    ax.set_title(title, fontsize='small')
 
 # CLEAN UTILITIES
 cleanmin = lambda x: max(float(x), 1)
