@@ -99,28 +99,6 @@ def recommend_allocs(px, frame, lb, as_of, min_sum, max_sum, min_w, max_w, gamma
     pdf = pd.DataFrame(port_perf, index=returns.index, columns=["Quantum"])
     return px_portion, returns, alloc, pdf
 
-# pending implementation using partials
-def quick_gamma(glist, c_px, t_w, lb, as_of, mi_g, ma_g, mi_w, ma_w):
-    if len(glist) <= 1: 
-        mid_g = glist[0]
-        mid_sr = get_sr_for_opt(c_px, t_w, lb, as_of, mi_g, ma_g, mi_w, ma_w, mid_g)
-        return mid_g, mid_sr
-    else:
-        mid = len(glist)//2; left = glist[:mid]; right = glist[mid:]
-        mid_l = left[len(left)//2]; mid_r = right[len(right)//2]
-        left_sr = get_sr_for_opt(c_px, t_w, lb, as_of, mi_g, ma_g, mi_w, ma_w, mid_l)
-        right_sr = get_sr_for_opt(c_px, t_w, lb, as_of, mi_g, ma_g, mi_w, ma_w, mid_r)
-        if left_sr > right_sr: sublist = left
-        else: sublist = right
-        return quick_gamma(sublist, c_px, t_w, lb, as_of, mi_g, ma_g, mi_w, ma_w)
-
-# return portfolio sharpe for a given optimization
-def get_sr_for_opt(c_px, t_w, lb, as_of, mi_g, ma_g, mi_w, ma_w, gamma):
-    px_p, _, alloc, pdf = recommend_allocs(c_px, t_w, lb, as_of, mi_g, ma_g, mi_w, ma_w, gamma)
-    rec = last_allocation(alloc, 0.01)
-    ret, risk = port_metrics(px_p, rec)
-    return ret / risk
-
 # Sector analytics
 
 def sect_group_stats(recommend, col):
