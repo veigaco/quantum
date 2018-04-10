@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+*.pyc
+.ipynb_checkpoints
+pricing
+config/application.yml
