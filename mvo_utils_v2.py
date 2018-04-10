@@ -11,6 +11,7 @@ import fix_yahoo_finance as yf
 
 component_path = "./sector_components/"
 pricing_path = "./pricing/"
+LT_PRICING_PATH = "./pricing/lt_pricing"
 
 #variables for data download
 frame = 20 #for limiting the range of optimizations, 1 year
@@ -129,6 +130,7 @@ def load_components(cos, pattern, cols, idxcol, sectors, srows=1):
     return cos
 
 # Load pricing from hard drive
+# PENDIND: implement path speficic pricing
 def load_pricing(f, idx_col):
     fname = pricing_path + f
     px = pd.read_csv(fname, index_col=idx_col, parse_dates=True)
