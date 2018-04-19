@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,GHYB,2018-04-18,Open,49.049999,43,2
+1,GHYB,2018-04-18,High,49.099998,43,2
+2,GHYB,2018-04-18,Low,49.0494,43,2
+3,GHYB,2018-04-18,Close,49.084801,43,2
+4,GHYB,2018-04-18,Adj Close,49.084801,43,2
+5,GHYB,2018-04-18,Volume,2999.0,43,2

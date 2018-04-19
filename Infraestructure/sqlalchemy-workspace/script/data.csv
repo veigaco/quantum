@@ -1,0 +1,56 @@
+﻿instrument_name,industry_name,sector_name,name,type,description,data_vendor,website_vendor
+Equities,industry,sector,WIKI/PRICES,datatables,"End of day stock prices, dividends and splits for 3,000 US companies, curated by the Quandl community and released into the public domain.",Quandl,https://www.quandl.com/
+Macro-economic Indicator,industry,sector,FRED/GDPPOT,datasets,Real Potential Gross Domestic Product,Quandl,https://www.quandl.com/
+Fixed Income Index,industry,sector,ML/EMCBI,datasets,Emerging Markets Corporate Bond Index OAS,Quandl,https://www.quandl.com/
+Fixed Income Index,industry,sector,ML/EMCTRI,datasets,Emerging Markets Corporate Bond Total Return Index,Quandl,https://www.quandl.com/
+Fixed Income Index,industry,sector,ML/EMHGY,datasets,Emerging Markets High Grade Corporate Bond Index Yield,Quandl,https://www.quandl.com/
+Fixed Income Index,industry,sector,ML/EMHYY,datasets,Emerging Markets High Yield Corporate Bond Index Yield,Quandl,https://www.quandl.com/
+Fixed Income Index,industry,sector,ML/EEMCBI,datasets,Euro Emerging Markets Corporate Bond Index (Yield),Quandl,https://www.quandl.com/
+Fixed Income Index,industry,sector,ML/EMHG,datasets,Europe/Middle East/Africa (EMEA) Corporate Bond Total Return Index,Quandl,https://www.quandl.com/
+Fixed Income Index,industry,sector,ML/IGEM,datasets,IG Emerging Markets Corporate Bond Total Return Index,Quandl,https://www.quandl.com/
+Fixed Income Index,industry,sector,ML/USEY,datasets,US Corporate Bond Index Yield,Quandl,https://www.quandl.com/
+Fixed Income Index,industry,sector,ML/TRI,datasets,US Corporate Bonds Total Return Index,Quandl,https://www.quandl.com/
+Fixed Income Index,industry,sector,ML/USTRI,datasets,US High Yield Corporate Bond Index (Yield),Quandl,https://www.quandl.com/
+Fixed Income Index,industry,sector,ML/HYOAS,datasets,US High Yield Corporate Bond Index OAS,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/YIELD,datasets,Treasury Yield Curve Rates,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/BILLRATES,datasets,Treasury Bill Rates,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/REALYIELD,datasets,Treasury Real Yield Curve Rates,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/REALLONGTERM,datasets,Treasury Real Long-Term Rates,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/MKTDM,datasets,Marketable Debt Maturing in Next 12 to 36 Months,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/TMBOR,datasets,Treasury Net Marketable Borrowing,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/BRDNM,datasets,Breakdown of Marketable Issuance,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/BRDNM,datasets,Treasury Net Nonmarketable Borrowing,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/AVMAT,datasets,Average Maturity of Total Outstanding Treasury Marketable Securities,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/LONGTERMRATES,datasets,Treasury Long Term Rates,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/HQMYC,datasets,High Quality Market Corporate Bond Yield Curve Spot Rates,Quandl,https://www.quandl.com/
+Interest Rates,industry,sector,USTREASURY/MATDIS,datasets,Maturity Distribution and Average Length of Marketable Interest-Bearing Public Debt,Quandl,https://www.quandl.com/
+ETF,industry,sector,VEA,time_series,Developed Markets,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,EMB,time_series,Emerging Markets Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,VWO,time_series,Emerging Markets,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,VTIP,time_series,Inflation-Protected Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,BNDX,time_series,International Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,MUB,time_series,Municipal Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,LQD,time_series,US Corporate Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,VTV,time_series,US Large-Cap Value,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,VOE,time_series,US Mid-Cap Value,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,VBR,time_series,US Small-Cap Value,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,VTI,time_series,US Total Stock Market,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,SCZ,time_series,Developed Markets Small-Cap Stocks,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,GSIE,time_series,Developed Markets,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,LEMB,time_series,Emerging Markets Bonds Local Currency,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,EMB,time_series,Emerging Markets Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,GEM,time_series,Emerging Markets,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,TIP,time_series,Inflation-Protected Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,MUB,time_series,Municipal Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,GBIL,time_series,Short-Term Treasuries,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,GIGB,time_series,US Corporate Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,GHYB,time_series,US High Yield Corporate Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,VCLT,time_series,US High-Quality High Duration Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,GSLC,time_series,US Large-Cap,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,GSSC,time_series,US Small-Cap Stocks,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,IEI,time_series,Intermediate-Term Treasuries,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,SHY,time_series,Short-Term Treasuries,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,FLOT,time_series,US Floating Rate Corporate Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,CIU,time_series,US Intermediate Term Corporate Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,MBB,time_series,US Mortgage Backed Bonds,Yahoo_Finance,https://finance.yahoo.com/
+ETF,industry,sector,CSJ,time_series,US Short Term Corporate Bonds,Yahoo_Finance,https://finance.yahoo.com/

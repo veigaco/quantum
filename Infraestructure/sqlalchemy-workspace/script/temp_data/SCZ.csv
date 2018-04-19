@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,SCZ,2018-04-18,Open,66.730003,36,2
+1,SCZ,2018-04-18,High,66.93,36,2
+2,SCZ,2018-04-18,Low,66.720001,36,2
+3,SCZ,2018-04-18,Close,66.879997,36,2
+4,SCZ,2018-04-18,Adj Close,66.879997,36,2
+5,SCZ,2018-04-18,Volume,1027182.0,36,2

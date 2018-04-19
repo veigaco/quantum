@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,VOE,2018-04-18,Open,111.83000200000001,33,2
+1,VOE,2018-04-18,High,112.409897,33,2
+2,VOE,2018-04-18,Low,111.75,33,2
+3,VOE,2018-04-18,Close,111.769997,33,2
+4,VOE,2018-04-18,Adj Close,111.769997,33,2
+5,VOE,2018-04-18,Volume,190239.0,33,2
