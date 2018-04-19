@@ -1,0 +1,26 @@
+{
+"spy-sectors": 
+	{
+	"hold_cols": ["Symbol", "Company Name", "Index Weight"], 
+	"hold_format": "holdings-spy-", 
+	"idx_col": "Symbol", 
+	"fname": "spy-sectors", 
+	"skiprows": 1
+	},
+"ark-etfs": 
+	{
+	"hold_cols": ["ticker", "company", "weight(%)"],
+	"hold_format": "holdings-ark-", 
+	"idx_col": "ticker", 
+	"fname": "ark-etfs", 
+	"skiprows": 0
+	},
+"vanguard-sectors":
+	{
+	"hold_cols": ["Identifier", "Name", "% Wgt (P)"],
+	"hold_format": "holdings-vg-", 
+	"idx_col": "Identifier", 
+	"fname": "vg-sectors", 
+	"skiprows": 0	
+	}
+}

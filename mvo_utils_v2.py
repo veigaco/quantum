@@ -191,8 +191,7 @@ def plot_two_series(tsa, tsb, label1, label2, xlabel, ylabel, title):
     ax.set_title(title, fontsize='small')
 
 # CLEAN UTILITIES
-cleanmin = lambda x: max(float(x), 1)
-short_float = lambda x: '%.3f' % x
+
 def compound(df):
     pct = df.pct_change() + 1
     pct.iloc[0] = 1
@@ -205,19 +204,20 @@ def clean_load(pattern, idxcol, cols, col_names, s, srows=0):
     df.columns = col_names[1:]
     return df
 
-def clean_idx(df, s):
-    dfidx = df.index.dropna()
-    df = df.loc[dfidx].copy()
-    rows = df[df.index.str.contains(s) == True]
-    if len(rows) > 0:
-        idx = df[df.index.str.contains(s) == True].index
-        df = df.drop(idx, axis=0)
-    return df
-
 def clean_nas(df):
     cols = df.count().sort_values()[df.count().sort_values() < 1].index.tolist()
     df = df.drop(cols, axis=1)
     df.fillna(method='pad', inplace=True)
     df.fillna(method='bfill', inplace=True)
     df = df.applymap(cleanmin)
+    return df
+
+def clean_idx(df, s):
+    'Utility clean up functions'
+    dfidx = df.index.dropna()
+    df = df.loc[dfidx].copy()
+    rows = df[df.index.str.contains(s) == True]
+    if len(rows) > 0:
+        idx = df[df.index.str.contains(s) == True].index
+        df = df.drop(idx, axis=0)
     return df

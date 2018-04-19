@@ -1,0 +1,10 @@
+{
+	"benchmark": ["SPY"], 
+	"equities": ["VTI", "VTV", "VOE", "VBR", "VEA", "VWO"], 
+	"fixed-income": ["VCSH", "AGG", "LQD", "MUB", "TIP", "JNK", "AGG", "BNDX", "EMB"], 
+	"spy-sectors": ["XLE", "XLU", "XLK", "XLB", "XLP", "XLY", "XLI", "XLV", "XLF", "XLRE"], 
+	"vanguard-sectors": ["VAW", "VCR", "VDC", "VDE", "VFH", "VGT", "VHT", "VIS", "VNQ", "VOX", "VPU"],
+	"ark-etfs": ["ARKG", "ARKK", "ARKQ", "ARKW"],
+	"combined-spy": ["XLE", "XLU", "XLK", "XLB", "XLP", "XLY", "XLI", "XLV", "XLF", "XLRE", "IBDH", "VCSH", "AGG", "LQD", "MUB", "TIP", "JNK", "AGG", "BNDX", "EMB"],
+	"combined-vgd": ["IBDH", "VCSH", "AGG", "LQD", "MUB", "TIP", "JNK", "AGG", "BNDX", "EMB", "VAW", "VCR", "VDC", "VDE", "VFH", "VGT", "VHT", "VIS", "VNQ", "VOX", "VPU"]
+}
