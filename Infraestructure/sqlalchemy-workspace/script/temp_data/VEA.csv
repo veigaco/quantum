@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,VEA,2018-04-18,Open,45.369999,25,2
-1,VEA,2018-04-18,High,45.490002000000004,25,2
-2,VEA,2018-04-18,Low,45.330002,25,2
-3,VEA,2018-04-18,Close,45.450001,25,2
-4,VEA,2018-04-18,Adj Close,45.450001,25,2
-5,VEA,2018-04-18,Volume,5022847.0,25,2

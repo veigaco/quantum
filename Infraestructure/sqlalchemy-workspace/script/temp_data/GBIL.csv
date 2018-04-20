@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,GBIL,2018-04-18,Open,100.029999,41,2
-1,GBIL,2018-04-18,High,100.059998,41,2
-2,GBIL,2018-04-18,Low,100.0,41,2
-3,GBIL,2018-04-18,Close,100.059998,41,2
-4,GBIL,2018-04-18,Adj Close,100.059998,41,2
-5,GBIL,2018-04-18,Volume,74154.0,41,2

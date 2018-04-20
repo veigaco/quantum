@@ -1,0 +1,22 @@
+﻿Universe,Broad_Asset_Class,Type,Country,Index,ETF,Name
+JP Morgan Asset Classes,Cash,Fixed Income,US,Barclays 1-3M Treasury (risk free rate),BIL,SPDR Barclays 1-3 Month T-Bill ETF
+JP Morgan Asset Classes,Fixed Income,Fixed Income,US,Barclays US Aggregate,LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF
+JP Morgan Asset Classes,REITs,Real Estate,US,MSCI US REIT Index,VNQ,Vanguard Real Estate Index Fund
+JP Morgan Asset Classes,Developed Market Equities,Equities,Worldwide,MSCI EAFE,VEA,Vanguard FTSE Developed Markets ETF
+JP Morgan Asset Classes,High Yield,Fixed Income,US,Barclays US High Yield,HYG,iShares iBoxx $ High Yield Corporate Bond ETF
+JP Morgan Asset Classes,Emerging Markets Equity,Equities,Worldwide,MSCI EME,VWO,Vanguard FTSE Emerging Markets ETF
+JP Morgan Asset Classes,Small Cap,Equities,US,Russell 2000 Index,IWM,iShares Russell 2000 ETF
+JP Morgan Asset Classes,Large Cap,Equities,US,S&P 500 Index,SPY,SPDR S&P 500 ETF
+JP Morgan Asset Classes,Commodities,Commodities,US,Bloomberg Commodity Index,DJCI,E-TRACS DJ-UBS Commodity Index
+Bridgewater Asset Classes (Worldwide),Cash,Fixed Income,US,Barclays 1-3M Treasury (risk free rate),BIL,SPDR Barclays 1-3 Month T-Bill ETF
+Bridgewater Asset Classes (Worldwide),Gold,Commodities,US,Gold Bullion,IAU,iShares Gold Trust
+Bridgewater Asset Classes (Worldwide),Commodities,Commodities,US,Bloomberg Commodity Index,DJCI,E-TRACS DJ-UBS Commodity Index
+Bridgewater Asset Classes (Worldwide),Inflation Protected Bonds,Fixed Income,US,Barclays U.S. Treasury Inflation Protected Securities (TIPS),TIP,iShares TIPS Bond ETF
+Bridgewater Asset Classes (Worldwide),Long-Duration Treasuries,Fixed Income,US,Barclays U.S. Long Government Float Adjusted Index,VGLT,Vanguard Long-Term Treasury ETF
+Bridgewater Asset Classes (Worldwide),Intermediate Duration Treasuries,Fixed Income,US,Barclays U.S. 3-10 Year Government Float Adjusted Index,VGIT,Vanguard Intermediate-Term Treasury ETF
+Bridgewater Asset Classes (Worldwide),Developed Bond Spreads,Fixed Income,Worldwide,Barclays Capital Global Aggregate ex-USD > $1B,IBND,SPDR Barclays Capital International Corporate Bond ETF
+Bridgewater Asset Classes (Worldwide),Emerging Bond Spreads,Fixed Income,Worldwide,JPMorgan EMBI Global Core Index,EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF
+Bridgewater Asset Classes (Worldwide),Developed Equities,Equities,Worldwide,MSCI EAFE,VEA,Vanguard FTSE Developed Markets ETF
+Bridgewater Asset Classes (Worldwide),Emerging Equities,Equities,Worldwide,MSCI EME,VWO,Vanguard FTSE Emerging Markets ETF
+Bridgewater Asset Classes (Worldwide),Small Cap,Equities,US,Russell 2000 Index,IWM,iShares Russell 2000 ETF
+Bridgewater Asset Classes (Worldwide),Large Cap,Equities,US,S&P 500 Index,SPY,SPDR S&P 500 ETF

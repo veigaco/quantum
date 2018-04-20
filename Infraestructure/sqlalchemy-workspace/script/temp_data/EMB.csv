@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,EMB,2018-04-18,Open,112.139999,26,2
-1,EMB,2018-04-18,High,112.25,26,2
-2,EMB,2018-04-18,Low,112.029999,26,2
-3,EMB,2018-04-18,Close,112.029999,26,2
-4,EMB,2018-04-18,Adj Close,112.029999,26,2
-5,EMB,2018-04-18,Volume,3181885.0,26,2
