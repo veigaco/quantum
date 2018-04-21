@@ -60,8 +60,8 @@ def sect_group_stats(recommend, col):
     sector_df[sector_df.columns[1]] = re_group.mean()
     return sector_df
 
-def plot_two_series(tsa, tsb, label1, label2, xlabel, ylabel, title):
-    ax = tsa.plot(fontsize='small', figsize=(4,3))
+def plot_two_series(tsa, tsb, label1, label2, xlabel, ylabel, title, fig=(4,3)):
+    ax = tsa.plot(fontsize='small', figsize=fig)
     tsb.plot(ax=ax)
     ax.set_xlabel(xlabel)
     ax.set_ylabel(ylabel)

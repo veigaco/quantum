@@ -2,6 +2,8 @@
 	"benchmark": ["SPY"], 
 	"equities": ["VTI", "VTV", "VOE", "VBR", "VEA", "VWO"], 
 	"fixed-income": ["VCSH", "AGG", "LQD", "MUB", "TIP", "JNK", "AGG", "BNDX", "EMB"], 
+	"jpm-aclasses": ["BIL", "LQD", "VNQ", "VEA", "HYG", "VWO", "IWM", "SPY", "DJCI"],
+	"bw-aclasses": ["BIL", "IAU", "DJCI", "TIP", "VGLT", "VGIT", "IBND", "EMB", "VEA", "VWO", "IWM", "SPY"],
 	"spy-sectors": ["XLE", "XLU", "XLK", "XLB", "XLP", "XLY", "XLI", "XLV", "XLF", "XLRE"], 
 	"vanguard-sectors": ["VAW", "VCR", "VDC", "VDE", "VFH", "VGT", "VHT", "VIS", "VNQ", "VOX", "VPU"],
 	"ark-etfs": ["ARKG", "ARKK", "ARKQ", "ARKW"],
