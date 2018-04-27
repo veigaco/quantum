@@ -160,50 +160,25 @@ def get_data_quandl(row):
     print("Getting pricing for:", row["name"])
     name_="Quandl"
     website_url_="https://www.quandl.com/"
-    if row["type"]=="datasets":
-        api_call_head1= "https://www.quandl.com/api/v3/"+row["type"]+"/"+row["name"]+".json?api_key=DBHVvJ6NtLZ9b2MnQ7LA"
-        data1 = urllib2.urlopen("%s" % (api_call_head1)).read()
-        json_data = data1.decode('utf8').replace("'", '"')
-        json_dataset= json.loads(json_data)["dataset"]
-        df_instrument = pd.DataFrame(columns=["refreshed_at","newest_available_date","oldest_available_date","start_date","end_date","frequency"])
-        df_instrument.loc[0] = [json_dataset["refreshed_at"],json_dataset["newest_available_date"],json_dataset["oldest_available_date"],json_dataset["start_date"],json_dataset["end_date"],json_dataset["frequency"]]
-        df = pd.DataFrame(data=json_dataset["data"],columns=json_dataset["column_names"])
-        df["ticker"]=row["name"]
-        name_date=df.columns[0]   ## get column name from date
-        df=df.melt(id_vars=["ticker",name_date]) ## reshape pandasframe
-        df = df[df.value.notnull()]  ## filter NAN values from value column
-        df.columns = ['ticker','date_', "category",'value'] ## rename columns
-        df["instrument_id"]=row["id"]
-        df["data_vendor_id"]=add_up_data_vendors(name_,website_url_)
-        df.to_csv(Path_save+"df_"+row["name"].replace("/","")+".csv") ## save local
-        #df_instrument.to_csv(Path_save+"df_instrument_"+row["database_name"]+"_"+row["name"]+".csv") ## save local
-        update_data_vendor(name_,website_url_)
-        update_instrument_db(df_instrument,row) ## update database (table instrument with dates, text,etc)
-    else:
-        api_call_data= "https://www.quandl.com/api/v3/"+row["type"]+"/"+row["name"]+".json?api_key=DBHVvJ6NtLZ9b2MnQ7LA"
-        api_call_meta= "https://www.quandl.com/api/v3/"+row["type"]+"/"+row["name"]+"/metadata.json?api_key=DBHVvJ6NtLZ9b2MnQ7LA"
-        data1 = urllib2.urlopen("%s" % (api_call_data)).read()
-        meta = urllib2.urlopen("%s" % (api_call_meta)).read()
-        json_data = data1.decode('utf8').replace("'", '"')
-        json_meta = meta.decode('utf8').replace("'", '"')
-        json_dataset= json.loads(json_data)["datatable"]
-        json_meta= json.loads(json_meta)
-        columns=[json_dataset["columns"][i]["name"] for i in range(len(json_dataset["columns"]))]
-        cols = [columns[1]]+[columns[0]]+columns[2:]
-        df = pd.DataFrame(data=json_dataset["data"],columns=columns)
-        df = df[cols]
-        df_instrument = pd.DataFrame(columns=["refreshed_at","newest_available_date","oldest_available_date","start_date","end_date","frequency"])
-        df_instrument.loc[0] = [json_meta["datatable"]["status"]["refreshed_at"],max(df.date),min(df.date),min(df.date),max(df.date),json_meta["datatable"]["status"]["update_frequency"]]
-        name_date=df.columns[0]   ## get column name from date
-        df=df.melt(id_vars=["ticker",name_date]) ## reshape pandasframe
-        df = df[df.value.notnull()]  ## filter NAN values from value column
-        df.columns = ['ticker','date_', 'category','value'] ## rename columns
-        df["instrument_id"]=row["id"]
-        df["data_vendor_id"]=add_up_data_vendors(name_,website_url_)
-        df.to_csv(Path_save+"df_"+row["name"].replace("/","")+".csv") ## save local
-        #df_instrument.to_csv(Path_save+"df_instrument_"+row["database_name"]+"_"+row["name"]+".csv") ##save local
-        update_data_vendor(name_,website_url_)
-        update_instrument_db(df_instrument,row) ## update database (table instrument with dates, text,etc)
+    api_call_head1= "https://www.quandl.com/api/v3/"+row["type"]+"/"+row["name"]+".json?api_key=DBHVvJ6NtLZ9b2MnQ7LA"
+    #api_call_head1="https://www.quandl.com/api/v3/datasets/WIKI/AAPL.json?api_key=DBHVvJ6NtLZ9b2MnQ7LA"
+    data1 = urllib2.urlopen("%s" % (api_call_head1)).read()
+    json_data = data1.decode('utf8')#.replace("'", '"')
+    json_dataset= json.loads(json_data)["dataset"]
+    df_instrument = pd.DataFrame(columns=["refreshed_at","newest_available_date","oldest_available_date","start_date","end_date","frequency"])
+    df_instrument.loc[0] = [json_dataset["refreshed_at"],json_dataset["newest_available_date"],json_dataset["oldest_available_date"],json_dataset["start_date"],json_dataset["end_date"],json_dataset["frequency"]]
+    df = pd.DataFrame(data=json_dataset["data"],columns=json_dataset["column_names"])
+    df["ticker"]=row["name"]
+    name_date=df.columns[0]   ## get column name from date
+    df=df.melt(id_vars=["ticker",name_date]) ## reshape pandasframe
+    df = df[df.value.notnull()]  ## filter NAN values from value column
+    df.columns = ['ticker','date_', "category",'value'] ## rename columns
+    df["instrument_id"]=row["id"]
+    df["data_vendor_id"]=add_up_data_vendors(name_,website_url_)
+    df.to_csv(Path_save+"df_"+row["name"].replace("/","")+".csv") ## save local
+    #df_instrument.to_csv(Path_save+"df_instrument_"+row["database_name"]+"_"+row["name"]+".csv") ## save local
+    update_data_vendor(name_,website_url_)
+    update_instrument_db(df_instrument,row) ## update database (table instrument with dates, text,etc)
     #return df,df_instrument
 
 
