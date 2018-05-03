@@ -7,7 +7,7 @@ from sqlalchemy import create_engine,select
 from Schema import *
 from mvo_utils import *
 import glob
-Path_stats="/Users/Yes/Quantum/temp_data_stats/"
+Path_stats="./temp_data_stats/"
 
 def get_data_sf(data_request):
     count=0
