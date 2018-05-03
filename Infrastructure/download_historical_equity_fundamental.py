@@ -1,7 +1,6 @@
 import pandas as pd
 from datetime import datetime,date,timedelta
 import time
-import pandas as pd
 from sqlalchemy.orm import sessionmaker#,relationship, backref
 from sqlalchemy import create_engine,select
 from Schema import *
@@ -10,18 +9,18 @@ import glob
 Path_stats="./temp_data_stats/"
 
 def get_data_sf(data_request):
-    count=0
+    #count=0
     while True:
         try:
-            count=count+1
+            #count=count+1
             summary = data_request ; break
-            if count==100:
-                break;
+            #if count==100:
+            #    break;
         except Exception as err:
             print("Error: {0}, waiting to try again in {1}".format(err, sleep_time))
             sleep(sleep_time)
-            if count==100:
-                break;
+            #if count==100:
+            #    break;
     return summary
 
 
@@ -335,8 +334,10 @@ instrument=get_instrument()
 instrument=instrument[instrument.instrument_type_id==5]#.head(20)
 instrument["name"]=instrument["name"].replace('WIKI/' ,'', inplace=False, regex=True)
 #instrument=instrument["name"]
-instrument
+print("Instrument downloaded")
 instrument["name"].apply(lambda x:get_equities_fundamental(x)) ## obtiene los archivos de stats para cada equity
+print("equities fundamental downloaded")
+print("upload db")
 upload_ef_metrics()
 upload_management()
 upload_holders()
