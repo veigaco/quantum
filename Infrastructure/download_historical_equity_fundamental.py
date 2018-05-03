@@ -336,7 +336,7 @@ instrument=instrument[instrument.instrument_type_id==5]#.head(20)
 instrument["name"]=instrument["name"].replace('WIKI/' ,'', inplace=False, regex=True)
 #instrument=instrument["name"]
 instrument
-#nstrument["name"].apply(lambda x:get_equities_fundamental(x)) ## obtiene los archivos de stats para cada equity
+instrument["name"].apply(lambda x:get_equities_fundamental(x)) ## obtiene los archivos de stats para cada equity
 upload_ef_metrics()
 upload_management()
 upload_holders()
