@@ -15,12 +15,12 @@ def get_data_sf(data_request):
         try:
             count=count+1
             summary = data_request ; break
-            if count==limit:
+            if count==100:
                 break;
         except Exception as err:
             print("Error: {0}, waiting to try again in {1}".format(err, sleep_time))
             sleep(sleep_time)
-            if count==limit:
+            if count==100:
                 break;
     return summary
 
