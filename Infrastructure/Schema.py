@@ -114,3 +114,60 @@ class Eod_option_quotes(Base):
     ask=Column(Float)
     volume=Column(Integer)
     open_interest=Column(Float)
+
+class Equity_fundamentals(Base):
+    __tablename__ = 'equity_fundamental'
+    __table_args__ = {'extend_existing': True}
+    id = Column(Integer, primary_key=True)
+    Category=Column(String(255))
+    Table=Column(String(255))
+
+class Metrics(Base):
+    __tablename__ = 'metrics'
+    __table_args__ = {'extend_existing': True}
+    id = Column(Integer, primary_key=True)
+    instrument_id=Column(Integer,ForeignKey('instrument.id'))
+    equity_fundamental_id=Column(Integer,ForeignKey('equity_fundamental.id'))
+    data_vendor_id=Column(Integer,ForeignKey('data_vendors.id'))
+    refreshed_at=Column(DateTime)
+    Period=Column(String(255))
+    Metric=Column(String(255))
+    Value=Column(String(255))
+
+class Management(Base):
+    __tablename__ = 'management'
+    __table_args__ = {'extend_existing': True}
+    id = Column(Integer, primary_key=True)
+    instrument_id=Column(Integer,ForeignKey('instrument.id'))
+    data_vendor_id=Column(Integer,ForeignKey('data_vendors.id'))
+    name=Column(String(255))
+    shares=Column(Integer)
+    date_reported=Column(DateTime)
+    refreshed_at=Column(DateTime)
+
+class Holders(Base):
+    __tablename__ = 'holders'
+    __table_args__ = {'extend_existing': True}
+    id = Column(Integer, primary_key=True)
+    instrument_id=Column(Integer,ForeignKey('instrument.id'))
+    data_vendor_id=Column(Integer,ForeignKey('data_vendors.id'))
+    holder=Column(String(255))
+    shares=Column(String(255))
+    date_reported=Column(DateTime)
+    percent_out=Column(String(255))
+    value=Column(String(255))
+    refreshed_at=Column(DateTime)
+
+class Profile(Base):
+    __tablename__ = 'profile'
+    __table_args__ = {'extend_existing': True}
+    id = Column(Integer, primary_key=True)
+    instrument_id=Column(Integer,ForeignKey('instrument.id'))
+    data_vendor_id=Column(Integer,ForeignKey('data_vendors.id'))
+    name=Column(String(255))
+    title=Column(String(255))
+    pay=Column(String(255))
+    exercised=Column(String(255))
+    year_born=Column(Integer)
+    refreshed_at=Column(DateTime)
+
