@@ -254,7 +254,7 @@ def get_equities_fundamental(name):
     get_holder(name)
     get_profile(name)
     print("equities_fundamentales descargadas para "+name)
-    sleep(5)
+    sleep(10)
 
 def get_data_from_files(concept):
     files=glob.glob(Path_stats+str(concept)+"_*.csv")
