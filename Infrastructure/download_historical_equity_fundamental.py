@@ -74,15 +74,17 @@ def get_fin(name):
         financial1 = get_data_sf(pd.read_html('https://finance.yahoo.com/quote/'+name1+'/financials?p='+name1,header =0))[0].dropna(thresh=3)
         financial1=financial1.melt(id_vars=[financial1.columns[0]])
         financial1.columns=["Metric","Period","Value"]
+        financial1["Table"]="Income Statement"
         financial2 = get_data_sf(pd.read_html('https://finance.yahoo.com/quote/'+name1+'/balance-sheet?p='+name1,header =0))[0].dropna(thresh=3)
         financial2=financial2.melt(id_vars=[financial2.columns[0]])
         financial2.columns=["Metric","Period","Value"]
+        financial2["Table"]="Balance Sheet"
         financial3 = get_data_sf(pd.read_html('https://finance.yahoo.com/quote/'+name1+'/cash-flow?p='+name1,header =0))[0].dropna(thresh=3)
         financial3=financial3.melt(id_vars=[financial3.columns[0]])
         financial3.columns=["Metric","Period","Value"]
+        financial3["Table"]="Cash Flow"
         financial=pd.concat([financial1,financial2,financial3])
         financial["Category"]="Financial"
-        financial["Table"]="Income Statement"
         financial["Period"]=pd.to_datetime(financial['Period'], format='%m/%d/%Y')
         financial["Period"]=financial["Period"].astype(str)
         financial["refreshed_at"]=datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
