@@ -37,7 +37,8 @@ def get_summary(name):
         summaryf["data_vendor_id"]=get_id_data_vendor("Yahoo_Finance")
         summaryf["equity_fundamental_id"]=summaryf[["Category","Table"]].apply(lambda x :add_up_equityf(x["Category"],x["Table"]), axis=1)
         summaryf[["instrument_id","equity_fundamental_id","data_vendor_id","refreshed_at","Period","Metric","Value"]].to_csv(Path_stats+"summary_"+name1+".csv")
-    except:
+    except Exception as err:
+        print("Error: {0}".format(err))
         print("No se existe summary para "+name)
         pass
     
@@ -64,7 +65,8 @@ def get_stat(name):
         statisticsf["data_vendor_id"]=get_id_data_vendor("Yahoo_Finance")
         statisticsf["equity_fundamental_id"]=statisticsf[["Category","Table"]].apply(lambda x :add_up_equityf(x["Category"],x["Table"]), axis=1)
         statisticsf[["instrument_id","equity_fundamental_id","data_vendor_id","refreshed_at","Period","Metric","Value"]].to_csv(Path_stats+"statistics_"+name1+".csv")
-    except:
+    except Exception as err:
+        print("Error: {0}".format(err))
         print("No se existe statistics para "+name)
         pass
     #return statisticsf
@@ -95,7 +97,8 @@ def get_fin(name):
         financial["data_vendor_id"]=get_id_data_vendor("Yahoo_Finance")
         financial["equity_fundamental_id"]=financial[["Category","Table"]].apply(lambda x :add_up_equityf(x["Category"],x["Table"]), axis=1)
         financial[["instrument_id","equity_fundamental_id","data_vendor_id","refreshed_at","Period","Metric","Value"]].to_csv(Path_stats+"financial_"+name1+".csv")
-    except:
+    except Exception as err:
+        print("Error: {0}".format(err))
         print("No se existe financials para "+name)
         pass
     #return pd.concat([financial,financial2,financial3])
@@ -129,7 +132,8 @@ def get_analysis(name):
         #analysisf["instrument"]=name
         #analysisf["data_vendor"]="Yahoo_Finance"
         analysisf[["instrument_id","equity_fundamental_id","data_vendor_id","refreshed_at","Period","Metric","Value"]].to_csv(Path_stats+"analysis_"+name1+".csv")
-    except:
+    except Exception as err:
+        print("Error: {0}".format(err))
         print("No se existe analysis para "+name)
         pass
     #return analysisf
@@ -149,7 +153,8 @@ def get_holder_ef(name):
         mholders["data_vendor_id"]=get_id_data_vendor("Yahoo_Finance")
         mholders["equity_fundamental_id"]=mholders[["Category","Table"]].apply(lambda x :add_up_equityf(x["Category"],x["Table"]), axis=1)  
         mholders[["instrument_id","equity_fundamental_id","data_vendor_id","refreshed_at","Period","Metric","Value"]].to_csv(Path_stats+"holder_ef_"+name1+".csv")
-    except:
+    except Exception as err:
+        print("Error: {0}".format(err))
         print("No se existe holder_ef para "+name)
         pass
     #return mholders
@@ -168,8 +173,10 @@ def get_management(name):
             management_["instrument_id"]=get_id_instrument(name)
             management_["data_vendor_id"]=get_id_data_vendor("Yahoo_Finance")
             management_=management_[["instrument_id","data_vendor_id","Name","Shares","date_reported","refreshed_at"]]
+            management_.columns=["instrument_id","data_vendor_id","name","shares","date_reported","refreshed_at"]
             management_.to_csv(Path_stats+"management_"+name1+".csv")
-    except:
+    except Exception as err:
+        print("Error: {0}".format(err))
         print("No se existe management para "+name)
         pass
 
@@ -192,7 +199,8 @@ def get_holder(name):
         holders["refreshed_at"]=refreshed_at=datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
         holders=holders[["instrument_id","data_vendor_id","Holder","Shares","date_reported","percent_out","Value","refreshed_at"]]
         holders.to_csv(Path_stats+"holders_"+name1+".csv")
-    except:
+    except Exception as err:
+        print("Error: {0}".format(err))
         print("No se existe holders para "+name)
         pass
 
@@ -201,14 +209,16 @@ def get_profile(name):
         name1=name.replace('WIKI/' ,'')
         profile = get_data_sf(pd.read_html('https://finance.yahoo.com/quote/'+name1+'/profile?p='+name1))
         profile=profile[0]
-        profile=profile.fillna(0)
+        #profile=profile.fillna(0)
+        profile=profile.fillna(value=nan, inplace=True)
         profile["instrument_id"]=get_id_instrument(name)
         profile["data_vendor_id"]=get_id_data_vendor("Yahoo_Finance")
         profile["year_born"]=profile["Year Born"]
         profile["refreshed_at"]=refreshed_at=datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
         profile=profile[["instrument_id","Name","Title","Pay","Exercised","year_born","data_vendor_id","refreshed_at"]]
         profile.to_csv(Path_stats+"profile_"+name1+".csv")
-    except:
+    except Exception as err:
+        print("Error: {0}".format(err))
         print("No se existe profile para "+name)
         pass
 
@@ -298,7 +308,79 @@ def get_metrics(id):
     s.close()
     return instrument
 
+def get_manag(id):
+    session = sessionmaker()
+    session.configure(bind=engine)
+    s = session()  
+    subq = s.query(
+        Management.id,
+        Management.instrument_id,
+        func.max(Management.refreshed_at).label('refreshed_at')
+    ).filter(Management.instrument_id==id).group_by(Management.id).subquery('t2')
+    query = s.query(Management).join(
+        subq,
+        and_(
+            Management.id == subq.c.id,
+            Management.instrument_id == subq.c.instrument_id,
+            Management.refreshed_at == subq.c.refreshed_at
+        )
+    )
+    result=s.execute(query)
+    instrument = pd.DataFrame(result.fetchall())
+    instrument.columns = result.keys()
+    instrument.columns=[instrument.columns.tolist()[i].replace("management_","") for i in range(len(instrument.columns.tolist()))]
+    s.close()
+    return instrument
 
+
+def get_holddb(id):
+    session = sessionmaker()
+    session.configure(bind=engine)
+    s = session()  
+    subq = s.query(
+        Holders.id,
+        Holders.instrument_id,
+        func.max(Holders.refreshed_at).label('refreshed_at')
+    ).filter(Holders.instrument_id==id).group_by(Holders.id).subquery('t2')
+    query = s.query(Holders).join(
+        subq,
+        and_(
+            Holders.id == subq.c.id,
+            Holders.instrument_id == subq.c.instrument_id,
+            Holders.refreshed_at == subq.c.refreshed_at
+        )
+    )
+    result=s.execute(query)
+    instrument = pd.DataFrame(result.fetchall())
+    instrument.columns = result.keys()
+    instrument.columns=[instrument.columns.tolist()[i].replace("holders_","") for i in range(len(instrument.columns.tolist()))]
+    s.close()
+    return instrument
+
+
+def get_profiledb(id):
+    session = sessionmaker()
+    session.configure(bind=engine)
+    s = session()  
+    subq = s.query(
+        Profile.id,
+        Profile.instrument_id,
+        func.max(Profile.refreshed_at).label('refreshed_at')
+    ).filter(Profile.instrument_id==id).group_by(Profile.id).subquery('t2')
+    query = s.query(Profile).join(
+        subq,
+        and_(
+            Profile.id == subq.c.id,
+            Profile.instrument_id == subq.c.instrument_id,
+            Profile.refreshed_at == subq.c.refreshed_at
+        )
+    )
+    result=s.execute(query)
+    instrument = pd.DataFrame(result.fetchall())
+    instrument.columns = result.keys()
+    instrument.columns=[instrument.columns.tolist()[i].replace("profile_","") for i in range(len(instrument.columns.tolist()))]
+    s.close()
+    return instrument
 
 from sqlalchemy import func, and_
 
@@ -314,54 +396,150 @@ def upload_ef_metrics():
     equities_fundamental=pd.concat([summary_,statistics_,financials_,analysis_,holder_ef_])
     equities_fundamental.index = range(1,len(equities_fundamental)+1)
     metrics=equities_fundamental[["instrument_id","equity_fundamental_id","data_vendor_id","refreshed_at","Period","Metric","Value"]]
-    #inst=metrics.instrument_id.unique()
-    #for i in inst:
-    #    aux=metrics[metrics.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
-    #    aux.fillna(value=nan, inplace=True)
-    #    aux=aux[aux.Value.notnull()]
-    #    try:
-    #        db=get_metrics(int(i))
-    #        db.fillna(value=nan, inplace=True)
-    #        db=db[db.Value.notnull()]
-    #        db=db[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]].drop_duplicates()
-    #        result=pd.merge(aux,db,on=["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric"],how="outer")
-    #        result["flag"]=result["Value_x"]==result["Value_y"]
-    #        result1=result[result.flag==False]
-    #        result1=result1[["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value_x"]]
-    #        result1.columns=["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value"]
-    #        result1.to_sql(con=engine, name='metrics', if_exists='append',index=False)
-    #    except:
-    #        aux.to_sql(con=engine, name='metrics', if_exists='append',index=False)
-    metrics.to_sql(con=engine, name='metrics', if_exists='append',index=False)
+    inst=metrics.instrument_id.unique()
+    for i in inst:
+        aux=metrics[metrics.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
+        aux.fillna(value=nan, inplace=True)
+        aux=aux[aux.Value.notnull()]
+        try:
+            db=get_metrics(int(i))
+            db.fillna(value=nan, inplace=True)
+            db=db[db.Value.notnull()]
+            db=db[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]].drop_duplicates()
+            result=pd.merge(aux,db,on=["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric"],how="outer")
+            result["flag"]=result["Value_x"]==result["Value_y"]
+            result1=result[result.flag==False]
+            if len(result1)>0:
+                result1=result1[["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value_x"]]
+                result1.columns=["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value"]
+                result1.to_sql(con=engine, name='metrics', if_exists='append',index=False)
+                print("datos nuevos escritos ")
+            else:
+                print("no hay datos nuevos")
+        except Exception as err:
+            print("Error: {0}".format(err))
+            aux.to_sql(con=engine, name='metrics', if_exists='append',index=False)
+            print("agregado a la bd")
+    #metrics.to_sql(con=engine, name='metrics', if_exists='append',index=False)
     print("metrics agregadada")
     #return metrics
 
 
-
+df = pd.DataFrame(columns=["id","name", "val"], data=[[1,"hola",1]])
+df2 = pd.DataFrame(columns=["id","name", "val"], data=[[1,"hola1",2]])
 
 def upload_management():
     management_=get_data_from_files("management")
     management_.index = range(1,len(management_)+1)
-    management_.to_sql(con=engine, name='management', if_exists='append',index=False)
+    inst=management_.instrument_id.unique()
+    for i in inst:
+        aux=management_[management_.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
+        aux.fillna(value=nan, inplace=True)
+        aux.columns=['instrument_id', 'data_vendor_id', 'name', 'shares', 'date_reported','refreshed_at']
+        aux["shares"]=aux["shares"].astype(str)
+        aux["date_reported"]=pd.to_datetime(aux["date_reported"])
+        try:
+            db=get_manag(int(i))
+            db.fillna(value=nan, inplace=True)
+            #db=db[db.Value.notnull()]
+            db=db[["instrument_id","data_vendor_id","name","shares","date_reported"]].drop_duplicates()
+            result=pd.merge(aux,db,on=["instrument_id","data_vendor_id","name"],how="outer")
+            result["flag1"]=result["shares_x"]==result["shares_y"]
+            result["flag2"]=result["date_reported_x"]==result["date_reported_y"]
+            result1=result[(result.flag1==False)|(result.flag2==False)]
+            if len(result1)>0:
+                result1=result1[["instrument_id","data_vendor_id","name","refreshed_at","date_reported_x","shares_x"]]
+                result1.columns=["instrument_id","data_vendor_id","name","refreshed_at","date_reported","shares"]
+                result1.to_sql(con=engine, name='management', if_exists='append',index=False)
+                print("datos nuevos escritos ")
+            else:
+                print("no hay datos nuevos")
+        except Exception as err:
+            print("Error: {0}".format(err))
+            aux.to_sql(con=engine, name='management', if_exists='append',index=False)
+            print("agregado a la bd")
+    #management_.to_sql(con=engine, name='management', if_exists='append',index=False)
     print("management agregadada para")
 
 def upload_holders():
     holders_=get_data_from_files("holders")
     holders_.index = range(1,len(holders_)+1)
-    holders_.to_sql(con=engine, name='holders', if_exists='append',index=False)
+    inst=holders_.instrument_id.unique()
+    for i in inst:
+        aux=holders_[holders_.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
+        aux.fillna(value=nan, inplace=True)
+        aux.columns=['instrument_id', 'data_vendor_id', 'holder', 'shares', 'date_reported','percent_out', 'value', 'refreshed_at']
+        aux["shares"]=aux["shares"].astype(str)
+        aux["date_reported"]=pd.to_datetime(aux["date_reported"])
+        aux["percent_out"]=aux["percent_out"].astype(str)
+        aux["value"]=aux["value"].astype(str)
+        try:
+            db=get_holddb(int(i))
+            db.fillna(value=nan, inplace=True)
+            #db=db[db.Value.notnull()]
+            db=db[["instrument_id","data_vendor_id","holder","shares","date_reported","percent_out","value"]].drop_duplicates()
+            result=pd.merge(aux,db,on=["instrument_id","data_vendor_id","holder"],how="outer")
+            result["flag1"]=result["shares_x"]==result["shares_y"]
+            result["flag2"]=result["date_reported_x"]==result["date_reported_y"]
+            result["flag3"]=result["percent_out_x"]==result["percent_out_y"]
+            result["flag4"]=result["value_x"]==result["value_y"]
+            result1=result[(result.flag1==False)|(result.flag2==False)|(result.flag3==False)|(result.flag4==False)]
+            if len(result1)>0:
+                result1=result1[["instrument_id","data_vendor_id","holder","shares_x","date_reported_x","percent_out_x","value_x","refreshed_at"]]
+                result1.columns=["instrument_id","data_vendor_id","holder","shares","date_reported","percent_out","value","refreshed_at"]
+                result1.to_sql(con=engine, name='holders', if_exists='append',index=False)
+                print("datos nuevos escritos ")
+            else:
+                print("no hay datos nuevos")
+        except Exception as err:
+            print("Error: {0}".format(err))
+            aux.to_sql(con=engine, name='holders', if_exists='append',index=False)
+            print("agregado a la bd")
+    #holders_.to_sql(con=engine, name='holders', if_exists='append',index=False)
     print("holders agregadada")
 
 
 def upload_profile():
     profile_=get_data_from_files("profile")
     profile_.index = range(1,len(profile_)+1)
-    profile_.to_sql(con=engine, name='profile', if_exists='append',index=False)
+    inst=profile_.instrument_id.unique()
+    for i in inst:
+        aux=profile_[profile_.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
+        #aux.fillna(value=nan, inplace=True)
+        aux.columns=['instrument_id', 'name', 'title', 'pay', 'exercised', 'year_born','data_vendor_id', 'refreshed_at']        #aux["shares"]=aux["shares"].astype(str)
+        aux["title"]=aux["title"].astype(str)
+        aux["pay"]=aux["pay"].astype(str)
+        aux["exercised"]=aux["exercised"].astype(str)
+        try:
+            db=get_profiledb(int(i))
+            db.fillna(value=nan, inplace=True)
+            #db=db[db.Value.notnull()]
+            db=db[['instrument_id', 'data_vendor_id', 'name', 'title', 'pay','exercised', 'year_born']].drop_duplicates()
+            db["exercised"]=db["exercised"].astype(str)
+            result=pd.merge(aux,db,on=["instrument_id","data_vendor_id","name"],how="outer")
+            result["flag1"]=result["title_x"]==result["title_y"]
+            result["flag2"]=result["pay_x"]==result["pay_y"]
+            result["flag3"]=result["exercised_x"]==result["exercised_y"]
+            result["flag4"]=result["year_born_x"]==result["year_born_y"]
+            result1=result[(result.flag1==False)|(result.flag2==False)|(result.flag3==False)|(result.flag4==False)]
+            if len(result1)>0:
+                result1=result1[['instrument_id', 'name', 'title_x', 'pay_x', 'exercised_x', 'year_born_x','data_vendor_id', 'refreshed_at']]
+                result1.columns=['instrument_id', 'name', 'title', 'pay', 'exercised', 'year_born','data_vendor_id', 'refreshed_at']
+                result1.to_sql(con=engine, name='profile', if_exists='append',index=False)
+                print("datos nuevos escritos ")
+            else:
+                print("no hay datos nuevos")
+        except Exception as err:
+            print("Error: {0}".format(err))
+            aux.to_sql(con=engine, name='profile', if_exists='append',index=False)
+            print("agregado a la bd")
+    #profile_.to_sql(con=engine, name='profile', if_exists='append',index=False)
     print("profile agregadada")
 
 
 
 instrument=get_instrument()
-instrument=instrument[instrument.instrument_type_id==5].head(5)
+instrument=instrument[instrument.instrument_type_id==5]#.head(4)
 #instrument=instrument["name"]
 print("Instrument downloaded")
 instrument["name"].apply(lambda x:get_equities_fundamental(x)) ## obtiene los archivos de stats para cada equity
