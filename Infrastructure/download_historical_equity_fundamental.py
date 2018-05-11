@@ -361,7 +361,7 @@ def upload_profile():
 
 
 instrument=get_instrument()
-instrument=instrument[instrument.instrument_type_id==5]#.head(20)
+instrument=instrument[instrument.instrument_type_id==5].head(5)
 #instrument=instrument["name"]
 print("Instrument downloaded")
 instrument["name"].apply(lambda x:get_equities_fundamental(x)) ## obtiene los archivos de stats para cada equity
