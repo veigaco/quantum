@@ -105,20 +105,23 @@ def get_analysis(name):
         name1=name.replace('WIKI/' ,'')
         analysis = get_data_sf(pd.read_html('https://finance.yahoo.com/quote/'+name1+'/analysis?p='+name1))
         analysisf=pd.DataFrame()
-        for i in range(len(analysis)-1):
+        for i in range(len(analysis)):
             analysis1=analysis[i].melt(id_vars=[analysis[i].columns[0]])
             analysis1["Table"]=analysis1.columns[0]
-            analysis1.columns=["Metric","Period","Value","Table"]
+            if analysis1.columns[0]=="Growth Estimates":
+                analysis1.columns=["Period","Metric","Value","Table"]
+            else:
+                analysis1.columns=["Metric","Period","Value","Table"]
             analysis1["Category"]="Analysis"
             analysis1["refreshed_at"]=datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
             analysisf=pd.concat([analysisf,analysis1])
-        analysis1=analysis[5]#.melt(id_vars=[analysis[i].columns[0]])
-        analysis1=analysis1.melt(id_vars=analysis1.columns[0])
-        analysis1["Table"]=analysis1.columns[0]
-        analysis1.columns=["Period","Metric","Value","Table"]
-        analysis1["Category"]="Analysis"
-        analysis1["refreshed_at"]=datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
-        analysisf=pd.concat([analysisf,analysis1])
+        #analysis1=analysis[5]#.melt(id_vars=[analysis[i].columns[0]])
+        #analysis1=analysis1.melt(id_vars=analysis1.columns[0])
+        #analysis1["Table"]=analysis1.columns[0]
+        #analysis1.columns=["Period","Metric","Value","Table"]
+        #analysis1["Category"]="Analysis"
+        #analysis1["refreshed_at"]=datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
+        #analysisf=pd.concat([analysisf,analysis1])
         analysisf["instrument_id"]=get_id_instrument(name)
         analysisf["data_vendor_id"]=get_id_data_vendor("Yahoo_Finance")
         analysisf["equity_fundamental_id"]=analysisf[["Category","Table"]].apply(lambda x :add_up_equityf(x["Category"],x["Table"]), axis=1)
@@ -270,6 +273,37 @@ def get_data_from_files(concept):
     df.index = range(1,len(df)+1)
     return df
 
+def get_metrics(id):
+    session = sessionmaker()
+    session.configure(bind=engine)
+    s = session()  
+    subq = s.query(
+        Metrics.id,
+        Metrics.instrument_id,
+        func.max(Metrics.refreshed_at).label('refreshed_at')
+    ).filter(Metrics.instrument_id==id).group_by(Metrics.id).subquery('t2')
+    query = s.query(Metrics).join(
+        subq,
+        and_(
+            Metrics.id == subq.c.id,
+            Metrics.instrument_id == subq.c.instrument_id,
+            Metrics.refreshed_at == subq.c.refreshed_at
+        )
+    )
+    result=s.execute(query)
+    instrument = pd.DataFrame(result.fetchall())
+    instrument.columns = result.keys()
+    instrument.columns=[instrument.columns.tolist()[i].replace("metrics_","") for i in range(len(instrument.columns.tolist()))]
+    s.close()
+    return instrument
+
+
+
+from sqlalchemy import func, and_
+
+
+
+
 def upload_ef_metrics():
     summary_=get_data_from_files("summary")
     statistics_=get_data_from_files("statistics")
@@ -279,10 +313,30 @@ def upload_ef_metrics():
     equities_fundamental=pd.concat([summary_,statistics_,financials_,analysis_,holder_ef_])
     equities_fundamental.index = range(1,len(equities_fundamental)+1)
     metrics=equities_fundamental[["instrument_id","equity_fundamental_id","data_vendor_id","refreshed_at","Period","Metric","Value"]]
-    metrics.to_sql(con=engine, name='metrics', if_exists='append',index=False)
+    inst=metrics.instrument_id.unique()
+    for i in inst:
+        aux=metrics[metrics.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
+        aux.fillna(value=nan, inplace=True)
+        aux=aux[aux.Value.notnull()]
+        try:
+            db=get_metrics(int(i))
+            db.fillna(value=nan, inplace=True)
+            db=db[db.Value.notnull()]
+            db=db[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]].drop_duplicates()
+            result=pd.merge(aux,db,on=["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric"],how="outer")
+            result["flag"]=result["Value_x"]==result["Value_y"]
+            result1=result[result.flag==False]
+            result1=result1[["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value_x"]]
+            result1.columns=["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value"]
+            result1.to_sql(con=engine, name='metrics', if_exists='append',index=False)
+        except:
+            aux.to_sql(con=engine, name='metrics', if_exists='append',index=False)
     print("metrics agregadada")
-    return metrics
+    #return metrics
 
+[[db.columns.tolist()[i].replace("metrics_","") for i in range(len(db.columns.tolist()))]]
+from numpy import nan
+DataFrame().fillna(value=nan, inplace=True)
 
 def upload_management():
     management_=get_data_from_files("management")
@@ -317,15 +371,4 @@ upload_management()
 upload_holders()
 upload_profile()
 
-
-instrument=get_instrument()
-instrument=instrument[instrument.instrument_type_id==5]#.head(20)
-#instrument["name"]=instrument["name"].replace('WIKI/' ,'', inplace=False, regex=True)
-#instrument=instrument["name"]
-instrument
-instrument["name"].apply(lambda x:get_equities_fundamental(x)) ## obtiene los archivos de stats para cada equity
-upload_ef_metrics()
-upload_management()
-upload_holders()
-upload_profile()
 
