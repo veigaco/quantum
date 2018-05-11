@@ -398,6 +398,7 @@ def upload_ef_metrics():
     metrics=equities_fundamental[["instrument_id","equity_fundamental_id","data_vendor_id","refreshed_at","Period","Metric","Value"]]
     inst=metrics.instrument_id.unique()
     for i in inst:
+        engine = create_engine('mysql+pymysql://quantum_user:Qu4ntum_u$3r@localhost/securities_master_database')
         aux=metrics[metrics.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
         aux.fillna(value=nan, inplace=True)
         aux=aux[aux.Value.notnull()]
@@ -425,14 +426,12 @@ def upload_ef_metrics():
     #return metrics
 
 
-df = pd.DataFrame(columns=["id","name", "val"], data=[[1,"hola",1]])
-df2 = pd.DataFrame(columns=["id","name", "val"], data=[[1,"hola1",2]])
-
 def upload_management():
     management_=get_data_from_files("management")
     management_.index = range(1,len(management_)+1)
     inst=management_.instrument_id.unique()
     for i in inst:
+        engine = create_engine('mysql+pymysql://quantum_user:Qu4ntum_u$3r@localhost/securities_master_database')
         aux=management_[management_.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
         aux.fillna(value=nan, inplace=True)
         aux.columns=['instrument_id', 'data_vendor_id', 'name', 'shares', 'date_reported','refreshed_at']
@@ -466,6 +465,7 @@ def upload_holders():
     holders_.index = range(1,len(holders_)+1)
     inst=holders_.instrument_id.unique()
     for i in inst:
+        engine = create_engine('mysql+pymysql://quantum_user:Qu4ntum_u$3r@localhost/securities_master_database')
         aux=holders_[holders_.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
         aux.fillna(value=nan, inplace=True)
         aux.columns=['instrument_id', 'data_vendor_id', 'holder', 'shares', 'date_reported','percent_out', 'value', 'refreshed_at']
@@ -504,6 +504,7 @@ def upload_profile():
     profile_.index = range(1,len(profile_)+1)
     inst=profile_.instrument_id.unique()
     for i in inst:
+        engine = create_engine('mysql+pymysql://quantum_user:Qu4ntum_u$3r@localhost/securities_master_database')
         aux=profile_[profile_.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
         #aux.fillna(value=nan, inplace=True)
         aux.columns=['instrument_id', 'name', 'title', 'pay', 'exercised', 'year_born','data_vendor_id', 'refreshed_at']        #aux["shares"]=aux["shares"].astype(str)
