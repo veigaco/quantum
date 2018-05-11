@@ -210,7 +210,7 @@ def get_profile(name):
         profile = get_data_sf(pd.read_html('https://finance.yahoo.com/quote/'+name1+'/profile?p='+name1))
         profile=profile[0]
         profile=profile.fillna(0)
-        profile=profile.fillna(value=nan, inplace=True)
+        #profile=profile.fillna(value=nan, inplace=True)
         profile["instrument_id"]=get_id_instrument(name)
         profile["data_vendor_id"]=get_id_data_vendor("Yahoo_Finance")
         profile["year_born"]=profile["Year Born"]
