@@ -5,6 +5,7 @@ from sqlalchemy.orm import sessionmaker#,relationship, backref
 from sqlalchemy import create_engine,select
 from Schema import *
 from mvo_utils import *
+from numpy import nan
 import glob
 Path_stats="./temp_data_stats/"
 
@@ -313,30 +314,30 @@ def upload_ef_metrics():
     equities_fundamental=pd.concat([summary_,statistics_,financials_,analysis_,holder_ef_])
     equities_fundamental.index = range(1,len(equities_fundamental)+1)
     metrics=equities_fundamental[["instrument_id","equity_fundamental_id","data_vendor_id","refreshed_at","Period","Metric","Value"]]
-    inst=metrics.instrument_id.unique()
-    for i in inst:
-        aux=metrics[metrics.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
-        aux.fillna(value=nan, inplace=True)
-        aux=aux[aux.Value.notnull()]
-        try:
-            db=get_metrics(int(i))
-            db.fillna(value=nan, inplace=True)
-            db=db[db.Value.notnull()]
-            db=db[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]].drop_duplicates()
-            result=pd.merge(aux,db,on=["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric"],how="outer")
-            result["flag"]=result["Value_x"]==result["Value_y"]
-            result1=result[result.flag==False]
-            result1=result1[["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value_x"]]
-            result1.columns=["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value"]
-            result1.to_sql(con=engine, name='metrics', if_exists='append',index=False)
-        except:
-            aux.to_sql(con=engine, name='metrics', if_exists='append',index=False)
+    #inst=metrics.instrument_id.unique()
+    #for i in inst:
+    #    aux=metrics[metrics.instrument_id==i].drop_duplicates()#[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]]
+    #    aux.fillna(value=nan, inplace=True)
+    #    aux=aux[aux.Value.notnull()]
+    #    try:
+    #        db=get_metrics(int(i))
+    #        db.fillna(value=nan, inplace=True)
+    #        db=db[db.Value.notnull()]
+    #        db=db[["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric","Value"]].drop_duplicates()
+    #        result=pd.merge(aux,db,on=["instrument_id","equity_fundamental_id","Period","data_vendor_id","Metric"],how="outer")
+    #        result["flag"]=result["Value_x"]==result["Value_y"]
+    #        result1=result[result.flag==False]
+    #        result1=result1[["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value_x"]]
+    #        result1.columns=["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value"]
+    #        result1.to_sql(con=engine, name='metrics', if_exists='append',index=False)
+    #    except:
+    #        aux.to_sql(con=engine, name='metrics', if_exists='append',index=False)
+    metrics.to_sql(con=engine, name='metrics', if_exists='append',index=False)
     print("metrics agregadada")
     #return metrics
 
-[[db.columns.tolist()[i].replace("metrics_","") for i in range(len(db.columns.tolist()))]]
-from numpy import nan
-DataFrame().fillna(value=nan, inplace=True)
+
+
 
 def upload_management():
     management_=get_data_from_files("management")
