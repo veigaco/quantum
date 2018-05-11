@@ -24,7 +24,7 @@ start_date = start_date.strftime('%Y-%m-%d')
 limit=3 ## Limits of requests to the server for daily download. (number of attemps)
 
 ## conect to database
-engine = create_engine('mysql+pymysql://quantum_user:Qu4ntum_u$3r@localhost/securities_master_database')
+engine = create_engine('mysql+pymysql://quantum_user:Qu4ntum_u$3r@localhost/securities_master_database',pool_size=0, max_overflow=-1)
 
 
 ## add data
@@ -400,8 +400,14 @@ def download_data_daily(instrument):
         last_date=(row["end_date"]+timedelta(days=1)).date()
         today=(datetime.fromtimestamp(time.time())+ timedelta(days=1)).date()
         if row["data_vendor_id"]==add_up_data_vendors("Quandl","https://www.quandl.com/"):
-            get_safe_data_quandl_daily(row,last_date,today)
+            if last_date is pd.NaT: 
+                get_safe_data_quandl(row)
+            else:
+                get_safe_data_quandl_daily(row,last_date,today)
         else:
-            get_safe_data_yahoo_daily(row,last_date,today)
+            if last_date is pd.NaT:
+                get_safe_data_yahoo(row)
+            else:
+                get_safe_data_yahoo_daily(row,last_date,today)
 
 
