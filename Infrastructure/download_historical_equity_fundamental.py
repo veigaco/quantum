@@ -538,17 +538,29 @@ def upload_profile():
     print("profile agregadada")
 
 
+def delete_files_dir_stats():
+    '''Function that deletes all temporary files '''
+    folder = "./temp_data_stats"
+    for the_file in os.listdir(folder):
+        file_path = os.path.join(folder, the_file)
+        try:
+            if os.path.isfile(file_path):
+                os.unlink(file_path)
+            #elif os.path.isdir(file_path): shutil.rmtree(file_path)
+        except Exception as e:
+            print(e)
 
+delete_files_dir_stats()
 instrument=get_instrument()
 instrument=instrument[instrument.instrument_type_id==5]#.head(4)
 #instrument=instrument["name"]
 print("Instrument downloaded")
-#instrument["name"].apply(lambda x:get_equities_fundamental(x)) ## obtiene los archivos de stats para cada equity
+instrument["name"].apply(lambda x:get_equities_fundamental(x)) ## obtiene los archivos de stats para cada equity
 print("equities fundamental downloaded")
 print("upload db")
-upload_ef_metrics()
-upload_management()
-upload_holders()
-upload_profile()
+#upload_ef_metrics()
+#upload_management()
+#upload_holders()
+#upload_profile()
 
 
