@@ -550,17 +550,17 @@ def delete_files_dir_stats():
         except Exception as e:
             print(e)
 
-delete_files_dir_stats()
+
 instrument=get_instrument()
 instrument=instrument[instrument.instrument_type_id==5]#.head(4)
 #instrument=instrument["name"]
 print("Instrument downloaded")
-#instrument["name"].apply(lambda x:get_equities_fundamental(x)) ## obtiene los archivos de stats para cada equity
+instrument["name"].apply(lambda x:get_equities_fundamental(x)) ## obtiene los archivos de stats para cada equity
 print("equities fundamental downloaded")
 print("upload db")
 upload_ef_metrics()
 upload_management()
 upload_holders()
 upload_profile()
-
+delete_files_dir_stats()
 
