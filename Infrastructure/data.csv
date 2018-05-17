@@ -63,505 +63,505 @@
 61,ETF,industry,sector,VGLT,time_series,Vanguard Long-Term Treasury ETF,Yahoo_Finance,https://finance.yahoo.com/
 62,ETF,industry,sector,VGIT,time_series,Vanguard Intermediate-Term Treasury ETF,Yahoo_Finance,https://finance.yahoo.com/
 63,ETF,industry,sector,IBND,time_series,SPDR Barclays Capital International Corporate Bond ETF,Yahoo_Finance,https://finance.yahoo.com/
-0,Equities,industry,Information Technology,WIKI/AAPL,datasets,"Apple Inc (AAPL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-1,Equities,industry,Health Care,WIKI/ABC,datasets,"AmerisourceBergen Corp. (ABC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-2,Equities,industry,Health Care,WIKI/ABBV,datasets,"AbbVie Inc. (ABBV) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-3,Equities,industry,Health Care,WIKI/AGN,datasets,"Allergan Inc. (AGN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-4,Equities,industry,Information Technology,WIKI/ADP,datasets,"Automatic Data Processing Inc. (ADP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-5,Equities,industry,Information Technology,WIKI/ADSK,datasets,"Autodesk Inc. (ADSK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-6,Equities,industry,Health Care,WIKI/ABT,datasets,"Abbott Laboratories (ABT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-7,Equities,industry,Utilities,WIKI/AEE,datasets,"Ameren Corp. (AEE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-8,Equities,industry,Information Technology,WIKI/ACN,datasets,"Accenture plc (ACN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-9,Equities,industry,Utilities,WIKI/AEP,datasets,"American Electric Power Company (AEP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-10,Equities,industry,Information Technology,WIKI/ADBE,datasets,"Adobe Systems Incorporated (ADBE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-11,Equities,industry,Health Care,WIKI/AET,datasets,"Aetna Inc. (AET) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-12,Equities,industry,Information Technology,WIKI/ADI,datasets,"Analog Devices Inc. (ADI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-13,Equities,industry,Consumer Staples,WIKI/ADM,datasets,"Archer Daniels Midland Co. (ADM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-14,Equities,industry,Information Technology,WIKI/ADS,datasets,"Alliance Data Systems Corp. (ADS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-15,Equities,industry,Real Estate,WIKI/AIV,datasets,"Apartment Investment & Management Co. (AIV) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-16,Equities,industry,Financials,WIKI/ALL,datasets,"Allstate Corp. (ALL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-17,Equities,industry,Utilities,WIKI/AES,datasets,"AES Corp. (AES) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-18,Equities,industry,Health Care,WIKI/ALXN,datasets,"Alexion Pharmaceuticals Inc. (ALXN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-19,Equities,industry,Financials,WIKI/AFL,datasets,"American Family Life Assurance Co. of Columbus (AFL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-20,Equities,industry,Information Technology,WIKI/AMAT,datasets,"Applied Materials Inc. (AMAT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-21,Equities,industry,Financials,WIKI/AIG,datasets,"American International Group Inc (AIG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-22,Equities,industry,Health Care,WIKI/AMGN,datasets,"Amgen Inc (AMGN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-23,Equities,industry,Financials,WIKI/AIZ,datasets,"Assurant Inc. (AIZ) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-24,Equities,industry,Real Estate,WIKI/AMT,datasets,"American Tower Corp (New) (AMT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-25,Equities,industry,Information Technology,WIKI/AKAM,datasets,"Akamai Technologies Inc. (AKAM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-26,Equities,industry,Industrials,WIKI/ALLE,datasets,"Allegion Plc (ALLE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-27,Equities,industry,Industrials,WIKI/AME,datasets,"AMETEK Inc. (AME) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-28,Equities,industry,Financials,WIKI/AMP,datasets,"Ameriprise Financial Inc (AMP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-29,Equities,industry,Consumer Discretionary,WIKI/AMZN,datasets,"Amazon.com Inc. (AMZN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-30,Equities,industry,Health Care,WIKI/A,datasets,"Agilent Technologies Inc. (A) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-31,Equities,industry,Financials,WIKI/AON,datasets,"Aon Plc (AON) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-32,Equities,industry,Materials,WIKI/APD,datasets,"Air Products & Chemicals Inc. (APD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-33,Equities,industry,Information Technology,WIKI/APH,datasets,"Amphenol Corp. (APH) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-34,Equities,industry,Real Estate,WIKI/AVB,datasets,"Avalonbay Communities Inc. (AVB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-35,Equities,industry,Energy,WIKI/APA,datasets,"Apache Corp. (APA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-36,Equities,industry,Energy,WIKI/APC,datasets,"Anadarko Petroleum Corp (APC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-37,Equities,industry,Financials,WIKI/AXP,datasets,"American Express Co. (AXP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-38,Equities,industry,Consumer Discretionary,WIKI/AZO,datasets,"AutoZone Inc. (AZO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-39,Equities,industry,Industrials,WIKI/BA,datasets,"The Boeing Co. (BA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-40,Equities,industry,Financials,WIKI/BAC,datasets,"Bank of America Corp. (BAC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-41,Equities,industry,Materials,WIKI/AVY,datasets,"Avery Dennison Corp. (AVY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-42,Equities,industry,Financials,WIKI/BEN,datasets,"Franklin Resources Inc. (BEN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-43,Equities,industry,Health Care,WIKI/BAX,datasets,"Baxter International Inc. (BAX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-44,Equities,industry,Financials,WIKI/BBT,datasets,"BB&T Corp. (BBT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-45,Equities,industry,Health Care,WIKI/BIIB,datasets,"Biogen Inc (BIIB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-46,Equities,industry,Consumer Discretionary,WIKI/BBY,datasets,"Best Buy Inc (BBY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-47,Equities,industry,Materials,WIKI/BLL,datasets,"Ball Corp (BLL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-48,Equities,industry,Health Care,WIKI/BDX,datasets,"Becton Dickinson & Co. (BDX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-49,Equities,industry,Health Care,WIKI/BSX,datasets,"Boston Scientific Corp. (BSX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-50,Equities,industry,Financials,WIKI/BK,datasets,"Bank of New York Mellon Corp (BK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-51,Equities,industry,Consumer Discretionary,WIKI/BWA,datasets,"BorgWarner Inc. (BWA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-52,Equities,industry,Financials,WIKI/BLK,datasets,"BlackRock Inc. (BLK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-53,Equities,industry,Real Estate,WIKI/BXP,datasets,"Boston Properties Inc. (BXP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-54,Equities,industry,Information Technology,WIKI/CA,datasets,"CA Technologies (CA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-55,Equities,industry,Health Care,WIKI/BMY,datasets,"Bristol-Myers Squibb Co. (BMY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-56,Equities,industry,Industrials,WIKI/CAT,datasets,"Caterpillar Inc. (CAT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-57,Equities,industry,Consumer Discretionary,WIKI/CBS,datasets,"CBS Corp (CBS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-58,Equities,industry,Financials,WIKI/C,datasets,"Citigroup Inc (C) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-59,Equities,industry,Real Estate,WIKI/CCI,datasets,"Crown Castle International Corp (New) (CCI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-60,Equities,industry,Consumer Staples,WIKI/CAG,datasets,"ConAgra Foods Inc. (CAG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-61,Equities,industry,Health Care,WIKI/CAH,datasets,"Cardinal Health Inc. (CAH) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-62,Equities,industry,Health Care,WIKI/CERN,datasets,"Cerner Corporation (CERN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-63,Equities,industry,Financials,WIKI/CB,datasets,"Chubb Corp (CB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-64,Equities,industry,Health Care,WIKI/CI,datasets,"Cigna Corp (CI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-65,Equities,industry,Financials,WIKI/CINF,datasets,"Cincinnati Financial Corp. (CINF) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-66,Equities,industry,Health Care,WIKI/CELG,datasets,"Celgene Corp. (CELG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-67,Equities,industry,Consumer Staples,WIKI/CL,datasets,"Colgate-Palmolive Co. (CL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-68,Equities,industry,Materials,WIKI/CF,datasets,"CF Industries Holdings Inc (CF) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-69,Equities,industry,Consumer Discretionary,WIKI/CMCSA,datasets,"Comcast Corp (CMCSA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-70,Equities,industry,Financials,WIKI/CME,datasets,"CME Group Inc (CME) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-71,Equities,industry,Industrials,WIKI/CHRW,datasets,"Robinson (C.H.) Worldwide Inc. (CHRW) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-72,Equities,industry,Consumer Discretionary,WIKI/CMG,datasets,"Chipotle Mexican Grill (CMG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-73,Equities,industry,Utilities,WIKI/CMS,datasets,"CMS Energy Corp (CMS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-74,Equities,industry,Consumer Staples,WIKI/CLX,datasets,"Clorox Co. (CLX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-75,Equities,industry,Financials,WIKI/COF,datasets,"Capital One Financial Corp (COF) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-76,Equities,industry,Financials,WIKI/CMA,datasets,"Comerica Inc. (CMA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-77,Equities,industry,Industrials,WIKI/COL,datasets,"Rockwell Collins Inc. (COL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-78,Equities,industry,Industrials,WIKI/CMI,datasets,"Cummins Inc. (CMI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-79,Equities,industry,Consumer Staples,WIKI/COST,datasets,"Costco Wholesale Corp (COST) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-80,Equities,industry,Utilities,WIKI/CNP,datasets,"CenterPoint Energy Inc (CNP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-81,Equities,industry,Energy,WIKI/COG,datasets,"Cabot Oil & Gas Corp. (COG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-82,Equities,industry,Industrials,WIKI/CSX,datasets,"CSX Corp (CSX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-83,Equities,industry,Energy,WIKI/COP,datasets,"ConocoPhillips (COP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-84,Equities,industry,Telecommunication Services,WIKI/CTL,datasets,"CenturyLink Inc. (CTL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-85,Equities,industry,Consumer Staples,WIKI/CPB,datasets,"Campbell Soup Co. (CPB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-86,Equities,industry,Information Technology,WIKI/CTXS,datasets,"Citrix Systems Inc. (CTXS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-87,Equities,industry,Information Technology,WIKI/CRM,datasets,"Salesforce.com Inc. (CRM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-88,Equities,industry,Consumer Staples,WIKI/CVS,datasets,"CVS Health Corp (CVS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-89,Equities,industry,Information Technology,WIKI/CSCO,datasets,"Cisco Systems Inc. (CSCO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-90,Equities,industry,Utilities,WIKI/D,datasets,"Dominion Resources Inc (D) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-91,Equities,industry,Industrials,WIKI/CTAS,datasets,"Cintas Corp. (CTAS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-92,Equities,industry,Information Technology,WIKI/CTSH,datasets,"Cognizant Technology Solutions Corp. (CTSH) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-93,Equities,industry,Health Care,WIKI/DGX,datasets,"Quest Diagnostics Inc. (DGX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-94,Equities,industry,Energy,WIKI/CVX,datasets,"Chevron Corporation (CVX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-95,Equities,industry,Health Care,WIKI/DHR,datasets,"Danaher Corp. (DHR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-96,Equities,industry,Industrials,WIKI/DAL,datasets,"Delta Air Lines Inc. (DE) (DAL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-97,Equities,industry,Consumer Discretionary,WIKI/DIS,datasets,"Disney (Walt) Co. (The) (DIS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-98,Equities,industry,Industrials,WIKI/DE,datasets,"Deere & Co. (DE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-99,Equities,industry,Financials,WIKI/DFS,datasets,"Discover Financial Services (DFS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-100,Equities,industry,Consumer Discretionary,WIKI/DG,datasets,"Dollar General Corp (DG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-101,Equities,industry,Consumer Discretionary,WIKI/DHI,datasets,"Horton (D.R.) Inc. (DHI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-102,Equities,industry,Consumer Discretionary,WIKI/DISCA,datasets,"Discovery Communications Inc. (DISCA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-103,Equities,industry,Utilities,WIKI/DTE,datasets,"DTE Energy Co. (DTE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-104,Equities,industry,Consumer Discretionary,WIKI/DLTR,datasets,"Dollar Tree Inc. (DLTR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-105,Equities,industry,Health Care,WIKI/DVA,datasets,"DaVita HealthCare Partners Inc (DVA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-106,Equities,industry,Energy,WIKI/DVN,datasets,"Devon Energy Corp. (DVN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-107,Equities,industry,Industrials,WIKI/DOV,datasets,"Dover Corp (DOV) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-108,Equities,industry,Information Technology,WIKI/EBAY,datasets,"eBay Inc. (EBAY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-109,Equities,industry,Consumer Staples,WIKI/DPS,datasets,"Dr Pepper Snapple Group Inc (DPS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-110,Equities,industry,Materials,WIKI/ECL,datasets,"Ecolab Inc. (ECL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-111,Equities,industry,Consumer Discretionary,WIKI/DRI,datasets,"Darden Restaurants Inc. (United States) (DRI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-112,Equities,industry,Utilities,WIKI/ED,datasets,"Consolidated Edison Inc. (ED) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-113,Equities,industry,Utilities,WIKI/DUK,datasets,"Duke Energy Corp (DUK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-114,Equities,industry,Materials,WIKI/EMN,datasets,"Eastman Chemical Co. (EMN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-115,Equities,industry,Information Technology,WIKI/EA,datasets,"Electronic Arts Inc. (EA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-116,Equities,industry,Industrials,WIKI/EMR,datasets,"Emerson Electric Co. (EMR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-117,Equities,industry,Energy,WIKI/EOG,datasets,"EOG Resources Inc. (EOG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-118,Equities,industry,Real Estate,WIKI/EQR,datasets,"Equity Residential (EQR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-119,Equities,industry,Industrials,WIKI/EFX,datasets,"Equifax Inc. (EFX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-120,Equities,industry,Health Care,WIKI/ESRX,datasets,"Express Scripts Holding Company (ESRX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-121,Equities,industry,Utilities,WIKI/EIX,datasets,"Edison International (EIX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-122,Equities,industry,Consumer Staples,WIKI/EL,datasets,"Estee Lauder Cos. Inc. (The) (EL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-123,Equities,industry,Financials,WIKI/ETFC,datasets,"E*TRADE Financial Corporation (ETFC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-124,Equities,industry,Industrials,WIKI/ETN,datasets,"Eaton Corp plc (ETN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-125,Equities,industry,Utilities,WIKI/ETR,datasets,"Entergy Corp. (ETR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-126,Equities,industry,Utilities,WIKI/EXC,datasets,"Exelon Corp. (EXC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-127,Equities,industry,Energy,WIKI/EQT,datasets,"EQT Corp. (EQT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-128,Equities,industry,Consumer Discretionary,WIKI/EXPE,datasets,"Expedia Inc (EXPE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-129,Equities,industry,Industrials,WIKI/FAST,datasets,"Fastenal Co. (FAST) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-130,Equities,industry,Information Technology,WIKI/FB,datasets,"Facebook Inc. (FB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-131,Equities,industry,Materials,WIKI/FCX,datasets,"Freeport-McMoRan Inc (FCX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-132,Equities,industry,Health Care,WIKI/EW,datasets,"Edwards Lifesciences Corp (EW) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-133,Equities,industry,Industrials,WIKI/EXPD,datasets,"Expeditors International of Washington Inc. (EXPD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-134,Equities,industry,Utilities,WIKI/FE,datasets,"FirstEnergy Corp. (FE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-135,Equities,industry,Consumer Discretionary,WIKI/F,datasets,"Ford Motor Co. (DE) (F) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-136,Equities,industry,Information Technology,WIKI/FISV,datasets,"Fiserv Inc. (FISV) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-137,Equities,industry,Industrials,WIKI/FDX,datasets,"FedEx Corp (FDX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-138,Equities,industry,Industrials,WIKI/FLS,datasets,"Flowserve Corp. (FLS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-139,Equities,industry,Materials,WIKI/FMC,datasets,"FMC Corp. (FMC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-140,Equities,industry,Information Technology,WIKI/FFIV,datasets,"F5 Networks Inc. (FFIV) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-141,Equities,industry,Consumer Discretionary,WIKI/FOXA,datasets,"21st  Century Fox Inc (FOXA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-142,Equities,industry,Information Technology,WIKI/FIS,datasets,"Fidelity National Information Services Inc (FIS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-143,Equities,industry,Financials,WIKI/FITB,datasets,"Fifth Third Bancorp (Cincinnati OH) (FITB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-144,Equities,industry,Energy,WIKI/FTI,datasets,"FMC Technologies Inc. (FTI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-145,Equities,industry,Information Technology,WIKI/FLIR,datasets,"FLIR Systems Inc. (FLIR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-146,Equities,industry,Industrials,WIKI/FLR,datasets,"Fluor Corp. (FLR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-147,Equities,industry,Real Estate,WIKI/GGP,datasets,"General Growth Properties Inc (GGP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-148,Equities,industry,Consumer Discretionary,WIKI/GM,datasets,"General Motors Co. (GM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-149,Equities,industry,Industrials,WIKI/GD,datasets,"General Dynamics Corp. (GD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-150,Equities,industry,Industrials,WIKI/GE,datasets,"General Electric Co (GE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-151,Equities,industry,Information Technology,WIKI/GOOG,datasets,"Alphabet Inc (GOOG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-152,Equities,industry,Health Care,WIKI/GILD,datasets,"Gilead Sciences Inc. (GILD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-153,Equities,industry,Consumer Staples,WIKI/GIS,datasets,"General Mills Inc. (GIS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-154,Equities,industry,Consumer Discretionary,WIKI/GRMN,datasets,"Garmin Ltd. (GRMN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-155,Equities,industry,Information Technology,WIKI/GLW,datasets,"Corning Inc. (GLW) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-156,Equities,industry,Financials,WIKI/GS,datasets,"The Goldman Sachs Group Inc. (GS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-157,Equities,industry,Industrials,WIKI/GWW,datasets,"Grainger (W.W.) Inc. (GWW) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-158,Equities,industry,Energy,WIKI/HAL,datasets,"Halliburton Company (HAL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-159,Equities,industry,Consumer Discretionary,WIKI/GPC,datasets,"Genuine Parts Co. (GPC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-160,Equities,industry,Consumer Discretionary,WIKI/GPS,datasets,"Gap Inc. (GPS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-161,Equities,industry,Consumer Discretionary,WIKI/GT,datasets,"Goodyear Tire & Rubber Co. (GT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-162,Equities,industry,Consumer Discretionary,WIKI/HOG,datasets,"Harley-Davidson Inc (HOG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-163,Equities,industry,Consumer Discretionary,WIKI/HAS,datasets,"Hasbro Inc. (HAS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-164,Equities,industry,Industrials,WIKI/HON,datasets,"Honeywell International Inc. (HON) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-165,Equities,industry,Financials,WIKI/HBAN,datasets,"Huntington Bancshares Inc (HBAN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-166,Equities,industry,Information Technology,WIKI/HPQ,datasets,"Hewlett-Packard Co (HPQ) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-167,Equities,industry,Real Estate,WIKI/HCP,datasets,"HCP Inc. (HCP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-168,Equities,industry,Consumer Discretionary,WIKI/HD,datasets,"Home Depot Inc (HD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-169,Equities,industry,Consumer Staples,WIKI/HRL,datasets,"Hormel Foods Corp. (HRL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-170,Equities,industry,Energy,WIKI/HES,datasets,"Hess Corp (HES) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-171,Equities,industry,Financials,WIKI/HIG,datasets,"Hartford Financial Services Group Inc. (HIG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-172,Equities,industry,Real Estate,WIKI/HST,datasets,"Host Hotels & Resorts Inc (HST) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-173,Equities,industry,Energy,WIKI/HP,datasets,"Helmerich & Payne Inc. (HP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-174,Equities,industry,Health Care,WIKI/HUM,datasets,"Humana Inc. (HUM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-175,Equities,industry,Consumer Discretionary,WIKI/HRB,datasets,"H&R Block Inc (HRB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-176,Equities,industry,Financials,WIKI/ICE,datasets,"Intercontinental Exchange Inc. (ICE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-177,Equities,industry,Industrials,WIKI/HRS,datasets,"Harris Corp. (HRS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-178,Equities,industry,Information Technology,WIKI/INTU,datasets,"Intuit Inc (INTU) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-179,Equities,industry,Consumer Staples,WIKI/HSY,datasets,"Hershey Company (The) (HSY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-180,Equities,industry,Consumer Discretionary,WIKI/IPG,datasets,"Interpublic Group of Companies Inc. (IPG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-181,Equities,industry,Industrials,WIKI/IR,datasets,"Ingersoll-Rand Plc (IR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-182,Equities,industry,Information Technology,WIKI/IBM,datasets,"International Business Machines Corp (IBM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-183,Equities,industry,Materials,WIKI/IFF,datasets,"Int'l. Flavors & Fragrances (IFF) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-184,Equities,industry,Health Care,WIKI/ISRG,datasets,"Intuitive Surgical Inc. (ISRG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-185,Equities,industry,Industrials,WIKI/ITW,datasets,"Illinois Tool Works Inc. (ITW) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-186,Equities,industry,Information Technology,WIKI/INTC,datasets,"Intel Corp (INTC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-187,Equities,industry,Industrials,WIKI/JCI,datasets,"Johnson Controls Inc (JCI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-188,Equities,industry,Materials,WIKI/IP,datasets,"International Paper Co (IP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-189,Equities,industry,Real Estate,WIKI/IRM,datasets,"Iron Mountain (IRM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-190,Equities,industry,Information Technology,WIKI/JNPR,datasets,"Juniper Networks Inc (JNPR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-191,Equities,industry,Financials,WIKI/IVZ,datasets,"Invesco Ltd (IVZ) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-192,Equities,industry,Consumer Discretionary,WIKI/JWN,datasets,"Nordstrom Inc. (JWN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-193,Equities,industry,Industrials,WIKI/JEC,datasets,"Jacobs Engineering Group Inc. (JEC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-194,Equities,industry,Information Technology,WIKI/KLAC,datasets,"KLA-Tencor Corp. (KLAC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-195,Equities,industry,Health Care,WIKI/JNJ,datasets,"Johnson & Johnson (JNJ) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-196,Equities,industry,Energy,WIKI/KMI,datasets,"Kinder Morgan Inc. (KMI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-197,Equities,industry,Consumer Staples,WIKI/KO,datasets,"Coca-Cola Co (The) (KO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-198,Equities,industry,Consumer Staples,WIKI/K,datasets,"Kellogg Co (K) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-199,Equities,industry,Consumer Staples,WIKI/KR,datasets,"Kroger Co. (KR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-200,Equities,industry,Financials,WIKI/KEY,datasets,"KeyCorp (KEY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-201,Equities,industry,Real Estate,WIKI/KIM,datasets,"Kimco Realty Corp. (KIM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-202,Equities,industry,Industrials,WIKI/KSU,datasets,"Kansas City Southern (KSU) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-203,Equities,industry,Consumer Staples,WIKI/KMB,datasets,"Kimberly-Clark Corp. (KMB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-204,Equities,industry,Consumer Discretionary,WIKI/KMX,datasets,"CarMax Inc. (KMX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-205,Equities,industry,Consumer Discretionary,WIKI/LEN,datasets,"Lennar Corp. (LEN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-206,Equities,industry,Consumer Discretionary,WIKI/KORS,datasets,"Michael Kors Holdings (KORS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-207,Equities,industry,Health Care,WIKI/LH,datasets,"Laboratory Corp. of America Holdings (LH) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-208,Equities,industry,Consumer Discretionary,WIKI/KSS,datasets,"Kohl's Corp. (KSS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-209,Equities,industry,Industrials,WIKI/LLL,datasets,"L-3 Communications Holdings Inc. (LLL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-210,Equities,industry,Financials,WIKI/L,datasets,"Loews Corp. (L) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-211,Equities,industry,Consumer Discretionary,WIKI/LB,datasets,"L Brands Inc (LB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-212,Equities,industry,Consumer Discretionary,WIKI/LEG,datasets,"Leggett & Platt Inc. (LEG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-213,Equities,industry,Industrials,WIKI/LMT,datasets,"Lockheed Martin Corp. (LMT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-214,Equities,industry,Health Care,WIKI/LLY,datasets,"Lilly (Eli) & Co. (LLY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-215,Equities,industry,Financials,WIKI/LUK,datasets,"Leucadia National Corp. (LUK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-216,Equities,industry,Financials,WIKI/LNC,datasets,"Lincoln National Corp. (LNC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-217,Equities,industry,Consumer Discretionary,WIKI/M,datasets,"Macys Inc. (M) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-218,Equities,industry,Information Technology,WIKI/MA,datasets,"MasterCard  Cl A (MA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-219,Equities,industry,Consumer Discretionary,WIKI/LOW,datasets,"Lowes Cos. (LOW) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-220,Equities,industry,Real Estate,WIKI/MAC,datasets,"Macerich Co. (The) (MAC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-221,Equities,industry,Information Technology,WIKI/LRCX,datasets,"Lam Research Corp (LRCX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-222,Equities,industry,Industrials,WIKI/MAS,datasets,"Masco Corp. (MAS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-223,Equities,industry,Industrials,WIKI/LUV,datasets,"Southwest Airlines Co (LUV) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-224,Equities,industry,Consumer Discretionary,WIKI/MCD,datasets,"McDonald's Corp (MCD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-225,Equities,industry,Materials,WIKI/LYB,datasets,"LyondellBasell Industries NV (LYB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-226,Equities,industry,Health Care,WIKI/MCK,datasets,"McKesson Corp. (MCK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-227,Equities,industry,Financials,WIKI/MCO,datasets,"Moody's Corp. (MCO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-228,Equities,industry,Consumer Discretionary,WIKI/MAR,datasets,"Marriott International Inc. (MAR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-229,Equities,industry,Health Care,WIKI/MDT,datasets,"Medtronic PLC (MDT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-230,Equities,industry,Consumer Discretionary,WIKI/MAT,datasets,"Mattel Inc (MAT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-231,Equities,industry,Information Technology,WIKI/MCHP,datasets,"MicroChip Technology Inc. (MCHP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-232,Equities,industry,Financials,WIKI/MMC,datasets,"Marsh & McLennan Cos. (MMC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-233,Equities,industry,Consumer Staples,WIKI/MDLZ,datasets,"Mondelez International Inc (MDLZ) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-234,Equities,industry,Industrials,WIKI/MMM,datasets,"3M Co (MMM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-235,Equities,industry,Consumer Staples,WIKI/MNST,datasets,"Monster Beverage Corp (MNST) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-236,Equities,industry,Financials,WIKI/MET,datasets,"MetLife Inc (MET) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-237,Equities,industry,Materials,WIKI/MON,datasets,"Monsanto Co. (MON) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-238,Equities,industry,Consumer Discretionary,WIKI/MHK,datasets,"Mohawk Industries Inc. (MHK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-239,Equities,industry,Energy,WIKI/MPC,datasets,"Marathon Petroleum Corp. (MPC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-240,Equities,industry,Consumer Staples,WIKI/MKC,datasets,"McCormick & Co. Inc. (MKC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-241,Equities,industry,Energy,WIKI/MRO,datasets,"Marathon Oil Corp. (MRO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-242,Equities,industry,Information Technology,WIKI/MSI,datasets,"Motorola Solutions Inc. (MSI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-243,Equities,industry,Consumer Staples,WIKI/MO,datasets,"Altria Group Inc (MO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-244,Equities,industry,Information Technology,WIKI/MU,datasets,"Micron Technology Inc. (MU) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-245,Equities,industry,Materials,WIKI/MOS,datasets,"Mosaic Company (The) (MOS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-246,Equities,industry,Health Care,WIKI/MRK,datasets,"Merck & Co. Inc (MRK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-247,Equities,industry,Energy,WIKI/NBL,datasets,"Noble Energy Inc. (NBL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-248,Equities,industry,Financials,WIKI/MS,datasets,"Morgan Stanley (MS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-249,Equities,industry,Information Technology,WIKI/MSFT,datasets,"Microsoft Corporation (MSFT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-250,Equities,industry,Financials,WIKI/NDAQ,datasets,"Nasdaq Inc (NDAQ) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-251,Equities,industry,Financials,WIKI/MTB,datasets,"M & T Bank Corp (MTB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-252,Equities,industry,Utilities,WIKI/NEE,datasets,"NextEra Energy Inc (NEE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-253,Equities,industry,Consumer Discretionary,WIKI/NFLX,datasets,"Netflix Inc. (NFLX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-254,Equities,industry,Health Care,WIKI/MYL,datasets,"Mylan NV (MYL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-255,Equities,industry,Utilities,WIKI/NI,datasets,"NiSource Inc (NI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-256,Equities,industry,Industrials,WIKI/NLSN,datasets,"Nielsen Holdings PLC (NLSN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-257,Equities,industry,Energy,WIKI/NOV,datasets,"National Oilwell Varco Inc (NOV) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-258,Equities,industry,Materials,WIKI/NEM,datasets,"Newmont Mining Corp. (Holding Co.) (NEM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-259,Equities,industry,Industrials,WIKI/NSC,datasets,"Norfolk Southern Corp. (NSC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-260,Equities,industry,Energy,WIKI/NFX,datasets,"Newfield Exploration Co. (NFX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-261,Equities,industry,Financials,WIKI/NTRS,datasets,"Northern Trust Corp. (NTRS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-262,Equities,industry,Consumer Discretionary,WIKI/NKE,datasets,"NIKE Inc (NKE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-263,Equities,industry,Materials,WIKI/NUE,datasets,"Nucor Corp. (NUE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-264,Equities,industry,Industrials,WIKI/NOC,datasets,"Northrop Grumman Corp (NOC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-265,Equities,industry,Consumer Discretionary,WIKI/NWL,datasets,"Newell Rubbermaid Inc. (NWL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-266,Equities,industry,Utilities,WIKI/NRG,datasets,"NRG Energy Inc (NRG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-267,Equities,industry,Information Technology,WIKI/NTAP,datasets,"NetApp Inc. (NTAP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-268,Equities,industry,Consumer Discretionary,WIKI/OMC,datasets,"Omnicom Group Inc. (OMC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-269,Equities,industry,Consumer Discretionary,WIKI/ORLY,datasets,"O Reilly Automotive Inc. (ORLY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-270,Equities,industry,Information Technology,WIKI/NVDA,datasets,"NVIDIA Corp (NVDA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-271,Equities,industry,Information Technology,WIKI/PAYX,datasets,"Paychex Inc (PAYX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-272,Equities,industry,Financials,WIKI/PBCT,datasets,"People's United Financial Inc. (PBCT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-273,Equities,industry,Consumer Discretionary,WIKI/NWSA,datasets,"News Corp (New) (NWSA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-274,Equities,industry,Industrials,WIKI/PCAR,datasets,"PACCAR Inc (PCAR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-275,Equities,industry,Energy,WIKI/OKE,datasets,"Oneok Inc. (OKE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-276,Equities,industry,Information Technology,WIKI/ORCL,datasets,"Oracle Corp. (ORCL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-277,Equities,industry,Energy,WIKI/OXY,datasets,"Occidental Petroleum Corp (OXY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-278,Equities,industry,Utilities,WIKI/PEG,datasets,"Public Service Enterprise Group (PEG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-279,Equities,industry,Utilities,WIKI/PCG,datasets,"PG&E Corp. (Holding Co.) (PCG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-280,Equities,industry,Financials,WIKI/PFG,datasets,"Principal Financial Group Inc. (PFG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-281,Equities,industry,Consumer Discretionary,WIKI/PHM,datasets,"PulteGroup Inc. (PHM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-282,Equities,industry,Consumer Staples,WIKI/PEP,datasets,"Pepsico Inc. (PEP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-283,Equities,industry,Real Estate,WIKI/PLD,datasets,"Prologis Inc (PLD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-284,Equities,industry,Health Care,WIKI/PFE,datasets,"Pfizer Inc (PFE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-285,Equities,industry,Consumer Staples,WIKI/PM,datasets,"Philip Morris International Inc (PM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-286,Equities,industry,Consumer Staples,WIKI/PG,datasets,"Procter & Gamble Co. (PG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-287,Equities,industry,Financials,WIKI/PNC,datasets,"PNC Financial Services Group (The) (PNC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-288,Equities,industry,Industrials,WIKI/PNR,datasets,"Pentair PLC (PNR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-289,Equities,industry,Industrials,WIKI/PH,datasets,"Parker Hannifin Corp. (PH) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-290,Equities,industry,Health Care,WIKI/PKI,datasets,"PerkinElmer Inc. (PKI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-291,Equities,industry,Utilities,WIKI/PPL,datasets,"PPL Corp (PPL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-292,Equities,industry,Real Estate,WIKI/PSA,datasets,"Public Storage (PSA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-293,Equities,industry,Utilities,WIKI/PNW,datasets,"Pinnacle West Capital Corp. (PNW) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-294,Equities,industry,Consumer Discretionary,WIKI/PVH,datasets,"PVH Corp (PVH) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-295,Equities,industry,Materials,WIKI/PPG,datasets,"PPG Industries Inc. (PPG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-296,Equities,industry,Materials,WIKI/PX,datasets,"Praxair Inc. (PX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-297,Equities,industry,Health Care,WIKI/PRGO,datasets,"Perrigo Company plc (PRGO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-298,Equities,industry,Financials,WIKI/PRU,datasets,"Prudential Financial Inc. (PRU) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-299,Equities,industry,Energy,WIKI/PSX,datasets,"Phillips 66 (PSX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-300,Equities,industry,Industrials,WIKI/PWR,datasets,"Quanta Services Inc. (PWR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-301,Equities,industry,Financials,WIKI/RF,datasets,"Regions Financial Corp (RF) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-302,Equities,industry,Energy,WIKI/PXD,datasets,"Pioneer Natural Resources Co. (PXD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-303,Equities,industry,Industrials,WIKI/RHI,datasets,"Robert Half International Inc. (RHI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-304,Equities,industry,Information Technology,WIKI/QCOM,datasets,"Qualcomm Inc. (QCOM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-305,Equities,industry,Consumer Discretionary,WIKI/RL,datasets,"Ralph Lauren Corp (RL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-306,Equities,industry,Industrials,WIKI/ROP,datasets,"Roper Technologies Inc (ROP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-307,Equities,industry,Health Care,WIKI/REGN,datasets,"Regeneron Pharmaceuticals Inc. (REGN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-308,Equities,industry,Energy,WIKI/RRC,datasets,"Range Resources Corp (RRC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-309,Equities,industry,Industrials,WIKI/RTN,datasets,"Raytheon Co. (RTN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-310,Equities,industry,Information Technology,WIKI/RHT,datasets,"Red Hat Inc. (RHT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-311,Equities,industry,Industrials,WIKI/ROK,datasets,"Rockwell Automation Inc. (ROK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-312,Equities,industry,Materials,WIKI/SEE,datasets,"Sealed Air Corp. (SEE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-313,Equities,industry,Consumer Discretionary,WIKI/ROST,datasets,"Ross Stores Inc. (ROST) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-314,Equities,industry,Materials,WIKI/SHW,datasets,"Sherwin-Williams Co. (SHW) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-315,Equities,industry,Industrials,WIKI/RSG,datasets,"Republic Services Inc. (RSG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-316,Equities,industry,Consumer Discretionary,WIKI/SBUX,datasets,"Starbucks Corp. (SBUX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-317,Equities,industry,Utilities,WIKI/SCG,datasets,"SCANA Corp (SCG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-318,Equities,industry,Financials,WIKI/SCHW,datasets,"Charles Schwab Corp. (SCHW) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-319,Equities,industry,Industrials,WIKI/SNA,datasets,"Snap-On Inc. (SNA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-320,Equities,industry,Utilities,WIKI/SO,datasets,"Southern Co. (SO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-321,Equities,industry,Consumer Staples,WIKI/SJM,datasets,"Smucker (J.M.) Co. (SJM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-322,Equities,industry,Industrials,WIKI/SRCL,datasets,"Stericycle Inc. (SRCL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-323,Equities,industry,Energy,WIKI/SLB,datasets,"Schlumberger Ltd. (SLB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-324,Equities,industry,Financials,WIKI/STT,datasets,"State Street Corp (STT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-325,Equities,industry,Information Technology,WIKI/STX,datasets,"Seagate Technology (STX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-326,Equities,industry,Real Estate,WIKI/SPG,datasets,"Simon Property Group Inc. (SPG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-327,Equities,industry,Utilities,WIKI/SRE,datasets,"Sempra Energy (SRE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-328,Equities,industry,Financials,WIKI/STI,datasets,"Suntrust Banks Inc. (STI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-329,Equities,industry,Health Care,WIKI/SYK,datasets,"Stryker Corp. (SYK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-330,Equities,industry,Information Technology,WIKI/SYMC,datasets,"Symantec Corp. (SYMC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-331,Equities,industry,Consumer Staples,WIKI/STZ,datasets,"Constellation Brands Inc (STZ) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-332,Equities,industry,Consumer Staples,WIKI/TAP,datasets,"Molson Coors Brewing Co. Cl B (TAP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-333,Equities,industry,Industrials,WIKI/SWK,datasets,"Stanley Works (SWK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-334,Equities,industry,Consumer Staples,WIKI/SYY,datasets,"Sysco Corp. (SYY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-335,Equities,industry,Telecommunication Services,WIKI/T,datasets,"AT&T Inc (T) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-336,Equities,industry,Consumer Discretionary,WIKI/TIF,datasets,"Tiffany & Co. (TIF) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-337,Equities,industry,Consumer Discretionary,WIKI/TJX,datasets,"TJX Companies Inc. (TJX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-338,Equities,industry,Financials,WIKI/TMK,datasets,"Torchmark Corp. (TMK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-339,Equities,industry,Information Technology,WIKI/TEL,datasets,"TE Connectivity (TEL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-340,Equities,industry,Financials,WIKI/TRV,datasets,"Travelers Companies Inc (The) (TRV) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-341,Equities,industry,Consumer Discretionary,WIKI/TGT,datasets,"Target Corp. (TGT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-342,Equities,industry,Consumer Staples,WIKI/TSN,datasets,"Tyson Foods Inc. (TSN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-343,Equities,industry,Health Care,WIKI/TMO,datasets,"Thermo Fisher Scientific (TMO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-344,Equities,industry,Consumer Discretionary,WIKI/TRIP,datasets,"TripAdvisor Inc. (TRIP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-345,Equities,industry,Financials,WIKI/TROW,datasets,"T Rowe Price Group Inc. (TROW) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-346,Equities,industry,Information Technology,WIKI/TSS,datasets,"Total System Services Inc. (TSS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-347,Equities,industry,Industrials,WIKI/UNP,datasets,"Union Pacific Corp (UNP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-348,Equities,industry,Consumer Discretionary,WIKI/TWX,datasets,"Time Warner Inc (TWX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-349,Equities,industry,Information Technology,WIKI/TXN,datasets,"Texas Instruments Inc. (TXN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-350,Equities,industry,Industrials,WIKI/TXT,datasets,"Textron Inc. (TXT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-351,Equities,industry,Industrials,WIKI/UTX,datasets,"United Technologies Corp. (UTX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-352,Equities,industry,Health Care,WIKI/UNH,datasets,"UnitedHealth Group Inc (UNH) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-353,Equities,industry,Health Care,WIKI/VAR,datasets,"Varian Medical Systems Inc. (VAR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-354,Equities,industry,Consumer Discretionary,WIKI/VFC,datasets,"VF Corp. (VFC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-355,Equities,industry,Industrials,WIKI/UPS,datasets,"United Parcel Service Inc. (UPS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-356,Equities,industry,Materials,WIKI/VMC,datasets,"Vulcan Materials Co (Holding Company) (VMC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-357,Equities,industry,Financials,WIKI/USB,datasets,"U.S. Bancorp (DE) (USB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-358,Equities,industry,Information Technology,WIKI/V,datasets,"Visa Inc (V) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-359,Equities,industry,Telecommunication Services,WIKI/VZ,datasets,"Verizon Communications Inc (VZ) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-360,Equities,industry,Consumer Discretionary,WIKI/VIAB,datasets,"Viacom Inc (VIAB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-361,Equities,industry,Health Care,WIKI/WAT,datasets,"Waters Corp. (WAT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-362,Equities,industry,Energy,WIKI/VLO,datasets,"Valero Energy Corp. (VLO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-363,Equities,industry,Information Technology,WIKI/WDC,datasets,"Western Digital Corp. (WDC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-364,Equities,industry,Utilities,WIKI/WEC,datasets,"WEC Energy Group Inc (WEC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-365,Equities,industry,Real Estate,WIKI/VNO,datasets,"Vornado Realty Trust (VNO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-366,Equities,industry,Financials,WIKI/WFC,datasets,"Wells Fargo & Co. (WFC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-367,Equities,industry,Information Technology,WIKI/VRSN,datasets,"VeriSign Inc. (VRSN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-368,Equities,industry,Health Care,WIKI/VRTX,datasets,"Vertex Pharmaceuticals Incorporated (VRTX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-369,Equities,industry,Consumer Discretionary,WIKI/WHR,datasets,"Whirlpool Corp (WHR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-370,Equities,industry,Real Estate,WIKI/VTR,datasets,"Ventas Inc. (VTR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-371,Equities,industry,Industrials,WIKI/WM,datasets,"Waste Management Inc. (DE) (WM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-372,Equities,industry,Energy,WIKI/WMB,datasets,"Williams Cos Inc (The) (WMB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-373,Equities,industry,Real Estate,WIKI/WY,datasets,"Weyerhaeuser Co. (WY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-374,Equities,industry,Consumer Discretionary,WIKI/WYN,datasets,"Wyndham Worldwide Corp (WYN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-375,Equities,industry,Consumer Discretionary,WIKI/WYNN,datasets,"Wynn Resorts Ltd (WYNN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-376,Equities,industry,Consumer Staples,WIKI/WMT,datasets,"Wal-Mart Stores (WMT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-377,Equities,industry,Information Technology,WIKI/XLNX,datasets,"Xilinx Inc. (XLNX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-378,Equities,industry,Energy,WIKI/XOM,datasets,"Exxon Mobil Corp. (XOM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-379,Equities,industry,Information Technology,WIKI/WU,datasets,"Western Union Co. (WU) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-380,Equities,industry,Health Care,WIKI/XRAY,datasets,"DENTSPLY International Inc. (XRAY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-381,Equities,industry,Information Technology,WIKI/XRX,datasets,"Xerox Corp (XRX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-382,Equities,industry,Utilities,WIKI/XEL,datasets,"Xcel Energy Inc. (XEL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-383,Equities,industry,Consumer Discretionary,WIKI/YUM,datasets,"Yum! Brands Inc. (YUM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-384,Equities,industry,Financials,WIKI/XL,datasets,"XL Group Plc (XL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-385,Equities,industry,Industrials,WIKI/XYL,datasets,"Xylem Inc. (XYL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-386,Equities,industry,Financials,WIKI/ZION,datasets,"Zions Bancorporation (ZION) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-387,Equities,industry,Health Care,WIKI/ZTS,datasets,"Zoetis Inc (ZTS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-388,Equities,industry,Consumer Discretionary,WIKI/TSCO,datasets,"Tractor Supply Co. (TSCO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-389,Equities,industry,Information Technology,WIKI/ATVI,datasets,"Activision Blizzard Inc. (ATVI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-390,Equities,industry,Industrials,WIKI/AYI,datasets,"Acuity Brands Inc (Holding Company) (AYI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-391,Equities,industry,Consumer Discretionary,WIKI/AAP,datasets,"Advance Auto Parts Inc (AAP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-392,Equities,industry,Information Technology,WIKI/AMD,datasets,"Advanced Micro Devices Inc. (AMD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-393,Equities,industry,Financials,WIKI/AMG,datasets,"Affiliated Managers Group Inc. (AMG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-394,Equities,industry,Industrials,WIKI/ALK,datasets,"Alaska Air Group Inc. (ALK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-395,Equities,industry,Materials,WIKI/ALB,datasets,"Albemarle Corp. (ALB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-396,Equities,industry,Health Care,WIKI/ALGN,datasets,"Align Technology Inc. (ALGN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-397,Equities,industry,Utilities,WIKI/LNT,datasets,"Alliant Energy Corp. (LNT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-398,Equities,industry,Industrials,WIKI/AAL,datasets,"American Airlines Group Inc. (AAL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-399,Equities,industry,Utilities,WIKI/AWK,datasets,"American Water Works Co Inc. (AWK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-400,Equities,industry,Information Technology,WIKI/ANSS,datasets,"ANSYS Inc. (ANSS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-401,Equities,industry,Financials,WIKI/AJG,datasets,"Gallagher (Arthur J.) & Co. (AJG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-402,Equities,industry,Information Technology,WIKI/AVGO,datasets,"Avago Technologies Ltd (AVGO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-403,Equities,industry,Information Technology,WIKI/CDNS,datasets,"Cadence Design Systems Inc. (CDNS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-404,Equities,industry,Financials,WIKI/CBOE,datasets,"CBOE Holdings Inc. (CBOE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-405,Equities,industry,Health Care,WIKI/CNC,datasets,"Centene Corp (CNC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-406,Equities,industry,Consumer Discretionary,WIKI/CHTR,datasets,"Charter Communications Inc. (CHTR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-407,Equities,industry,Consumer Staples,WIKI/CHD,datasets,"Church & Dwight Co. Inc. (CHD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-408,Equities,industry,Energy,WIKI/XEC,datasets,"Cimarex Energy Co (XEC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-409,Equities,industry,Energy,WIKI/CXO,datasets,"Concho Resources (CXO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-410,Equities,industry,Health Care,WIKI/COO,datasets,"Cooper Cos. (COO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-411,Equities,industry,Consumer Staples,WIKI/COTY,datasets,"Coty Inc. (COTY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-412,Equities,industry,Consumer Discretionary,WIKI/DISCK,datasets,"Discovery Communications Inc. (DISCK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-413,Equities,industry,Consumer Discretionary,WIKI/DISH,datasets,"DISH Network Corporation (DISH) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-414,Equities,industry,Health Care,WIKI/EVHC,datasets,"Envision Healthcare Holdings, Inc. (EVHC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-415,Equities,industry,Real Estate,WIKI/EQIX,datasets,"Equinix Inc (New) (EQIX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-416,Equities,industry,Financials,WIKI/RE,datasets,"Everest Re Group Ltd (RE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-417,Equities,industry,Information Technology,WIKI/GPN,datasets,"Global Payments Inc. (GPN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-418,Equities,industry,Consumer Discretionary,WIKI/HBI,datasets,"HanesBrands Inc (HBI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-419,Equities,industry,Health Care,WIKI/HCA,datasets,"HCA Holdings (HCA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-420,Equities,industry,Health Care,WIKI/HSIC,datasets,"Henry Schein Inc. (HSIC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-421,Equities,industry,Health Care,WIKI/HOLX,datasets,"Hologic Inc. (HOLX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-422,Equities,industry,Industrials,WIKI/JBHT,datasets,"Hunt (J.B.) Transport Services Inc. (JBHT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-423,Equities,industry,Industrials,WIKI/HII,datasets,"Huntington Ingalls Industries Inc. (HII) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-424,Equities,industry,Health Care,WIKI/IDXX,datasets,"Idexx Laboratories Inc. (IDXX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-425,Equities,industry,Health Care,WIKI/ILMN,datasets,"Illumina Inc. (ILMN) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-426,Equities,industry,Health Care,WIKI/INCY,datasets,"Incyte Corp. (INCY) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-427,Equities,industry,Information Technology,WIKI/IPGP,datasets,"IPG Photonics Corporation (IPGP) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-428,Equities,industry,Consumer Discretionary,WIKI/LKQ,datasets,"LKQ Corporation (LKQ) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-429,Equities,industry,Materials,WIKI/MLM,datasets,"Martin Marietta Materials Inc. (MLM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-430,Equities,industry,Health Care,WIKI/MTD,datasets,"Mettler-Toledo International Inc. (MTD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-431,Equities,industry,Consumer Discretionary,WIKI/MGM,datasets,"MGM Resorts International (MGM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-432,Equities,industry,Financials,WIKI/MSCI,datasets,"MSCI Inc (MSCI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-433,Equities,industry,Health Care,WIKI/NKTR,datasets,"Nektar Therapeutics (NKTR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-434,Equities,industry,Consumer Discretionary,WIKI/NWS,datasets,"News Corp (New) (NWS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-435,Equities,industry,Consumer Discretionary,WIKI/NCLH,datasets,"Norwegian Cruise Line Holdings Ltd. (NCLH) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-436,Equities,industry,Materials,WIKI/PKG,datasets,"Packaging Corp of America (PKG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-437,Equities,industry,Financials,WIKI/RJF,datasets,"Raymond James Financial Inc. (RJF) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-438,Equities,industry,Health Care,WIKI/RMD,datasets,"ResMed Inc. (RMD) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-439,Equities,industry,Consumer Discretionary,WIKI/RCL,datasets,"Royal Caribbean Cruises Ltd. (RCL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-440,Equities,industry,Real Estate,WIKI/SBAC,datasets,"SBA Communications Corporation (SBAC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-441,Equities,industry,Information Technology,WIKI/SWKS,datasets,"Skyworks Solutions Inc. (SWKS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-442,Equities,industry,Industrials,WIKI/AOS,datasets,"Smith (A.O.) Corp (AOS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-443,Equities,industry,Financials,WIKI/SIVB,datasets,"SVB Financial Group (SIVB) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-444,Equities,industry,Information Technology,WIKI/SNPS,datasets,"Synopsys Inc. (SNPS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-445,Equities,industry,Information Technology,WIKI/TTWO,datasets,"Take-Two Interactive Software Inc. (TTWO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-446,Equities,industry,Industrials,WIKI/TDG,datasets,"TransDigm (TDG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-447,Equities,industry,Consumer Discretionary,WIKI/FOX,datasets,"21st  Century Fox Inc (FOX) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-448,Equities,industry,Consumer Discretionary,WIKI/ULTA,datasets,"Ulta Salon Cosmetics & Fragrance Inc. (ULTA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-449,Equities,industry,Consumer Discretionary,WIKI/UA,datasets,"Under Armour (UA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-450,Equities,industry,Industrials,WIKI/UAL,datasets,"United Continental Holdings (UAL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-451,Equities,industry,Industrials,WIKI/URI,datasets,"United Rentals Inc. (URI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-452,Equities,industry,Health Care,WIKI/UHS,datasets,"Universal Health Services Inc. (UHS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-453,Equities,industry,Industrials,WIKI/VRSK,datasets,"Verisk Analytics Inc (VRSK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-454,Equities,industry,Real Estate,WIKI/ARE,datasets,"Alexandria Real Estate Equities Inc. (ARE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-455,Equities,industry,Real Estate,WIKI/DLR,datasets,"Digital Realty Trust Inc. (DLR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-456,Equities,industry,Real Estate,WIKI/DRE,datasets,"Duke Realty Corp. (DRE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-457,Equities,industry,Real Estate,WIKI/ESS,datasets,"Essex Property Trust Inc. (ESS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-458,Equities,industry,Real Estate,WIKI/EXR,datasets,"Extra Space Storage Inc. (EXR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-459,Equities,industry,Real Estate,WIKI/FRT,datasets,"Federal Realty Investment Trust (MD) (FRT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-460,Equities,industry,Consumer Discretionary,WIKI/FL,datasets,"Foot Locker Inc. (FL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-461,Equities,industry,Industrials,WIKI/FBHS,datasets,"Fortune Brands Home & Security Inc. (FBHS) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-462,Equities,industry,Information Technology,WIKI/IT,datasets,"Gartner (IT) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-463,Equities,industry,Real Estate,WIKI/O,datasets,"Realty Income Corp. (O) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-464,Equities,industry,Real Estate,WIKI/SLG,datasets,"SL Green Realty Corp. (SLG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-465,Equities,industry,Real Estate,WIKI/UDR,datasets,"UDR Inc (UDR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-466,Equities,industry,Information Technology,WIKI/GOOGL,datasets,"Alphabet Inc (GOOGL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-467,Equities,industry,Financials,WIKI/NAVI,datasets,"Navient Corp (NAVI) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-468,Equities,industry,Real Estate,WIKI/REG,datasets,"Regency Centers Corp. (REG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-469,Equities,industry,Health Care,WIKI/ANTM,datasets,"Anthem Inc (ANTM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-470,Equities,industry,Consumer Staples,WIKI/WBA,datasets,"Walgreens Boots Alliance Inc (WBA) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-471,Equities,industry,Utilities,WIKI/ES,datasets,"Eversource Energy (ES) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-472,Equities,industry,Information Technology,WIKI/QRVO,datasets,"Qorvo Inc (QRVO) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-473,Equities,industry,Financials,WIKI/JPM,datasets,"JP Morgan Chase (JPM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-474,Equities,industry,Financials,WIKI/PGR,datasets,"Progressive Corp. (PGR) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-475,Equities,industry,Financials,WIKI/UNM,datasets,"Unum Group (UNM) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-476,Equities,industry,Health Care,WIKI/ZBH,datasets,"Zimmer Biomet Holdings Inc (ZBH) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-477,Equities,industry,Information Technology,WIKI/PYPL,datasets,"PayPal Holdings Inc (PYPL) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-478,Equities,industry,Consumer Staples,WIKI/KHC,datasets,"Kraft Heinz Co (The) (KHC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-479,Equities,industry,Materials,WIKI/WRK,datasets,"WestRock Co (WRK) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-480,Equities,industry,Information Technology,WIKI/HPE,datasets,"Hewlett Packard Enterprise Co (HPE) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-481,Equities,industry,Financials,WIKI/SYF,datasets,"Synchrony Financial (SYF) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-482,Equities,industry,Financials,WIKI/WLTW,datasets,"WLTW (WLTW) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-483,Equities,industry,Financials,WIKI/CFG,datasets,"Citizens Financial Group Inc (New) (CFG) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-484,Equities,industry,Financials,WIKI/SPGI,datasets,Untitled Dataset 2016-05-03 21:49:19,Quandl,https://www.quandl.com/
-485,Equities,industry,Industrials,WIKI/FTV,datasets,Untitled Dataset 2016-07-06 21:49:01,Quandl,https://www.quandl.com/
-486,Equities,industry,Industrials,WIKI/ARNC,datasets,"Arconic Inc. (ARNC) Prices, Dividends, Splits and Trading Volume",Quandl,https://www.quandl.com/
-487,Equities,industry,Real Estate,WIKI/MAA,datasets,Untitled Dataset 2016-12-05 22:50:30,Quandl,https://www.quandl.com/
-488,Equities,industry,Consumer Discretionary,WIKI/UAA,datasets,Untitled Dataset 2016-12-08 22:50:57,Quandl,https://www.quandl.com/
-489,Equities,industry,Information Technology,WIKI/DXC,datasets,Untitled Dataset 2017-04-03 21:48:26,Quandl,https://www.quandl.com/
-490,Equities,industry,Industrials,WIKI/INFO,datasets,Untitled Dataset 2017-06-02 21:47:38,Quandl,https://www.quandl.com/
-491,Equities,industry,Consumer Discretionary,WIKI/HLT,datasets,Untitled Dataset 2017-06-19 21:47:22,Quandl,https://www.quandl.com/
-492,Equities,industry,Energy,WIKI/BHGE,datasets,Untitled Dataset 2017-07-06 21:49:16,Quandl,https://www.quandl.com/
-493,Equities,industry,Energy,WIKI/ANDV,datasets,Untitled Dataset 2017-08-03 21:55:06,Quandl,https://www.quandl.com/
-494,Equities,industry,Financials,WIKI/BHF,datasets,Untitled Dataset 2017-08-08 21:49:22,Quandl,https://www.quandl.com/
-495,Equities,industry,Materials,WIKI/DWDP,datasets,Untitled Dataset 2017-09-01 21:48:13,Quandl,https://www.quandl.com/
-496,Equities,industry,Consumer Discretionary,WIKI/TPR,datasets,Untitled Dataset 2017-10-31 21:49:32,Quandl,https://www.quandl.com/
-497,Equities,industry,Health Care,WIKI/IQV,datasets,Untitled Dataset 2017-11-15 22:51:25,Quandl,https://www.quandl.com/
-498,Equities,industry,Consumer Discretionary,WIKI/APTV,datasets,Untitled Dataset 2017-12-08 22:49:09,Quandl,https://www.quandl.com/
-499,Equities,industry,Real Estate,WIKI/WELL,datasets,Untitled Dataset 2018-03-08 17:01:31,Quandl,https://www.quandl.com/
-500,Equities,industry,Consumer Discretionary,WIKI/BKNG,datasets,Untitled Dataset 2018-03-08 17:02:10,Quandl,https://www.quandl.com/
-501,Equities,industry,Real Estate,WIKI/CBRE,datasets,Untitled Dataset 2018-03-22 21:45:57,Quandl,https://www.quandl.com/
+0,Equities,industry,Information Technology,AAPL,datasets,"Apple Inc (AAPL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+1,Equities,industry,Health Care,ABC,datasets,"AmerisourceBergen Corp. (ABC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+2,Equities,industry,Health Care,ABBV,datasets,"AbbVie Inc. (ABBV) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+3,Equities,industry,Health Care,AGN,datasets,"Allergan Inc. (AGN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+4,Equities,industry,Information Technology,ADP,datasets,"Automatic Data Processing Inc. (ADP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+5,Equities,industry,Information Technology,ADSK,datasets,"Autodesk Inc. (ADSK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+6,Equities,industry,Health Care,ABT,datasets,"Abbott Laboratories (ABT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+7,Equities,industry,Utilities,AEE,datasets,"Ameren Corp. (AEE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+8,Equities,industry,Information Technology,ACN,datasets,"Accenture plc (ACN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+9,Equities,industry,Utilities,AEP,datasets,"American Electric Power Company (AEP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+10,Equities,industry,Information Technology,ADBE,datasets,"Adobe Systems Incorporated (ADBE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+11,Equities,industry,Health Care,AET,datasets,"Aetna Inc. (AET) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+12,Equities,industry,Information Technology,ADI,datasets,"Analog Devices Inc. (ADI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+13,Equities,industry,Consumer Staples,ADM,datasets,"Archer Daniels Midland Co. (ADM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+14,Equities,industry,Information Technology,ADS,datasets,"Alliance Data Systems Corp. (ADS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+15,Equities,industry,Real Estate,AIV,datasets,"Apartment Investment & Management Co. (AIV) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+16,Equities,industry,Financials,ALL,datasets,"Allstate Corp. (ALL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+17,Equities,industry,Utilities,AES,datasets,"AES Corp. (AES) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+18,Equities,industry,Health Care,ALXN,datasets,"Alexion Pharmaceuticals Inc. (ALXN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+19,Equities,industry,Financials,AFL,datasets,"American Family Life Assurance Co. of Columbus (AFL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+20,Equities,industry,Information Technology,AMAT,datasets,"Applied Materials Inc. (AMAT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+21,Equities,industry,Financials,AIG,datasets,"American International Group Inc (AIG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+22,Equities,industry,Health Care,AMGN,datasets,"Amgen Inc (AMGN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+23,Equities,industry,Financials,AIZ,datasets,"Assurant Inc. (AIZ) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+24,Equities,industry,Real Estate,AMT,datasets,"American Tower Corp (New) (AMT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+25,Equities,industry,Information Technology,AKAM,datasets,"Akamai Technologies Inc. (AKAM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+26,Equities,industry,Industrials,ALLE,datasets,"Allegion Plc (ALLE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+27,Equities,industry,Industrials,AME,datasets,"AMETEK Inc. (AME) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+28,Equities,industry,Financials,AMP,datasets,"Ameriprise Financial Inc (AMP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+29,Equities,industry,Consumer Discretionary,AMZN,datasets,"Amazon.com Inc. (AMZN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+30,Equities,industry,Health Care,A,datasets,"Agilent Technologies Inc. (A) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+31,Equities,industry,Financials,AON,datasets,"Aon Plc (AON) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+32,Equities,industry,Materials,APD,datasets,"Air Products & Chemicals Inc. (APD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+33,Equities,industry,Information Technology,APH,datasets,"Amphenol Corp. (APH) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+34,Equities,industry,Real Estate,AVB,datasets,"Avalonbay Communities Inc. (AVB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+35,Equities,industry,Energy,APA,datasets,"Apache Corp. (APA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+36,Equities,industry,Energy,APC,datasets,"Anadarko Petroleum Corp (APC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+37,Equities,industry,Financials,AXP,datasets,"American Express Co. (AXP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+38,Equities,industry,Consumer Discretionary,AZO,datasets,"AutoZone Inc. (AZO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+39,Equities,industry,Industrials,BA,datasets,"The Boeing Co. (BA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+40,Equities,industry,Financials,BAC,datasets,"Bank of America Corp. (BAC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+41,Equities,industry,Materials,AVY,datasets,"Avery Dennison Corp. (AVY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+42,Equities,industry,Financials,BEN,datasets,"Franklin Resources Inc. (BEN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+43,Equities,industry,Health Care,BAX,datasets,"Baxter International Inc. (BAX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+44,Equities,industry,Financials,BBT,datasets,"BB&T Corp. (BBT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+45,Equities,industry,Health Care,BIIB,datasets,"Biogen Inc (BIIB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+46,Equities,industry,Consumer Discretionary,BBY,datasets,"Best Buy Inc (BBY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+47,Equities,industry,Materials,BLL,datasets,"Ball Corp (BLL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+48,Equities,industry,Health Care,BDX,datasets,"Becton Dickinson & Co. (BDX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+49,Equities,industry,Health Care,BSX,datasets,"Boston Scientific Corp. (BSX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+50,Equities,industry,Financials,BK,datasets,"Bank of New York Mellon Corp (BK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+51,Equities,industry,Consumer Discretionary,BWA,datasets,"BorgWarner Inc. (BWA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+52,Equities,industry,Financials,BLK,datasets,"BlackRock Inc. (BLK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+53,Equities,industry,Real Estate,BXP,datasets,"Boston Properties Inc. (BXP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+54,Equities,industry,Information Technology,CA,datasets,"CA Technologies (CA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+55,Equities,industry,Health Care,BMY,datasets,"Bristol-Myers Squibb Co. (BMY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+56,Equities,industry,Industrials,CAT,datasets,"Caterpillar Inc. (CAT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+57,Equities,industry,Consumer Discretionary,CBS,datasets,"CBS Corp (CBS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+58,Equities,industry,Financials,C,datasets,"Citigroup Inc (C) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+59,Equities,industry,Real Estate,CCI,datasets,"Crown Castle International Corp (New) (CCI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+60,Equities,industry,Consumer Staples,CAG,datasets,"ConAgra Foods Inc. (CAG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+61,Equities,industry,Health Care,CAH,datasets,"Cardinal Health Inc. (CAH) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+62,Equities,industry,Health Care,CERN,datasets,"Cerner Corporation (CERN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+63,Equities,industry,Financials,CB,datasets,"Chubb Corp (CB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+64,Equities,industry,Health Care,CI,datasets,"Cigna Corp (CI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+65,Equities,industry,Financials,CINF,datasets,"Cincinnati Financial Corp. (CINF) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+66,Equities,industry,Health Care,CELG,datasets,"Celgene Corp. (CELG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+67,Equities,industry,Consumer Staples,CL,datasets,"Colgate-Palmolive Co. (CL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+68,Equities,industry,Materials,CF,datasets,"CF Industries Holdings Inc (CF) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+69,Equities,industry,Consumer Discretionary,CMCSA,datasets,"Comcast Corp (CMCSA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+70,Equities,industry,Financials,CME,datasets,"CME Group Inc (CME) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+71,Equities,industry,Industrials,CHRW,datasets,"Robinson (C.H.) Worldwide Inc. (CHRW) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+72,Equities,industry,Consumer Discretionary,CMG,datasets,"Chipotle Mexican Grill (CMG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+73,Equities,industry,Utilities,CMS,datasets,"CMS Energy Corp (CMS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+74,Equities,industry,Consumer Staples,CLX,datasets,"Clorox Co. (CLX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+75,Equities,industry,Financials,COF,datasets,"Capital One Financial Corp (COF) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+76,Equities,industry,Financials,CMA,datasets,"Comerica Inc. (CMA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+77,Equities,industry,Industrials,COL,datasets,"Rockwell Collins Inc. (COL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+78,Equities,industry,Industrials,CMI,datasets,"Cummins Inc. (CMI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+79,Equities,industry,Consumer Staples,COST,datasets,"Costco Wholesale Corp (COST) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+80,Equities,industry,Utilities,CNP,datasets,"CenterPoint Energy Inc (CNP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+81,Equities,industry,Energy,COG,datasets,"Cabot Oil & Gas Corp. (COG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+82,Equities,industry,Industrials,CSX,datasets,"CSX Corp (CSX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+83,Equities,industry,Energy,COP,datasets,"ConocoPhillips (COP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+84,Equities,industry,Telecommunication Services,CTL,datasets,"CenturyLink Inc. (CTL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+85,Equities,industry,Consumer Staples,CPB,datasets,"Campbell Soup Co. (CPB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+86,Equities,industry,Information Technology,CTXS,datasets,"Citrix Systems Inc. (CTXS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+87,Equities,industry,Information Technology,CRM,datasets,"Salesforce.com Inc. (CRM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+88,Equities,industry,Consumer Staples,CVS,datasets,"CVS Health Corp (CVS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+89,Equities,industry,Information Technology,CSCO,datasets,"Cisco Systems Inc. (CSCO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+90,Equities,industry,Utilities,D,datasets,"Dominion Resources Inc (D) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+91,Equities,industry,Industrials,CTAS,datasets,"Cintas Corp. (CTAS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+92,Equities,industry,Information Technology,CTSH,datasets,"Cognizant Technology Solutions Corp. (CTSH) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+93,Equities,industry,Health Care,DGX,datasets,"Quest Diagnostics Inc. (DGX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+94,Equities,industry,Energy,CVX,datasets,"Chevron Corporation (CVX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+95,Equities,industry,Health Care,DHR,datasets,"Danaher Corp. (DHR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+96,Equities,industry,Industrials,DAL,datasets,"Delta Air Lines Inc. (DE) (DAL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+97,Equities,industry,Consumer Discretionary,DIS,datasets,"Disney (Walt) Co. (The) (DIS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+98,Equities,industry,Industrials,DE,datasets,"Deere & Co. (DE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+99,Equities,industry,Financials,DFS,datasets,"Discover Financial Services (DFS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+100,Equities,industry,Consumer Discretionary,DG,datasets,"Dollar General Corp (DG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+101,Equities,industry,Consumer Discretionary,DHI,datasets,"Horton (D.R.) Inc. (DHI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+102,Equities,industry,Consumer Discretionary,DISCA,datasets,"Discovery Communications Inc. (DISCA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+103,Equities,industry,Utilities,DTE,datasets,"DTE Energy Co. (DTE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+104,Equities,industry,Consumer Discretionary,DLTR,datasets,"Dollar Tree Inc. (DLTR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+105,Equities,industry,Health Care,DVA,datasets,"DaVita HealthCare Partners Inc (DVA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+106,Equities,industry,Energy,DVN,datasets,"Devon Energy Corp. (DVN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+107,Equities,industry,Industrials,DOV,datasets,"Dover Corp (DOV) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+108,Equities,industry,Information Technology,EBAY,datasets,"eBay Inc. (EBAY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+109,Equities,industry,Consumer Staples,DPS,datasets,"Dr Pepper Snapple Group Inc (DPS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+110,Equities,industry,Materials,ECL,datasets,"Ecolab Inc. (ECL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+111,Equities,industry,Consumer Discretionary,DRI,datasets,"Darden Restaurants Inc. (United States) (DRI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+112,Equities,industry,Utilities,ED,datasets,"Consolidated Edison Inc. (ED) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+113,Equities,industry,Utilities,DUK,datasets,"Duke Energy Corp (DUK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+114,Equities,industry,Materials,EMN,datasets,"Eastman Chemical Co. (EMN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+115,Equities,industry,Information Technology,EA,datasets,"Electronic Arts Inc. (EA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+116,Equities,industry,Industrials,EMR,datasets,"Emerson Electric Co. (EMR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+117,Equities,industry,Energy,EOG,datasets,"EOG Resources Inc. (EOG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+118,Equities,industry,Real Estate,EQR,datasets,"Equity Residential (EQR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+119,Equities,industry,Industrials,EFX,datasets,"Equifax Inc. (EFX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+120,Equities,industry,Health Care,ESRX,datasets,"Express Scripts Holding Company (ESRX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+121,Equities,industry,Utilities,EIX,datasets,"Edison International (EIX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+122,Equities,industry,Consumer Staples,EL,datasets,"Estee Lauder Cos. Inc. (The) (EL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+123,Equities,industry,Financials,ETFC,datasets,"E*TRADE Financial Corporation (ETFC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+124,Equities,industry,Industrials,ETN,datasets,"Eaton Corp plc (ETN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+125,Equities,industry,Utilities,ETR,datasets,"Entergy Corp. (ETR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+126,Equities,industry,Utilities,EXC,datasets,"Exelon Corp. (EXC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+127,Equities,industry,Energy,EQT,datasets,"EQT Corp. (EQT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+128,Equities,industry,Consumer Discretionary,EXPE,datasets,"Expedia Inc (EXPE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+129,Equities,industry,Industrials,FAST,datasets,"Fastenal Co. (FAST) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+130,Equities,industry,Information Technology,FB,datasets,"Facebook Inc. (FB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+131,Equities,industry,Materials,FCX,datasets,"Freeport-McMoRan Inc (FCX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+132,Equities,industry,Health Care,EW,datasets,"Edwards Lifesciences Corp (EW) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+133,Equities,industry,Industrials,EXPD,datasets,"Expeditors International of Washington Inc. (EXPD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+134,Equities,industry,Utilities,FE,datasets,"FirstEnergy Corp. (FE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+135,Equities,industry,Consumer Discretionary,F,datasets,"Ford Motor Co. (DE) (F) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+136,Equities,industry,Information Technology,FISV,datasets,"Fiserv Inc. (FISV) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+137,Equities,industry,Industrials,FDX,datasets,"FedEx Corp (FDX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+138,Equities,industry,Industrials,FLS,datasets,"Flowserve Corp. (FLS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+139,Equities,industry,Materials,FMC,datasets,"FMC Corp. (FMC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+140,Equities,industry,Information Technology,FFIV,datasets,"F5 Networks Inc. (FFIV) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+141,Equities,industry,Consumer Discretionary,FOXA,datasets,"21st  Century Fox Inc (FOXA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+142,Equities,industry,Information Technology,FIS,datasets,"Fidelity National Information Services Inc (FIS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+143,Equities,industry,Financials,FITB,datasets,"Fifth Third Bancorp (Cincinnati OH) (FITB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+144,Equities,industry,Energy,FTI,datasets,"FMC Technologies Inc. (FTI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+145,Equities,industry,Information Technology,FLIR,datasets,"FLIR Systems Inc. (FLIR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+146,Equities,industry,Industrials,FLR,datasets,"Fluor Corp. (FLR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+147,Equities,industry,Real Estate,GGP,datasets,"General Growth Properties Inc (GGP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+148,Equities,industry,Consumer Discretionary,GM,datasets,"General Motors Co. (GM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+149,Equities,industry,Industrials,GD,datasets,"General Dynamics Corp. (GD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+150,Equities,industry,Industrials,GE,datasets,"General Electric Co (GE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+151,Equities,industry,Information Technology,GOOG,datasets,"Alphabet Inc (GOOG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+152,Equities,industry,Health Care,GILD,datasets,"Gilead Sciences Inc. (GILD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+153,Equities,industry,Consumer Staples,GIS,datasets,"General Mills Inc. (GIS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+154,Equities,industry,Consumer Discretionary,GRMN,datasets,"Garmin Ltd. (GRMN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+155,Equities,industry,Information Technology,GLW,datasets,"Corning Inc. (GLW) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+156,Equities,industry,Financials,GS,datasets,"The Goldman Sachs Group Inc. (GS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+157,Equities,industry,Industrials,GWW,datasets,"Grainger (W.W.) Inc. (GWW) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+158,Equities,industry,Energy,HAL,datasets,"Halliburton Company (HAL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+159,Equities,industry,Consumer Discretionary,GPC,datasets,"Genuine Parts Co. (GPC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+160,Equities,industry,Consumer Discretionary,GPS,datasets,"Gap Inc. (GPS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+161,Equities,industry,Consumer Discretionary,GT,datasets,"Goodyear Tire & Rubber Co. (GT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+162,Equities,industry,Consumer Discretionary,HOG,datasets,"Harley-Davidson Inc (HOG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+163,Equities,industry,Consumer Discretionary,HAS,datasets,"Hasbro Inc. (HAS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+164,Equities,industry,Industrials,HON,datasets,"Honeywell International Inc. (HON) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+165,Equities,industry,Financials,HBAN,datasets,"Huntington Bancshares Inc (HBAN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+166,Equities,industry,Information Technology,HPQ,datasets,"Hewlett-Packard Co (HPQ) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+167,Equities,industry,Real Estate,HCP,datasets,"HCP Inc. (HCP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+168,Equities,industry,Consumer Discretionary,HD,datasets,"Home Depot Inc (HD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+169,Equities,industry,Consumer Staples,HRL,datasets,"Hormel Foods Corp. (HRL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+170,Equities,industry,Energy,HES,datasets,"Hess Corp (HES) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+171,Equities,industry,Financials,HIG,datasets,"Hartford Financial Services Group Inc. (HIG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+172,Equities,industry,Real Estate,HST,datasets,"Host Hotels & Resorts Inc (HST) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+173,Equities,industry,Energy,HP,datasets,"Helmerich & Payne Inc. (HP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+174,Equities,industry,Health Care,HUM,datasets,"Humana Inc. (HUM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+175,Equities,industry,Consumer Discretionary,HRB,datasets,"H&R Block Inc (HRB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+176,Equities,industry,Financials,ICE,datasets,"Intercontinental Exchange Inc. (ICE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+177,Equities,industry,Industrials,HRS,datasets,"Harris Corp. (HRS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+178,Equities,industry,Information Technology,INTU,datasets,"Intuit Inc (INTU) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+179,Equities,industry,Consumer Staples,HSY,datasets,"Hershey Company (The) (HSY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+180,Equities,industry,Consumer Discretionary,IPG,datasets,"Interpublic Group of Companies Inc. (IPG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+181,Equities,industry,Industrials,IR,datasets,"Ingersoll-Rand Plc (IR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+182,Equities,industry,Information Technology,IBM,datasets,"International Business Machines Corp (IBM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+183,Equities,industry,Materials,IFF,datasets,"Int'l. Flavors & Fragrances (IFF) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+184,Equities,industry,Health Care,ISRG,datasets,"Intuitive Surgical Inc. (ISRG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+185,Equities,industry,Industrials,ITW,datasets,"Illinois Tool Works Inc. (ITW) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+186,Equities,industry,Information Technology,INTC,datasets,"Intel Corp (INTC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+187,Equities,industry,Industrials,JCI,datasets,"Johnson Controls Inc (JCI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+188,Equities,industry,Materials,IP,datasets,"International Paper Co (IP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+189,Equities,industry,Real Estate,IRM,datasets,"Iron Mountain (IRM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+190,Equities,industry,Information Technology,JNPR,datasets,"Juniper Networks Inc (JNPR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+191,Equities,industry,Financials,IVZ,datasets,"Invesco Ltd (IVZ) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+192,Equities,industry,Consumer Discretionary,JWN,datasets,"Nordstrom Inc. (JWN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+193,Equities,industry,Industrials,JEC,datasets,"Jacobs Engineering Group Inc. (JEC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+194,Equities,industry,Information Technology,KLAC,datasets,"KLA-Tencor Corp. (KLAC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+195,Equities,industry,Health Care,JNJ,datasets,"Johnson & Johnson (JNJ) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+196,Equities,industry,Energy,KMI,datasets,"Kinder Morgan Inc. (KMI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+197,Equities,industry,Consumer Staples,KO,datasets,"Coca-Cola Co (The) (KO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+198,Equities,industry,Consumer Staples,K,datasets,"Kellogg Co (K) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+199,Equities,industry,Consumer Staples,KR,datasets,"Kroger Co. (KR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+200,Equities,industry,Financials,KEY,datasets,"KeyCorp (KEY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+201,Equities,industry,Real Estate,KIM,datasets,"Kimco Realty Corp. (KIM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+202,Equities,industry,Industrials,KSU,datasets,"Kansas City Southern (KSU) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+203,Equities,industry,Consumer Staples,KMB,datasets,"Kimberly-Clark Corp. (KMB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+204,Equities,industry,Consumer Discretionary,KMX,datasets,"CarMax Inc. (KMX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+205,Equities,industry,Consumer Discretionary,LEN,datasets,"Lennar Corp. (LEN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+206,Equities,industry,Consumer Discretionary,KORS,datasets,"Michael Kors Holdings (KORS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+207,Equities,industry,Health Care,LH,datasets,"Laboratory Corp. of America Holdings (LH) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+208,Equities,industry,Consumer Discretionary,KSS,datasets,"Kohl's Corp. (KSS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+209,Equities,industry,Industrials,LLL,datasets,"L-3 Communications Holdings Inc. (LLL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+210,Equities,industry,Financials,L,datasets,"Loews Corp. (L) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+211,Equities,industry,Consumer Discretionary,LB,datasets,"L Brands Inc (LB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+212,Equities,industry,Consumer Discretionary,LEG,datasets,"Leggett & Platt Inc. (LEG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+213,Equities,industry,Industrials,LMT,datasets,"Lockheed Martin Corp. (LMT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+214,Equities,industry,Health Care,LLY,datasets,"Lilly (Eli) & Co. (LLY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+215,Equities,industry,Financials,LUK,datasets,"Leucadia National Corp. (LUK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+216,Equities,industry,Financials,LNC,datasets,"Lincoln National Corp. (LNC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+217,Equities,industry,Consumer Discretionary,M,datasets,"Macys Inc. (M) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+218,Equities,industry,Information Technology,MA,datasets,"MasterCard  Cl A (MA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+219,Equities,industry,Consumer Discretionary,LOW,datasets,"Lowes Cos. (LOW) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+220,Equities,industry,Real Estate,MAC,datasets,"Macerich Co. (The) (MAC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+221,Equities,industry,Information Technology,LRCX,datasets,"Lam Research Corp (LRCX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+222,Equities,industry,Industrials,MAS,datasets,"Masco Corp. (MAS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+223,Equities,industry,Industrials,LUV,datasets,"Southwest Airlines Co (LUV) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+224,Equities,industry,Consumer Discretionary,MCD,datasets,"McDonald's Corp (MCD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+225,Equities,industry,Materials,LYB,datasets,"LyondellBasell Industries NV (LYB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+226,Equities,industry,Health Care,MCK,datasets,"McKesson Corp. (MCK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+227,Equities,industry,Financials,MCO,datasets,"Moody's Corp. (MCO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+228,Equities,industry,Consumer Discretionary,MAR,datasets,"Marriott International Inc. (MAR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+229,Equities,industry,Health Care,MDT,datasets,"Medtronic PLC (MDT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+230,Equities,industry,Consumer Discretionary,MAT,datasets,"Mattel Inc (MAT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+231,Equities,industry,Information Technology,MCHP,datasets,"MicroChip Technology Inc. (MCHP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+232,Equities,industry,Financials,MMC,datasets,"Marsh & McLennan Cos. (MMC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+233,Equities,industry,Consumer Staples,MDLZ,datasets,"Mondelez International Inc (MDLZ) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+234,Equities,industry,Industrials,MMM,datasets,"3M Co (MMM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+235,Equities,industry,Consumer Staples,MNST,datasets,"Monster Beverage Corp (MNST) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+236,Equities,industry,Financials,MET,datasets,"MetLife Inc (MET) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+237,Equities,industry,Materials,MON,datasets,"Monsanto Co. (MON) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+238,Equities,industry,Consumer Discretionary,MHK,datasets,"Mohawk Industries Inc. (MHK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+239,Equities,industry,Energy,MPC,datasets,"Marathon Petroleum Corp. (MPC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+240,Equities,industry,Consumer Staples,MKC,datasets,"McCormick & Co. Inc. (MKC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+241,Equities,industry,Energy,MRO,datasets,"Marathon Oil Corp. (MRO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+242,Equities,industry,Information Technology,MSI,datasets,"Motorola Solutions Inc. (MSI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+243,Equities,industry,Consumer Staples,MO,datasets,"Altria Group Inc (MO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+244,Equities,industry,Information Technology,MU,datasets,"Micron Technology Inc. (MU) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+245,Equities,industry,Materials,MOS,datasets,"Mosaic Company (The) (MOS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+246,Equities,industry,Health Care,MRK,datasets,"Merck & Co. Inc (MRK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+247,Equities,industry,Energy,NBL,datasets,"Noble Energy Inc. (NBL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+248,Equities,industry,Financials,MS,datasets,"Morgan Stanley (MS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+249,Equities,industry,Information Technology,MSFT,datasets,"Microsoft Corporation (MSFT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+250,Equities,industry,Financials,NDAQ,datasets,"Nasdaq Inc (NDAQ) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+251,Equities,industry,Financials,MTB,datasets,"M & T Bank Corp (MTB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+252,Equities,industry,Utilities,NEE,datasets,"NextEra Energy Inc (NEE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+253,Equities,industry,Consumer Discretionary,NFLX,datasets,"Netflix Inc. (NFLX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+254,Equities,industry,Health Care,MYL,datasets,"Mylan NV (MYL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+255,Equities,industry,Utilities,NI,datasets,"NiSource Inc (NI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+256,Equities,industry,Industrials,NLSN,datasets,"Nielsen Holdings PLC (NLSN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+257,Equities,industry,Energy,NOV,datasets,"National Oilwell Varco Inc (NOV) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+258,Equities,industry,Materials,NEM,datasets,"Newmont Mining Corp. (Holding Co.) (NEM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+259,Equities,industry,Industrials,NSC,datasets,"Norfolk Southern Corp. (NSC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+260,Equities,industry,Energy,NFX,datasets,"Newfield Exploration Co. (NFX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+261,Equities,industry,Financials,NTRS,datasets,"Northern Trust Corp. (NTRS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+262,Equities,industry,Consumer Discretionary,NKE,datasets,"NIKE Inc (NKE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+263,Equities,industry,Materials,NUE,datasets,"Nucor Corp. (NUE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+264,Equities,industry,Industrials,NOC,datasets,"Northrop Grumman Corp (NOC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+265,Equities,industry,Consumer Discretionary,NWL,datasets,"Newell Rubbermaid Inc. (NWL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+266,Equities,industry,Utilities,NRG,datasets,"NRG Energy Inc (NRG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+267,Equities,industry,Information Technology,NTAP,datasets,"NetApp Inc. (NTAP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+268,Equities,industry,Consumer Discretionary,OMC,datasets,"Omnicom Group Inc. (OMC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+269,Equities,industry,Consumer Discretionary,ORLY,datasets,"O Reilly Automotive Inc. (ORLY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+270,Equities,industry,Information Technology,NVDA,datasets,"NVIDIA Corp (NVDA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+271,Equities,industry,Information Technology,PAYX,datasets,"Paychex Inc (PAYX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+272,Equities,industry,Financials,PBCT,datasets,"People's United Financial Inc. (PBCT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+273,Equities,industry,Consumer Discretionary,NWSA,datasets,"News Corp (New) (NWSA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+274,Equities,industry,Industrials,PCAR,datasets,"PACCAR Inc (PCAR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+275,Equities,industry,Energy,OKE,datasets,"Oneok Inc. (OKE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+276,Equities,industry,Information Technology,ORCL,datasets,"Oracle Corp. (ORCL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+277,Equities,industry,Energy,OXY,datasets,"Occidental Petroleum Corp (OXY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+278,Equities,industry,Utilities,PEG,datasets,"Public Service Enterprise Group (PEG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+279,Equities,industry,Utilities,PCG,datasets,"PG&E Corp. (Holding Co.) (PCG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+280,Equities,industry,Financials,PFG,datasets,"Principal Financial Group Inc. (PFG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+281,Equities,industry,Consumer Discretionary,PHM,datasets,"PulteGroup Inc. (PHM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+282,Equities,industry,Consumer Staples,PEP,datasets,"Pepsico Inc. (PEP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+283,Equities,industry,Real Estate,PLD,datasets,"Prologis Inc (PLD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+284,Equities,industry,Health Care,PFE,datasets,"Pfizer Inc (PFE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+285,Equities,industry,Consumer Staples,PM,datasets,"Philip Morris International Inc (PM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+286,Equities,industry,Consumer Staples,PG,datasets,"Procter & Gamble Co. (PG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+287,Equities,industry,Financials,PNC,datasets,"PNC Financial Services Group (The) (PNC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+288,Equities,industry,Industrials,PNR,datasets,"Pentair PLC (PNR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+289,Equities,industry,Industrials,PH,datasets,"Parker Hannifin Corp. (PH) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+290,Equities,industry,Health Care,PKI,datasets,"PerkinElmer Inc. (PKI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+291,Equities,industry,Utilities,PPL,datasets,"PPL Corp (PPL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+292,Equities,industry,Real Estate,PSA,datasets,"Public Storage (PSA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+293,Equities,industry,Utilities,PNW,datasets,"Pinnacle West Capital Corp. (PNW) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+294,Equities,industry,Consumer Discretionary,PVH,datasets,"PVH Corp (PVH) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+295,Equities,industry,Materials,PPG,datasets,"PPG Industries Inc. (PPG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+296,Equities,industry,Materials,PX,datasets,"Praxair Inc. (PX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+297,Equities,industry,Health Care,PRGO,datasets,"Perrigo Company plc (PRGO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+298,Equities,industry,Financials,PRU,datasets,"Prudential Financial Inc. (PRU) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+299,Equities,industry,Energy,PSX,datasets,"Phillips 66 (PSX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+300,Equities,industry,Industrials,PWR,datasets,"Quanta Services Inc. (PWR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+301,Equities,industry,Financials,RF,datasets,"Regions Financial Corp (RF) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+302,Equities,industry,Energy,PXD,datasets,"Pioneer Natural Resources Co. (PXD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+303,Equities,industry,Industrials,RHI,datasets,"Robert Half International Inc. (RHI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+304,Equities,industry,Information Technology,QCOM,datasets,"Qualcomm Inc. (QCOM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+305,Equities,industry,Consumer Discretionary,RL,datasets,"Ralph Lauren Corp (RL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+306,Equities,industry,Industrials,ROP,datasets,"Roper Technologies Inc (ROP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+307,Equities,industry,Health Care,REGN,datasets,"Regeneron Pharmaceuticals Inc. (REGN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+308,Equities,industry,Energy,RRC,datasets,"Range Resources Corp (RRC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+309,Equities,industry,Industrials,RTN,datasets,"Raytheon Co. (RTN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+310,Equities,industry,Information Technology,RHT,datasets,"Red Hat Inc. (RHT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+311,Equities,industry,Industrials,ROK,datasets,"Rockwell Automation Inc. (ROK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+312,Equities,industry,Materials,SEE,datasets,"Sealed Air Corp. (SEE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+313,Equities,industry,Consumer Discretionary,ROST,datasets,"Ross Stores Inc. (ROST) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+314,Equities,industry,Materials,SHW,datasets,"Sherwin-Williams Co. (SHW) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+315,Equities,industry,Industrials,RSG,datasets,"Republic Services Inc. (RSG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+316,Equities,industry,Consumer Discretionary,SBUX,datasets,"Starbucks Corp. (SBUX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+317,Equities,industry,Utilities,SCG,datasets,"SCANA Corp (SCG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+318,Equities,industry,Financials,SCHW,datasets,"Charles Schwab Corp. (SCHW) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+319,Equities,industry,Industrials,SNA,datasets,"Snap-On Inc. (SNA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+320,Equities,industry,Utilities,SO,datasets,"Southern Co. (SO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+321,Equities,industry,Consumer Staples,SJM,datasets,"Smucker (J.M.) Co. (SJM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+322,Equities,industry,Industrials,SRCL,datasets,"Stericycle Inc. (SRCL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+323,Equities,industry,Energy,SLB,datasets,"Schlumberger Ltd. (SLB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+324,Equities,industry,Financials,STT,datasets,"State Street Corp (STT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+325,Equities,industry,Information Technology,STX,datasets,"Seagate Technology (STX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+326,Equities,industry,Real Estate,SPG,datasets,"Simon Property Group Inc. (SPG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+327,Equities,industry,Utilities,SRE,datasets,"Sempra Energy (SRE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+328,Equities,industry,Financials,STI,datasets,"Suntrust Banks Inc. (STI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+329,Equities,industry,Health Care,SYK,datasets,"Stryker Corp. (SYK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+330,Equities,industry,Information Technology,SYMC,datasets,"Symantec Corp. (SYMC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+331,Equities,industry,Consumer Staples,STZ,datasets,"Constellation Brands Inc (STZ) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+332,Equities,industry,Consumer Staples,TAP,datasets,"Molson Coors Brewing Co. Cl B (TAP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+333,Equities,industry,Industrials,SWK,datasets,"Stanley Works (SWK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+334,Equities,industry,Consumer Staples,SYY,datasets,"Sysco Corp. (SYY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+335,Equities,industry,Telecommunication Services,T,datasets,"AT&T Inc (T) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+336,Equities,industry,Consumer Discretionary,TIF,datasets,"Tiffany & Co. (TIF) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+337,Equities,industry,Consumer Discretionary,TJX,datasets,"TJX Companies Inc. (TJX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+338,Equities,industry,Financials,TMK,datasets,"Torchmark Corp. (TMK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+339,Equities,industry,Information Technology,TEL,datasets,"TE Connectivity (TEL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+340,Equities,industry,Financials,TRV,datasets,"Travelers Companies Inc (The) (TRV) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+341,Equities,industry,Consumer Discretionary,TGT,datasets,"Target Corp. (TGT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+342,Equities,industry,Consumer Staples,TSN,datasets,"Tyson Foods Inc. (TSN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+343,Equities,industry,Health Care,TMO,datasets,"Thermo Fisher Scientific (TMO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+344,Equities,industry,Consumer Discretionary,TRIP,datasets,"TripAdvisor Inc. (TRIP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+345,Equities,industry,Financials,TROW,datasets,"T Rowe Price Group Inc. (TROW) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+346,Equities,industry,Information Technology,TSS,datasets,"Total System Services Inc. (TSS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+347,Equities,industry,Industrials,UNP,datasets,"Union Pacific Corp (UNP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+348,Equities,industry,Consumer Discretionary,TWX,datasets,"Time Warner Inc (TWX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+349,Equities,industry,Information Technology,TXN,datasets,"Texas Instruments Inc. (TXN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+350,Equities,industry,Industrials,TXT,datasets,"Textron Inc. (TXT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+351,Equities,industry,Industrials,UTX,datasets,"United Technologies Corp. (UTX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+352,Equities,industry,Health Care,UNH,datasets,"UnitedHealth Group Inc (UNH) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+353,Equities,industry,Health Care,VAR,datasets,"Varian Medical Systems Inc. (VAR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+354,Equities,industry,Consumer Discretionary,VFC,datasets,"VF Corp. (VFC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+355,Equities,industry,Industrials,UPS,datasets,"United Parcel Service Inc. (UPS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+356,Equities,industry,Materials,VMC,datasets,"Vulcan Materials Co (Holding Company) (VMC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+357,Equities,industry,Financials,USB,datasets,"U.S. Bancorp (DE) (USB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+358,Equities,industry,Information Technology,V,datasets,"Visa Inc (V) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+359,Equities,industry,Telecommunication Services,VZ,datasets,"Verizon Communications Inc (VZ) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+360,Equities,industry,Consumer Discretionary,VIAB,datasets,"Viacom Inc (VIAB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+361,Equities,industry,Health Care,WAT,datasets,"Waters Corp. (WAT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+362,Equities,industry,Energy,VLO,datasets,"Valero Energy Corp. (VLO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+363,Equities,industry,Information Technology,WDC,datasets,"Western Digital Corp. (WDC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+364,Equities,industry,Utilities,WEC,datasets,"WEC Energy Group Inc (WEC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+365,Equities,industry,Real Estate,VNO,datasets,"Vornado Realty Trust (VNO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+366,Equities,industry,Financials,WFC,datasets,"Wells Fargo & Co. (WFC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+367,Equities,industry,Information Technology,VRSN,datasets,"VeriSign Inc. (VRSN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+368,Equities,industry,Health Care,VRTX,datasets,"Vertex Pharmaceuticals Incorporated (VRTX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+369,Equities,industry,Consumer Discretionary,WHR,datasets,"Whirlpool Corp (WHR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+370,Equities,industry,Real Estate,VTR,datasets,"Ventas Inc. (VTR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+371,Equities,industry,Industrials,WM,datasets,"Waste Management Inc. (DE) (WM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+372,Equities,industry,Energy,WMB,datasets,"Williams Cos Inc (The) (WMB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+373,Equities,industry,Real Estate,WY,datasets,"Weyerhaeuser Co. (WY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+374,Equities,industry,Consumer Discretionary,WYN,datasets,"Wyndham Worldwide Corp (WYN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+375,Equities,industry,Consumer Discretionary,WYNN,datasets,"Wynn Resorts Ltd (WYNN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+376,Equities,industry,Consumer Staples,WMT,datasets,"Wal-Mart Stores (WMT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+377,Equities,industry,Information Technology,XLNX,datasets,"Xilinx Inc. (XLNX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+378,Equities,industry,Energy,XOM,datasets,"Exxon Mobil Corp. (XOM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+379,Equities,industry,Information Technology,WU,datasets,"Western Union Co. (WU) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+380,Equities,industry,Health Care,XRAY,datasets,"DENTSPLY International Inc. (XRAY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+381,Equities,industry,Information Technology,XRX,datasets,"Xerox Corp (XRX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+382,Equities,industry,Utilities,XEL,datasets,"Xcel Energy Inc. (XEL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+383,Equities,industry,Consumer Discretionary,YUM,datasets,"Yum! Brands Inc. (YUM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+384,Equities,industry,Financials,XL,datasets,"XL Group Plc (XL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+385,Equities,industry,Industrials,XYL,datasets,"Xylem Inc. (XYL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+386,Equities,industry,Financials,ZION,datasets,"Zions Bancorporation (ZION) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+387,Equities,industry,Health Care,ZTS,datasets,"Zoetis Inc (ZTS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+388,Equities,industry,Consumer Discretionary,TSCO,datasets,"Tractor Supply Co. (TSCO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+389,Equities,industry,Information Technology,ATVI,datasets,"Activision Blizzard Inc. (ATVI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+390,Equities,industry,Industrials,AYI,datasets,"Acuity Brands Inc (Holding Company) (AYI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+391,Equities,industry,Consumer Discretionary,AAP,datasets,"Advance Auto Parts Inc (AAP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+392,Equities,industry,Information Technology,AMD,datasets,"Advanced Micro Devices Inc. (AMD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+393,Equities,industry,Financials,AMG,datasets,"Affiliated Managers Group Inc. (AMG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+394,Equities,industry,Industrials,ALK,datasets,"Alaska Air Group Inc. (ALK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+395,Equities,industry,Materials,ALB,datasets,"Albemarle Corp. (ALB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+396,Equities,industry,Health Care,ALGN,datasets,"Align Technology Inc. (ALGN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+397,Equities,industry,Utilities,LNT,datasets,"Alliant Energy Corp. (LNT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+398,Equities,industry,Industrials,AAL,datasets,"American Airlines Group Inc. (AAL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+399,Equities,industry,Utilities,AWK,datasets,"American Water Works Co Inc. (AWK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+400,Equities,industry,Information Technology,ANSS,datasets,"ANSYS Inc. (ANSS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+401,Equities,industry,Financials,AJG,datasets,"Gallagher (Arthur J.) & Co. (AJG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+402,Equities,industry,Information Technology,AVGO,datasets,"Avago Technologies Ltd (AVGO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+403,Equities,industry,Information Technology,CDNS,datasets,"Cadence Design Systems Inc. (CDNS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+404,Equities,industry,Financials,CBOE,datasets,"CBOE Holdings Inc. (CBOE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+405,Equities,industry,Health Care,CNC,datasets,"Centene Corp (CNC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+406,Equities,industry,Consumer Discretionary,CHTR,datasets,"Charter Communications Inc. (CHTR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+407,Equities,industry,Consumer Staples,CHD,datasets,"Church & Dwight Co. Inc. (CHD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+408,Equities,industry,Energy,XEC,datasets,"Cimarex Energy Co (XEC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+409,Equities,industry,Energy,CXO,datasets,"Concho Resources (CXO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+410,Equities,industry,Health Care,COO,datasets,"Cooper Cos. (COO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+411,Equities,industry,Consumer Staples,COTY,datasets,"Coty Inc. (COTY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+412,Equities,industry,Consumer Discretionary,DISCK,datasets,"Discovery Communications Inc. (DISCK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+413,Equities,industry,Consumer Discretionary,DISH,datasets,"DISH Network Corporation (DISH) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+414,Equities,industry,Health Care,EVHC,datasets,"Envision Healthcare Holdings, Inc. (EVHC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+415,Equities,industry,Real Estate,EQIX,datasets,"Equinix Inc (New) (EQIX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+416,Equities,industry,Financials,RE,datasets,"Everest Re Group Ltd (RE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+417,Equities,industry,Information Technology,GPN,datasets,"Global Payments Inc. (GPN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+418,Equities,industry,Consumer Discretionary,HBI,datasets,"HanesBrands Inc (HBI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+419,Equities,industry,Health Care,HCA,datasets,"HCA Holdings (HCA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+420,Equities,industry,Health Care,HSIC,datasets,"Henry Schein Inc. (HSIC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+421,Equities,industry,Health Care,HOLX,datasets,"Hologic Inc. (HOLX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+422,Equities,industry,Industrials,JBHT,datasets,"Hunt (J.B.) Transport Services Inc. (JBHT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+423,Equities,industry,Industrials,HII,datasets,"Huntington Ingalls Industries Inc. (HII) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+424,Equities,industry,Health Care,IDXX,datasets,"Idexx Laboratories Inc. (IDXX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+425,Equities,industry,Health Care,ILMN,datasets,"Illumina Inc. (ILMN) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+426,Equities,industry,Health Care,INCY,datasets,"Incyte Corp. (INCY) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+427,Equities,industry,Information Technology,IPGP,datasets,"IPG Photonics Corporation (IPGP) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+428,Equities,industry,Consumer Discretionary,LKQ,datasets,"LKQ Corporation (LKQ) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+429,Equities,industry,Materials,MLM,datasets,"Martin Marietta Materials Inc. (MLM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+430,Equities,industry,Health Care,MTD,datasets,"Mettler-Toledo International Inc. (MTD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+431,Equities,industry,Consumer Discretionary,MGM,datasets,"MGM Resorts International (MGM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+432,Equities,industry,Financials,MSCI,datasets,"MSCI Inc (MSCI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+433,Equities,industry,Health Care,NKTR,datasets,"Nektar Therapeutics (NKTR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+434,Equities,industry,Consumer Discretionary,NWS,datasets,"News Corp (New) (NWS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+435,Equities,industry,Consumer Discretionary,NCLH,datasets,"Norwegian Cruise Line Holdings Ltd. (NCLH) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+436,Equities,industry,Materials,PKG,datasets,"Packaging Corp of America (PKG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+437,Equities,industry,Financials,RJF,datasets,"Raymond James Financial Inc. (RJF) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+438,Equities,industry,Health Care,RMD,datasets,"ResMed Inc. (RMD) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+439,Equities,industry,Consumer Discretionary,RCL,datasets,"Royal Caribbean Cruises Ltd. (RCL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+440,Equities,industry,Real Estate,SBAC,datasets,"SBA Communications Corporation (SBAC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+441,Equities,industry,Information Technology,SWKS,datasets,"Skyworks Solutions Inc. (SWKS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+442,Equities,industry,Industrials,AOS,datasets,"Smith (A.O.) Corp (AOS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+443,Equities,industry,Financials,SIVB,datasets,"SVB Financial Group (SIVB) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+444,Equities,industry,Information Technology,SNPS,datasets,"Synopsys Inc. (SNPS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+445,Equities,industry,Information Technology,TTWO,datasets,"Take-Two Interactive Software Inc. (TTWO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+446,Equities,industry,Industrials,TDG,datasets,"TransDigm (TDG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+447,Equities,industry,Consumer Discretionary,FOX,datasets,"21st  Century Fox Inc (FOX) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+448,Equities,industry,Consumer Discretionary,ULTA,datasets,"Ulta Salon Cosmetics & Fragrance Inc. (ULTA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+449,Equities,industry,Consumer Discretionary,UA,datasets,"Under Armour (UA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+450,Equities,industry,Industrials,UAL,datasets,"United Continental Holdings (UAL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+451,Equities,industry,Industrials,URI,datasets,"United Rentals Inc. (URI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+452,Equities,industry,Health Care,UHS,datasets,"Universal Health Services Inc. (UHS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+453,Equities,industry,Industrials,VRSK,datasets,"Verisk Analytics Inc (VRSK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+454,Equities,industry,Real Estate,ARE,datasets,"Alexandria Real Estate Equities Inc. (ARE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+455,Equities,industry,Real Estate,DLR,datasets,"Digital Realty Trust Inc. (DLR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+456,Equities,industry,Real Estate,DRE,datasets,"Duke Realty Corp. (DRE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+457,Equities,industry,Real Estate,ESS,datasets,"Essex Property Trust Inc. (ESS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+458,Equities,industry,Real Estate,EXR,datasets,"Extra Space Storage Inc. (EXR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+459,Equities,industry,Real Estate,FRT,datasets,"Federal Realty Investment Trust (MD) (FRT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+460,Equities,industry,Consumer Discretionary,FL,datasets,"Foot Locker Inc. (FL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+461,Equities,industry,Industrials,FBHS,datasets,"Fortune Brands Home & Security Inc. (FBHS) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+462,Equities,industry,Information Technology,IT,datasets,"Gartner (IT) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+463,Equities,industry,Real Estate,O,datasets,"Realty Income Corp. (O) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+464,Equities,industry,Real Estate,SLG,datasets,"SL Green Realty Corp. (SLG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+465,Equities,industry,Real Estate,UDR,datasets,"UDR Inc (UDR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+466,Equities,industry,Information Technology,GOOGL,datasets,"Alphabet Inc (GOOGL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+467,Equities,industry,Financials,NAVI,datasets,"Navient Corp (NAVI) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+468,Equities,industry,Real Estate,REG,datasets,"Regency Centers Corp. (REG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+469,Equities,industry,Health Care,ANTM,datasets,"Anthem Inc (ANTM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+470,Equities,industry,Consumer Staples,WBA,datasets,"Walgreens Boots Alliance Inc (WBA) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+471,Equities,industry,Utilities,ES,datasets,"Eversource Energy (ES) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+472,Equities,industry,Information Technology,QRVO,datasets,"Qorvo Inc (QRVO) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+473,Equities,industry,Financials,JPM,datasets,"JP Morgan Chase (JPM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+474,Equities,industry,Financials,PGR,datasets,"Progressive Corp. (PGR) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+475,Equities,industry,Financials,UNM,datasets,"Unum Group (UNM) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+476,Equities,industry,Health Care,ZBH,datasets,"Zimmer Biomet Holdings Inc (ZBH) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+477,Equities,industry,Information Technology,PYPL,datasets,"PayPal Holdings Inc (PYPL) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+478,Equities,industry,Consumer Staples,KHC,datasets,"Kraft Heinz Co (The) (KHC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+479,Equities,industry,Materials,WRK,datasets,"WestRock Co (WRK) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+480,Equities,industry,Information Technology,HPE,datasets,"Hewlett Packard Enterprise Co (HPE) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+481,Equities,industry,Financials,SYF,datasets,"Synchrony Financial (SYF) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+482,Equities,industry,Financials,WLTW,datasets,"WLTW (WLTW) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+483,Equities,industry,Financials,CFG,datasets,"Citizens Financial Group Inc (New) (CFG) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+484,Equities,industry,Financials,SPGI,datasets,Untitled Dataset 2016-05-03 21:49:19,Yahoo_Finance,https://finance.yahoo.com/
+485,Equities,industry,Industrials,FTV,datasets,Untitled Dataset 2016-07-06 21:49:01,Yahoo_Finance,https://finance.yahoo.com/
+486,Equities,industry,Industrials,ARNC,datasets,"Arconic Inc. (ARNC) Prices, Dividends, Splits and Trading Volume",Yahoo_Finance,https://finance.yahoo.com/
+487,Equities,industry,Real Estate,MAA,datasets,Untitled Dataset 2016-12-05 22:50:30,Yahoo_Finance,https://finance.yahoo.com/
+488,Equities,industry,Consumer Discretionary,UAA,datasets,Untitled Dataset 2016-12-08 22:50:57,Yahoo_Finance,https://finance.yahoo.com/
+489,Equities,industry,Information Technology,DXC,datasets,Untitled Dataset 2017-04-03 21:48:26,Yahoo_Finance,https://finance.yahoo.com/
+490,Equities,industry,Industrials,INFO,datasets,Untitled Dataset 2017-06-02 21:47:38,Yahoo_Finance,https://finance.yahoo.com/
+491,Equities,industry,Consumer Discretionary,HLT,datasets,Untitled Dataset 2017-06-19 21:47:22,Yahoo_Finance,https://finance.yahoo.com/
+492,Equities,industry,Energy,BHGE,datasets,Untitled Dataset 2017-07-06 21:49:16,Yahoo_Finance,https://finance.yahoo.com/
+493,Equities,industry,Energy,ANDV,datasets,Untitled Dataset 2017-08-03 21:55:06,Yahoo_Finance,https://finance.yahoo.com/
+494,Equities,industry,Financials,BHF,datasets,Untitled Dataset 2017-08-08 21:49:22,Yahoo_Finance,https://finance.yahoo.com/
+495,Equities,industry,Materials,DWDP,datasets,Untitled Dataset 2017-09-01 21:48:13,Yahoo_Finance,https://finance.yahoo.com/
+496,Equities,industry,Consumer Discretionary,TPR,datasets,Untitled Dataset 2017-10-31 21:49:32,Yahoo_Finance,https://finance.yahoo.com/
+497,Equities,industry,Health Care,IQV,datasets,Untitled Dataset 2017-11-15 22:51:25,Yahoo_Finance,https://finance.yahoo.com/
+498,Equities,industry,Consumer Discretionary,APTV,datasets,Untitled Dataset 2017-12-08 22:49:09,Yahoo_Finance,https://finance.yahoo.com/
+499,Equities,industry,Real Estate,WELL,datasets,Untitled Dataset 2018-03-08 17:01:31,Yahoo_Finance,https://finance.yahoo.com/
+500,Equities,industry,Consumer Discretionary,BKNG,datasets,Untitled Dataset 2018-03-08 17:02:10,Yahoo_Finance,https://finance.yahoo.com/
+501,Equities,industry,Real Estate,CBRE,datasets,Untitled Dataset 2018-03-22 21:45:57,Yahoo_Finance,https://finance.yahoo.com/
