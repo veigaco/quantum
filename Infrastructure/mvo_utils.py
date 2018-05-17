@@ -282,7 +282,7 @@ def get_data_quandl_daily(row,last_date,today):
     if row["type"]=="datasets": #&start_date=2014-01-01&end_date=2014-12-31
         api_call_head1= "https://www.quandl.com/api/v3/"+row["type"]+"/"+row["name"]+".json?start_date="+str(last_date)+"&end_date="+str(today)+"&api_key=DBHVvJ6NtLZ9b2MnQ7LA"
         data1 = urllib2.urlopen("%s" % (api_call_head1)).read()
-        json_data = data1.decode('utf8').replace("'", '"')
+        json_data = data1.decode('utf8')#.replace("'", '"')
         json_dataset= json.loads(json_data)["dataset"]
         df_instrument = pd.DataFrame(columns=["refreshed_at","newest_available_date","end_date"])
         df_instrument.loc[0] = [json_dataset["refreshed_at"],json_dataset["newest_available_date"],json_dataset["end_date"]]
@@ -398,6 +398,7 @@ def download_data_daily(instrument):
     '''Function that downloads the daily prices of each instrument'''
     for index, row in instrument.iterrows():
         last_date=(row["end_date"]+timedelta(days=1)).date()
+        print(index)
         today=(datetime.fromtimestamp(time.time())+ timedelta(days=1)).date()
         if row["data_vendor_id"]==add_up_data_vendors("Quandl","https://www.quandl.com/"):
             if last_date is pd.NaT: 
