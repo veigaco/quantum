@@ -199,11 +199,12 @@ def get_data_yahoo(row):
     df.columns = ['ticker','date_', "category",'value'] ## rename columns
     df["instrument_id"]=row["id"]
     df["data_vendor_id"]=add_up_data_vendors(name_,website_url_)
-    df.to_csv(Path_save+row["name"]+".csv") ## save local
-    df_instrument = pd.DataFrame(columns=["refreshed_at","newest_available_date","oldest_available_date","start_date","end_date","frequency"])
-    df_instrument.loc[0] = [datetime.fromtimestamp(time.time()).strftime('%Y-%m-%dT%H:%M:%S.%fZ'),max(df.date_).strftime('%Y-%m-%d'),min(df.date_).strftime('%Y-%m-%d'),min(df.date_).strftime('%Y-%m-%d'),max(df.date_).strftime('%Y-%m-%d'),"daily"]
-    update_data_vendor(name_,website_url_)
-    update_instrument_db(df_instrument,row) ## update database (table instrument with dates, text,etc)
+    if len(df)>0:
+        df.to_csv(Path_save+row["name"]+".csv") ## save local
+        df_instrument = pd.DataFrame(columns=["refreshed_at","newest_available_date","oldest_available_date","start_date","end_date","frequency"])
+        df_instrument.loc[0] = [datetime.fromtimestamp(time.time()).strftime('%Y-%m-%dT%H:%M:%S.%fZ'),max(df.date_).strftime('%Y-%m-%d'),min(df.date_).strftime('%Y-%m-%d'),min(df.date_).strftime('%Y-%m-%d'),max(df.date_).strftime('%Y-%m-%d'),"daily"]
+        update_data_vendor(name_,website_url_)
+        update_instrument_db(df_instrument,row) ## update database (table instrument with dates, text,etc)
 
 
 # Exception safe downloader
