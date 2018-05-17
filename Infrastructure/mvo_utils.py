@@ -69,7 +69,7 @@ def add_up_instrument(id_1,id_2,id_3,id_4,name1,type1,desc):
     session = sessionmaker()
     session.configure(bind=engine)
     s = session()
-    sql1 = s.query(Instrument).filter(Instrument.name==name1).first()
+    sql1 = s.query(Instrument).filter(and_(Instrument.name==name1,Instrument.industry_id==id_1,Instrument.instrument_type_id==id_2,Instrument.sector_id==id_3,Instrument.data_vendor_id==id_4,Instrument.type==type1,Instrument.description==desc)).first()
     if sql1 is None: 
         aux=Instrument(industry_id=id_1,instrument_type_id=id_2,sector_id=id_3,data_vendor_id=id_4,name=name1,type=type1,description=desc)
         s.add(aux)
