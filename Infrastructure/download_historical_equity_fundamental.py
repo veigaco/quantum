@@ -413,6 +413,7 @@ def upload_ef_metrics():
             if len(result1)>0:
                 result1=result1[["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value_x"]]
                 result1.columns=["instrument_id","equity_fundamental_id","Period","data_vendor_id","refreshed_at","Metric","Value"]
+                result1=result1[result1.refreshed_at.notnull()]
                 result1.to_sql(con=engine, name='metrics', if_exists='append',index=False)
                 print("datos nuevos escritos ")
             else:
@@ -449,6 +450,7 @@ def upload_management():
             if len(result1)>0:
                 result1=result1[["instrument_id","data_vendor_id","name","refreshed_at","date_reported_x","shares_x"]]
                 result1.columns=["instrument_id","data_vendor_id","name","refreshed_at","date_reported","shares"]
+                result1=result1[result1.refreshed_at.notnull()]
                 result1.to_sql(con=engine, name='management', if_exists='append',index=False)
                 print("datos nuevos escritos ")
             else:
@@ -487,6 +489,7 @@ def upload_holders():
             if len(result1)>0:
                 result1=result1[["instrument_id","data_vendor_id","holder","shares_x","date_reported_x","percent_out_x","value_x","refreshed_at"]]
                 result1.columns=["instrument_id","data_vendor_id","holder","shares","date_reported","percent_out","value","refreshed_at"]
+                result1=result1[result1.refreshed_at.notnull()]
                 result1.to_sql(con=engine, name='holders', if_exists='append',index=False)
                 print("datos nuevos escritos ")
             else:
@@ -526,6 +529,7 @@ def upload_profile():
             if len(result1)>0:
                 result1=result1[['instrument_id', 'name', 'title_x', 'pay_x', 'exercised_x', 'year_born_x','data_vendor_id', 'refreshed_at']]
                 result1.columns=['instrument_id', 'name', 'title', 'pay', 'exercised', 'year_born','data_vendor_id', 'refreshed_at']
+                result1=result1[result1.refreshed_at.notnull()]
                 result1.to_sql(con=engine, name='profile', if_exists='append',index=False)
                 print("datos nuevos escritos ")
             else:
@@ -551,6 +555,7 @@ def delete_files_dir_stats():
             print(e)
 
 
+delete_files_dir_stats()
 instrument=get_instrument()
 instrument=instrument[instrument.instrument_type_id==5]#.head(4)
 #instrument=instrument["name"]
@@ -562,5 +567,5 @@ upload_ef_metrics()
 upload_management()
 upload_holders()
 upload_profile()
-delete_files_dir_stats()
+
 
