@@ -258,19 +258,19 @@ def add_up_equityf(cat,tab):
 
 def get_equities_fundamental(name):
     get_summary(name)
-    #print("summary descargada para "+name)
-    get_stat(name)
+    print("summary descargada para "+name)
+    #get_stat(name)
     #print("stats descargada para "+name)
-    get_fin(name)
+    #get_fin(name)
     #print("financials descargada para "+name)
-    get_analysis(name)
+    #get_analysis(name)
     #print("analysis descargada para "+name)
-    get_holder_ef(name)
-    get_management(name)
-    get_holder(name)
-    get_profile(name)
+    #get_holder_ef(name)
+    #get_management(name)
+    #get_holder(name)
+    #get_profile(name)
     print("equities_fundamentales descargadas para "+name)
-    sleep(10)
+    #sleep(10)
 
 def get_data_from_files(concept):
     files=glob.glob(Path_stats+str(concept)+"_*.csv")
