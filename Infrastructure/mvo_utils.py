@@ -397,8 +397,11 @@ def get_safe_data_yahoo_daily(row,last_date,today):
 def download_data_daily(instrument):
     '''Function that downloads the daily prices of each instrument'''
     for index, row in instrument.iterrows():
-        last_date=(row["end_date"]+timedelta(days=1)).date()
-        print(index)
+        if row["end_date"] is None:
+            last_date=pd.NaT
+        else:
+            last_date=(row["end_date"]+timedelta(days=1)).date()
+        #print(index)
         today=(datetime.fromtimestamp(time.time())+ timedelta(days=1)).date()
         if row["data_vendor_id"]==add_up_data_vendors("Quandl","https://www.quandl.com/"):
             if last_date is pd.NaT: 
