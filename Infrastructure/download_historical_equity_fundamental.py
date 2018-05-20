@@ -4,6 +4,7 @@ import time
 from sqlalchemy.orm import sessionmaker#,relationship, backref
 from sqlalchemy import create_engine,select
 from sqlalchemy.sql.expression import cast
+from sqlalchemy import Date
 from Schema import *
 from mvo_utils import *
 from numpy import nan
@@ -586,8 +587,7 @@ tdf_f=pd.concat([instrument[["id","name"]],tdf], axis=1,)
 tdf_f[tdf_f.summary!="True"]
 tdf_f[tdf_f.statistics!="True"]
 tdf_f[tdf_f.financials!="True"]
-tdf_f[tdf_f.analysis!="True"]
-tdf_f[tdf_f.holder_ef!="True"]
+tdf_f[tdf_f.analysis!="Truetdf_f[tdf_f.holder_ef!="True"]
 tdf_f[tdf_f.management!="True"][["name","management"]]
 tdf_f[tdf_f.holders!="True"]
 tdf_f[tdf_f.profile!="True"]
