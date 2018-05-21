@@ -39,7 +39,7 @@ dataset = 'SPY'
 
 # prepare some data
 df=get_price_ts(dataset)
-price = np.array(df['Adj Close'])
+price = np.array(df[df.columns[2]])
 price_dates = np.array(df.index, dtype=np.datetime64)
 window_size = 30
 window = np.ones(window_size)/float(window_size)
@@ -83,7 +83,7 @@ def update_dataset(attrname, old, new):
     dataset = dataset_select.value
 
     df=get_price_ts(dataset)
-    price = np.array(df['Adj Close'])
+    price = np.array(df[df.columns[2]])
     price_dates = np.array(df.index, dtype=np.datetime64)
     window_size = 30
     window = np.ones(window_size)/float(window_size)
