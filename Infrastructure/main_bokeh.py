@@ -22,8 +22,11 @@ def get_price_ts(tick):
     result=s.execute(sql)
     df_ = pd.DataFrame(result.fetchall()).drop_duplicates()
     df_.columns = result.keys() 
-    df1=df_[["id","instrument_id","ticker","date_"]].set_index("date_")
-    df2=df_.pivot(index='date_', columns='category')['value'] 
+    df1=df_[["instrument_id","ticker","date_"]].drop_duplicates().set_index("date_")
+    df2=df_[["date_","category","value"]].drop_duplicates()
+    df2=df2.groupby(["date_","category"]).first().reset_index()
+    df2=df2.set_index("date_")
+    df2=df2.pivot(columns="category")["value"]
     df=pd.merge(df1, df2, left_index=True, right_index=True)
     df.sort_index(inplace=True)
     s.close()
