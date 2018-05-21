@@ -14,6 +14,7 @@ from bokeh.plotting import figure, output_file, show
 engine = create_engine('mysql+pymysql://quantum_user:Qu4ntum_u$3r@localhost/securities_master_database')
 
 def get_price_ts(tick):
+    '''Funcion que obtiene los precios de tick(nombre del instrumento)'''
     session = sessionmaker()
     session.configure(bind=engine)
     s = session()
@@ -24,6 +25,7 @@ def get_price_ts(tick):
     df1=df_[["id","instrument_id","ticker","date_"]].set_index("date_")
     df2=df_.pivot(index='date_', columns='category')['value'] 
     df=pd.merge(df1, df2, left_index=True, right_index=True)
+    df.sort_index(inplace=True)
     s.close()
     return df
 
