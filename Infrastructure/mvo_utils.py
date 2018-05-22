@@ -207,9 +207,53 @@ def get_data_yahoo(row):
         update_instrument_db(df_instrument,row) ## update database (table instrument with dates, text,etc)
 
 
+def get_data_from_fred_metadata(name):
+    while True:
+        try:
+            api_call_head1="https://api.stlouisfed.org/fred/series?series_id="+name+"&api_key=6f5cf393a1efcda8b4e9f83a9975c649&file_type=json"
+            data1 = urllib2.urlopen("%s" % (api_call_head1)).read()
+            json_data = data1.decode('utf8')
+            json_dataset= json.loads(json_data) ## este contiene toda la series y metadatos
+            df = pd.DataFrame(data=json_dataset["seriess"])
+            df["name"]=name
+            return df
+            break;
+        except Exception as err:
+            print("Error: {0}, waiting to try again in {1}".format(err, 10))
+            sleep(10)
+
+def get_data_from_fred(row):
+    name_="FRED"
+    website_url_="https://fred.stlouisfed.org/"
+    api_call_head1="https://api.stlouisfed.org/fred/series/observations?series_id="+row["name"]+"&api_key=6f5cf393a1efcda8b4e9f83a9975c649&file_type=json"
+    data1 = urllib2.urlopen("%s" % (api_call_head1)).read()
+    json_data = data1.decode('utf8')
+    json_dataset= json.loads(json_data) ## este contiene toda la series y metadatos
+    df = pd.DataFrame(data=json_dataset["observations"])
+    df["name"]=row["name"]
+    df=df[["date","name","value"]]
+    df=df[df.value!="."]
+    df["value"]=df["value"].astype(float)
+    df.columns=["date_","ticker","value"]
+    df["category"]="Value"
+    df["instrument_id"]=df["ticker"].apply(get_id_instrument)
+    df["date_"]=pd.to_datetime(df["date_"])
+    df["data_vendor_id"]=add_up_data_vendors(name_,website_url_)
+    if len(df)>0:
+        df.to_csv(Path_save+row["name"]+".csv") ## save local
+        metadata_fred=get_data_from_fred_metadata(name)
+        f=metadata_fred[metadata_fred.id==row["name"]]["frequency"].loc[1]
+        df_instrument = pd.DataFrame(columns=["refreshed_at","newest_available_date","oldest_available_date","start_date","end_date","frequency"])
+        df_instrument.loc[0] = [datetime.fromtimestamp(time.time()).strftime('%Y-%m-%dT%H:%M:%S.%fZ'),max(df.date_).strftime('%Y-%m-%d'),min(df.date_).strftime('%Y-%m-%d'),min(df.date_).strftime('%Y-%m-%d'),max(df.date_).strftime('%Y-%m-%d'),f]
+        update_data_vendor(name_,website_url_)
+        update_instrument_db(df_instrument,row) ## update database (table instrument with dates, text,etc)
+
+            
+
+
 # Exception safe downloader
 def get_safe_data_quandl(row):
-    '''Function that guarantees the download of the quandl font'''
+    '''Function that guarantees the download from quandl'''
     while True:
         try:
             get_data_quandl(row) ; break
@@ -219,7 +263,7 @@ def get_safe_data_quandl(row):
 
 
 def get_safe_data_yahoo(row):
-    '''Function that guarantees the download of the Yahoo font'''
+    '''Function that guarantees the download from Yahoo'''
     while True:
         try:
             get_data_yahoo(row); break
@@ -227,13 +271,27 @@ def get_safe_data_yahoo(row):
             print("Error: {0}, waiting to try again in {1}".format(err, sleep_time))
             sleep(sleep_time)
 
+def get_safe_data_fred(row):
+    '''Function that guarantees the download from fred'''
+    while True:
+        try:
+            get_data_from_fred(row); break
+        except Exception as err:
+            print("Error: {0}, waiting to try again in {1}".format(err, sleep_time))
+            sleep(sleep_time)
+
+
 def download_data(instrument):
     '''Function that downloads the historical prices of each instrument'''
     for index, row in instrument.iterrows():
         if row["data_vendor_id"]==add_up_data_vendors("Quandl","https://www.quandl.com/"):
             get_safe_data_quandl(row)
-        else:
+        elif row["data_vendor_id"]==add_up_data_vendors("FRED","https://fred.stlouisfed.org/"):
+            get_safe_data_fred(row)
+        elif row["data_vendor_id"]==add_up_data_vendors("Yahoo_Finance","https://finance.yahoo.com/")::
             get_safe_data_yahoo(row)
+        else:
+            print("Don't exist function to download this instrument: "+ row["name"])
 
 
 
@@ -362,6 +420,33 @@ def get_data_yahoo_daily(row,last_date,today):
         update_data_vendor(name_,website_url_)
         update_instrument_db_daily(df_instrument,row) ## update database (table instrument with dates, text,etc)
 
+def get_data_fred_daily(row,last_date,today):
+    name_="FRED"
+    website_url_="https://fred.stlouisfed.org/"
+    api_call_head1="https://api.stlouisfed.org/fred/series/observations?series_id="+row["name"]+"&api_key=6f5cf393a1efcda8b4e9f83a9975c649&file_type=json"
+    data1 = urllib2.urlopen("%s" % (api_call_head1)).read()
+    json_data = data1.decode('utf8')
+    json_dataset= json.loads(json_data) ## este contiene toda la series y metadatos
+    df = pd.DataFrame(data=json_dataset["observations"])
+    df["name"]=row["name"]
+    df=df[["date","name","value"]]
+    df=df[df.value!="."]
+    df["value"]=df["value"].astype(float)
+    df.columns=["date_","ticker","value"]
+    df["category"]="Value"
+    df["instrument_id"]=df["ticker"].apply(get_id_instrument)
+    df["date_"]=pd.to_datetime(df["date_"])
+    df["data_vendor_id"]=add_up_data_vendors(name_,website_url_)
+    df=df[df.date_>=last_date]
+    if len(df)>0:
+        df.to_csv(Path_save+row["name"]+".csv") ## save local
+        metadata_fred=get_data_from_fred_metadata(name)
+        f=metadata_fred[metadata_fred.id==row["name"]]["frequency"].loc[1]
+        df_instrument = pd.DataFrame(columns=["refreshed_at","newest_available_date","end_date"])
+        df_instrument.loc[0] = [datetime.fromtimestamp(time.time()).strftime('%Y-%m-%dT%H:%M:%S.%fZ'),max(df.date_).strftime('%Y-%m-%d'),max(df.date_).strftime('%Y-%m-%d')]
+        update_data_vendor(name_,website_url_)
+        update_instrument_db_daily(df_instrument,row) ## update database (table instrument with dates, text,etc)
+
 # Exception safe downloader
 
 def get_safe_data_quandl_daily(row,last_date,today):
@@ -395,24 +480,46 @@ def get_safe_data_yahoo_daily(row,last_date,today):
             if count==limit:
                 break;
 
+def get_safe_data_fred_daily(row,last_date,today):
+    '''Function that guarantees the daily download of the Yahoo Finance source'''
+    count=0
+    while True:
+        try:
+            count=count+1
+            get_data_fred_daily(row,last_date,today) ; break
+            if count==limit:
+                break;
+        except Exception as err:
+            print("Error: {0}, waiting to try again in {1}".format(err, sleep_time))
+            sleep(sleep_time)
+            if count==limit:
+                break;
+
 def download_data_daily(instrument):
     '''Function that downloads the daily prices of each instrument'''
     for index, row in instrument.iterrows():
         if row["end_date"] is None:
             last_date=pd.NaT
-        else:
-            last_date=(row["end_date"]+timedelta(days=1)).date()
-        #print(index)
-        today=(datetime.fromtimestamp(time.time())+ timedelta(days=1)).date()
-        if row["data_vendor_id"]==add_up_data_vendors("Quandl","https://www.quandl.com/"):
-            if last_date is pd.NaT: 
+            if row["data_vendor_id"]==add_up_data_vendors("Quandl","https://www.quandl.com/"):
                 get_safe_data_quandl(row)
-            else:
-                get_safe_data_quandl_daily(row,last_date,today)
-        else:
-            if last_date is pd.NaT:
+            elif row["data_vendor_id"]==add_up_data_vendors("FRED","https://fred.stlouisfed.org/"):
+                get_safe_data_fred(row)
+            elif row["data_vendor_id"]==add_up_data_vendors("Yahoo_Finance","https://finance.yahoo.com/"):
                 get_safe_data_yahoo(row)
             else:
+                print("Don't exist function to download this instrument: "+ row["name"])
+        else:
+            last_date=(row["end_date"]+timedelta(days=1)).date()
+            #print(index)
+            today=(datetime.fromtimestamp(time.time())+ timedelta(days=1)).date()
+            if row["data_vendor_id"]==add_up_data_vendors("Quandl","https://www.quandl.com/"):
+                get_safe_data_quandl_daily(row,last_date,today)
+            elif row["data_vendor_id"]==add_up_data_vendors("FRED","https://fred.stlouisfed.org/"):
+                get_safe_data_fred_daily(row,last_date,today)
+            elif row["data_vendor_id"]==add_up_data_vendors("Yahoo_Finance","https://finance.yahoo.com/"):
                 get_safe_data_yahoo_daily(row,last_date,today)
+            else:
+                print("Don't exist function to download this instrument: "+ row["name"])
+
 
 

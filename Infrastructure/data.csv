@@ -601,7 +601,6 @@
 535,Macro-economic Indicator,industry,Money Supply,M1,time_series,M1 Money Stock,FRED,https://fred.stlouisfed.org/
 536,Macro-economic Indicator,industry,National Accounts,GDP,time_series,Gross Domestic Product,FRED,https://fred.stlouisfed.org/
 537,Macro-economic Indicator,industry,National Accounts,GDPC1,time_series,Real Gross Domestic Product,FRED,https://fred.stlouisfed.org/
-538,Macro-economic Indicator,industry,National Accounts,GDP,time_series,Nominal GDP,FRED,https://fred.stlouisfed.org/
 539,Macro-economic Indicator,industry,Other Economic Indicators,CP,time_series,Corporate Profits After Tax (without IVA and CCAdj),FRED,https://fred.stlouisfed.org/
 540,Macro-economic Indicator,industry,Other Economic Indicators,USSLIND,time_series,Leading Index for the United States,FRED,https://fred.stlouisfed.org/
 541,Macro-economic Indicator,industry,Output,CBIC1,time_series,Change in Real Private Inventories,FRED,https://fred.stlouisfed.org/
