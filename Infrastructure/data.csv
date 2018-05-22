@@ -565,3 +565,75 @@
 499,Equities,industry,Real Estate,WELL,datasets,Untitled Dataset 2018-03-08 17:01:31,Yahoo_Finance,https://finance.yahoo.com/
 500,Equities,industry,Consumer Discretionary,BKNG,datasets,Untitled Dataset 2018-03-08 17:02:10,Yahoo_Finance,https://finance.yahoo.com/
 501,Equities,industry,Real Estate,CBRE,datasets,Untitled Dataset 2018-03-22 21:45:57,Yahoo_Finance,https://finance.yahoo.com/
+502,Asset Class,industry,Asset Class,BAMLCC0A0CMTRIV,time_series,ICE BofAML US Corp Master Total Return Index Value,FRED,https://fred.stlouisfed.org/
+503,Asset Class,industry,Asset Class,BAMLHYH0A0HYM2TRIV,time_series,ICE BofAML US High Yield Total Return Index Value,FRED,https://fred.stlouisfed.org/
+504,Asset Class,industry,Asset Class,RU2000PR,time_series,Russell 2000¨ Price Index,FRED,https://fred.stlouisfed.org/
+505,Asset Class,industry,Asset Class,SP500,time_series,S&P 500,FRED,https://fred.stlouisfed.org/
+506,Asset Class,industry,Asset Class,WILL5000INDFC,time_series,Wilshire 5000 Total Market Full Cap Index,FRED,https://fred.stlouisfed.org/
+507,Macro-economic Indicator,industry,Commodity,DCOILWTICO,time_series,"Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma",FRED,https://fred.stlouisfed.org/
+508,Macro-economic Indicator,industry,Commodity,GOLDPMGBD228NLBM,time_series,"Gold Fixing Price 3:00 P.M. (London time) in London Bullion Market, based in U.S. Dollars",FRED,https://fred.stlouisfed.org/
+509,Macro-economic Indicator,industry,Commodity,PALLFNFINDEXQ,time_series,Global Price Index of All Commodities,FRED,https://fred.stlouisfed.org/
+510,Macro-economic Indicator,industry,Commodity,WTISPLC,time_series,Spot Crude Oil Price: West Texas Intermediate (WTI),FRED,https://fred.stlouisfed.org/
+511,Macro-economic Indicator,industry,Credit - Fed Sr. Loan Officer Survey,DRTSCILM,time_series,Tighter Standars for C&I Loans for Large Firms (%),FRED,https://fred.stlouisfed.org/
+512,Macro-economic Indicator,industry,Credit - Fed Sr. Loan Officer Survey,DRTSCLCC,time_series,"Tighter Standars for Consumer Loans, Credit Cards (%)",FRED,https://fred.stlouisfed.org/
+513,Macro-economic Indicator,industry,Credit - Fed Sr. Loan Officer Survey,STDSAUTO,time_series,Tighter Standars for Auto Loans (%),FRED,https://fred.stlouisfed.org/
+514,Macro-economic Indicator,industry,Credit - Fed Sr. Loan Officer Survey,DRISCFLM,time_series,Increasing Loan Rates to Large Firms (%),FRED,https://fred.stlouisfed.org/
+515,Macro-economic Indicator,industry,Economic Activity,INDPRO,time_series,Industrial Production Index,FRED,https://fred.stlouisfed.org/
+516,Macro-economic Indicator,industry,Economic Activity,TCU,time_series,Capacity Utilization: Total Industry,FRED,https://fred.stlouisfed.org/
+517,Macro-economic Indicator,industry,Economic Activity,ACOGNO,time_series,New Orders: Consumer Goods and Materials,FRED,https://fred.stlouisfed.org/
+518,Macro-economic Indicator,industry,Economic Activity,NEWORDER,time_series,Manufacturing New Orders - Non Defense Capital Goods,FRED,https://fred.stlouisfed.org/
+519,Macro-economic Indicator,industry,Government Sector,FYFSGDA188S,time_series,Gov't Budget Balance (USD bn) / (% of GDP),FRED,https://fred.stlouisfed.org/
+520,Macro-economic Indicator,industry,Income and Expenditure,DSPIC96,time_series,Real Disposable Personal Income,FRED,https://fred.stlouisfed.org/
+521,Macro-economic Indicator,industry,Income and Expenditure,PCEC96,time_series,Real Personal Consumption Expenditures,FRED,https://fred.stlouisfed.org/
+522,Macro-economic Indicator,industry,Income and Expenditure,A229RX0,time_series,Real Disposable Personal Income: Per Capita,FRED,https://fred.stlouisfed.org/
+523,Macro-economic Indicator,industry,Income and Expenditure,PSAVERT,time_series,Personal Saving Rate,FRED,https://fred.stlouisfed.org/
+524,Macro-economic Indicator,industry,Income and Expenditure,TOTALSL,time_series,Consumer Credit,FRED,https://fred.stlouisfed.org/
+525,Macro-economic Indicator,industry,Interest Rates,DGS10,time_series,10-Year Treasury Constant Maturity Rate,FRED,https://fred.stlouisfed.org/
+526,Macro-economic Indicator,industry,Interest Rates,DTB3,time_series,3-Month Treasury Bill: Secondary Market Rate,FRED,https://fred.stlouisfed.org/
+527,Macro-economic Indicator,industry,Interest Rates,MORTGAGE30US,time_series,30-Year Fixed Rate Mortgage Average in the United States,FRED,https://fred.stlouisfed.org/
+528,Macro-economic Indicator,industry,Interest Rates,TEDRATE,time_series,TED Spread,FRED,https://fred.stlouisfed.org/
+529,Macro-economic Indicator,industry,Labor,IC4WSA,time_series,4-Week Moving Average of Initial Claims,FRED,https://fred.stlouisfed.org/
+530,Macro-economic Indicator,industry,Labor,ICSA,time_series,Initial Jobless Claims,FRED,https://fred.stlouisfed.org/
+531,Macro-economic Indicator,industry,Labor,PAYEMS,time_series,Payrolls: Total nonfarm,FRED,https://fred.stlouisfed.org/
+532,Macro-economic Indicator,industry,Labor,UNRATE,time_series,Civilian Unemployment Rate,FRED,https://fred.stlouisfed.org/
+533,Macro-economic Indicator,industry,Labor,AWHNONAG,time_series,Average Work Week,FRED,https://fred.stlouisfed.org/
+534,Macro-economic Indicator,industry,Money Supply,BASE,time_series,St. Louis Adjusted Monetary Base,FRED,https://fred.stlouisfed.org/
+535,Macro-economic Indicator,industry,Money Supply,M1,time_series,M1 Money Stock,FRED,https://fred.stlouisfed.org/
+536,Macro-economic Indicator,industry,National Accounts,GDP,time_series,Gross Domestic Product,FRED,https://fred.stlouisfed.org/
+537,Macro-economic Indicator,industry,National Accounts,GDPC1,time_series,Real Gross Domestic Product,FRED,https://fred.stlouisfed.org/
+538,Macro-economic Indicator,industry,National Accounts,GDP,time_series,Nominal GDP,FRED,https://fred.stlouisfed.org/
+539,Macro-economic Indicator,industry,Other Economic Indicators,CP,time_series,Corporate Profits After Tax (without IVA and CCAdj),FRED,https://fred.stlouisfed.org/
+540,Macro-economic Indicator,industry,Other Economic Indicators,USSLIND,time_series,Leading Index for the United States,FRED,https://fred.stlouisfed.org/
+541,Macro-economic Indicator,industry,Output,CBIC1,time_series,Change in Real Private Inventories,FRED,https://fred.stlouisfed.org/
+542,Macro-economic Indicator,industry,Prices and Inflation,CPILFESL,time_series,Consumer Price Index for All Urban Consumers: All Items Less Food & Energy,FRED,https://fred.stlouisfed.org/
+543,Macro-economic Indicator,industry,Prices and Inflation,PPIACO,time_series,Producer prices (PPI of finished goods and PPI of intermediate goods),FRED,https://fred.stlouisfed.org/
+544,Macro-economic Indicator,industry,Prices and Inflation,PCEPILFE,time_series,Core PCE,FRED,https://fred.stlouisfed.org/
+545,Macro-economic Indicator,industry,Real Estate,CSUSHPINSA,time_series,S&P/Case-Shiller U.S. National Home Price Index,FRED,https://fred.stlouisfed.org/
+546,Macro-economic Indicator,industry,Real Estate,SPCS20RSA,time_series,S&P/Case-Shiller 20-City Composite Home Price Index,FRED,https://fred.stlouisfed.org/
+547,Macro-economic Indicator,industry,Real Estate,PERMIT,time_series,Building Permits,FRED,https://fred.stlouisfed.org/
+548,Macro-economic Indicator,industry,Real Estate,HSN1F,time_series,New Home Sales,FRED,https://fred.stlouisfed.org/
+549,Macro-economic Indicator,industry,Retail Sector,ALTSALES,time_series,Light Weight Vehicle Sales: Autos and Light Trucks,FRED,https://fred.stlouisfed.org/
+550,Macro-economic Indicator,industry,Retail Sector,RRSFS,time_series,Real Retail and Food Services Sales,FRED,https://fred.stlouisfed.org/
+551,Macro-economic Indicator,industry,Retail Sector,TOTALSA,time_series,Total Vehicle Sales,FRED,https://fred.stlouisfed.org/
+552,Macro-economic Indicator,industry,Retail Sector,RSXFS,time_series,Retail Sales,FRED,https://fred.stlouisfed.org/
+553,Macro-economic Indicator,industry,Retail Sector,RSFSXMV,time_series,Retail Sales (excl. Autos),FRED,https://fred.stlouisfed.org/
+554,Asset Class,industry,Asset Class,SPX Index,time_series,S&P 500,Bloomberg,https://www.bloomberg.com/
+555,Asset Class,industry,Asset Class,FNERTR Index,time_series,REIT,Bloomberg,https://www.bloomberg.com/
+556,Asset Class,industry,Asset Class,RU10INTR Index,time_series,Russell 1000,Bloomberg,https://www.bloomberg.com/
+557,Asset Class,industry,Asset Class,RU20INTR Index,time_series,Small Stocks,Bloomberg,https://www.bloomberg.com/
+558,Asset Class,industry,Asset Class,GDDUEAFE Index,time_series,Developed EAFE,Bloomberg,https://www.bloomberg.com/
+559,Asset Class,industry,Asset Class,GDLEEGF Index,time_series,Emerging Mkts,Bloomberg,https://www.bloomberg.com/
+560,Asset Class,industry,Asset Class,SPGSCITR Index,time_series,Commodities,Bloomberg,https://www.bloomberg.com/
+561,Asset Class,industry,Asset Class,XAU BGN Curncy,time_series,Gold Bullion,Bloomberg,https://www.bloomberg.com/
+562,Asset Class,industry,Asset Class,OILPHIST Index,time_series,Crude Oil,Bloomberg,https://www.bloomberg.com/
+563,Asset Class,industry,Asset Class,SPBDUB6T Index,time_series,Cash,Bloomberg,https://www.bloomberg.com/
+564,Asset Class,industry,Asset Class,LMBITR Index,time_series,Munis,Bloomberg,https://www.bloomberg.com/
+565,Asset Class,industry,Asset Class,LBUTTRUU Index,time_series,Treasury Inflation Protected (TIPS),Bloomberg,https://www.bloomberg.com/
+566,Asset Class,industry,Asset Class,LBUSTRUU Index,time_series,US Agg IG Credit,Bloomberg,https://www.bloomberg.com/
+567,Asset Class,industry,Asset Class,LF98TRUU Index,time_series,US High Yield Credit,Bloomberg,https://www.bloomberg.com/
+568,Asset Class,industry,Asset Class,BT69TRUU Index,time_series,US ST Treasuries,Bloomberg,https://www.bloomberg.com/
+569,Asset Class,industry,Asset Class,LT31TRUU Index,time_series,US 3-10 Treasuries,Bloomberg,https://www.bloomberg.com/
+570,Asset Class,industry,Asset Class,LUTLTRUU Index,time_series,US LT Treasuries,Bloomberg,https://www.bloomberg.com/
+571,Asset Class,industry,Asset Class,LGDRTRUU Index,time_series,Global Agg Credit,Bloomberg,https://www.bloomberg.com/
+572,Asset Class,industry,Asset Class,EMUSTRUU Index,time_series,EM USD Agg Credit,Bloomberg,https://www.bloomberg.com/
+573,Asset Class,industry,Asset Class,BEBGTRUU Index,time_series,EM High Yield ,Bloomberg,https://www.bloomberg.com/
