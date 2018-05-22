@@ -567,7 +567,7 @@
 501,Equities,industry,Real Estate,CBRE,datasets,Untitled Dataset 2018-03-22 21:45:57,Yahoo_Finance,https://finance.yahoo.com/
 502,Asset Class,industry,Asset Class,BAMLCC0A0CMTRIV,time_series,ICE BofAML US Corp Master Total Return Index Value,FRED,https://fred.stlouisfed.org/
 503,Asset Class,industry,Asset Class,BAMLHYH0A0HYM2TRIV,time_series,ICE BofAML US High Yield Total Return Index Value,FRED,https://fred.stlouisfed.org/
-504,Asset Class,industry,Asset Class,RU2000PR,time_series,Russell 2000¨ Price Index,FRED,https://fred.stlouisfed.org/
+504,Asset Class,industry,Asset Class,RU2000PR,time_series,Russell 2000 Price Index,FRED,https://fred.stlouisfed.org/
 505,Asset Class,industry,Asset Class,SP500,time_series,S&P 500,FRED,https://fred.stlouisfed.org/
 506,Asset Class,industry,Asset Class,WILL5000INDFC,time_series,Wilshire 5000 Total Market Full Cap Index,FRED,https://fred.stlouisfed.org/
 507,Macro-economic Indicator,industry,Commodity,DCOILWTICO,time_series,"Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma",FRED,https://fred.stlouisfed.org/
