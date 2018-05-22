@@ -241,8 +241,8 @@ def get_data_from_fred(row):
     df["data_vendor_id"]=add_up_data_vendors(name_,website_url_)
     if len(df)>0:
         df.to_csv(Path_save+row["name"]+".csv") ## save local
-        metadata_fred=get_data_from_fred_metadata(name)
-        f=metadata_fred[metadata_fred.id==row["name"]]["frequency"].loc[1]
+        metadata_fred=get_data_from_fred_metadata(row["name"])
+        f=str(metadata_fred["frequency"][0])
         df_instrument = pd.DataFrame(columns=["refreshed_at","newest_available_date","oldest_available_date","start_date","end_date","frequency"])
         df_instrument.loc[0] = [datetime.fromtimestamp(time.time()).strftime('%Y-%m-%dT%H:%M:%S.%fZ'),max(df.date_).strftime('%Y-%m-%d'),min(df.date_).strftime('%Y-%m-%d'),min(df.date_).strftime('%Y-%m-%d'),max(df.date_).strftime('%Y-%m-%d'),f]
         update_data_vendor(name_,website_url_)
@@ -439,9 +439,9 @@ def get_data_fred_daily(row,last_date,today):
     df["data_vendor_id"]=add_up_data_vendors(name_,website_url_)
     df=df[df.date_>=last_date]
     if len(df)>0:
-        df.to_csv(Path_save+row["name"]+".csv") ## save local
-        metadata_fred=get_data_from_fred_metadata(name)
-        f=metadata_fred[metadata_fred.id==row["name"]]["frequency"].loc[1]
+        df.to_csv(Path_save+row["name"]+".csv") ## save locally
+        metadata_fred=get_data_from_fred_metadata(row["name"])
+        f=str(metadata_fred["frequency"][0])
         df_instrument = pd.DataFrame(columns=["refreshed_at","newest_available_date","end_date"])
         df_instrument.loc[0] = [datetime.fromtimestamp(time.time()).strftime('%Y-%m-%dT%H:%M:%S.%fZ'),max(df.date_).strftime('%Y-%m-%d'),max(df.date_).strftime('%Y-%m-%d')]
         update_data_vendor(name_,website_url_)
