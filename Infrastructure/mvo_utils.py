@@ -288,7 +288,7 @@ def download_data(instrument):
             get_safe_data_quandl(row)
         elif row["data_vendor_id"]==add_up_data_vendors("FRED","https://fred.stlouisfed.org/"):
             get_safe_data_fred(row)
-        elif row["data_vendor_id"]==add_up_data_vendors("Yahoo_Finance","https://finance.yahoo.com/")::
+        elif row["data_vendor_id"]==add_up_data_vendors("Yahoo_Finance","https://finance.yahoo.com/"):
             get_safe_data_yahoo(row)
         else:
             print("Don't exist function to download this instrument: "+ row["name"])
