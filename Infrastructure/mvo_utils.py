@@ -498,6 +498,7 @@ def get_safe_data_fred_daily(row,last_date,today):
 def download_data_daily(instrument):
     '''Function that downloads the daily prices of each instrument'''
     for index, row in instrument.iterrows():
+        sleep(sleep_time)
         if row["end_date"] is None:
             last_date=pd.NaT
             if row["data_vendor_id"]==add_up_data_vendors("Quandl","https://www.quandl.com/"):
