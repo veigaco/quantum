@@ -9,6 +9,16 @@ from Schema import *
 from mvo_utils import *
 from numpy import nan
 import glob
+
+import os
+
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
+
+
+
 Path_stats="./temp_data_stats/"
 
 def get_data_sf(data_request):
