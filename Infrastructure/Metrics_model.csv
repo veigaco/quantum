@@ -16,7 +16,7 @@ ACOGNO,Value of Manufacturers' New Orders for Consumer Goods Industries,"Million
 ALTSALES,Light Weight Vehicle Sales: Autos and Light Trucks,"Millions of Units,Seasonally Adjusted Annual Rate",percent change,,
 AWHNONAG,Average Weekly Hours of Production and Nonsupervisory Employees: Total private,"Hours,Seasonally Adjusted",percent change,,
 BASE,St. Louis Adjusted Monetary Base,"Billions of Dollars, Seasonally Adjusted",percent change,,
-CBIC1_GDP,Change in Real Private Inventories/GDP,Billions of Chained 2009 Dollars/Billions of Dollars,percent change,,
+CBIC1_GDP,Change in Real Private Inventories/GDP,Billions of Chained 2009 Dollars/Billions of Dollars,100,,
 CP,Corporate Profits After Tax (without IVA and CCAdj),"Billions of Dollars, Seasonally Adjusted Annual Rate",percent change,,
 CPILFESL,Consumer Price Index for All Urban Consumers: All Items Less Food and Energy,"Index 1982-1984=100, Seasonally Adjusted",percent change,,
 CSUSHPINSA,S&P/Case-Shiller U.S. National Home Price Index,"Index Jan 2000=100, Not Seasonally Adjusted",percent change,,
