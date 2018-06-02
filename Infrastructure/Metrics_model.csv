@@ -36,7 +36,7 @@ PSAVERT,Personal Saving Rate,"Percent, Seasonally Adjusted Annual Rate",dividir 
 RRSFS,Advance Real Retail and Food Services Sales,"Millions of Dollars, Seasonally Adjusted",percent change
 RSFSXMV,Advance Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers,"Millions of Dollars, Seasonally Adjusted",percent change
 RSXFS,Advance Retail Sales: Retail (Excluding Food Services),"Millions of Dollars,Seasonally Adjusted",percent change
-SP500,S&P 500,"Index,Not Seasonally Adjusted",percent change
+SP500_m,S&P 500,"Index,Not Seasonally Adjusted",percent change
 SPCS20RSA,S&P/Case-Shiller 20-City Composite Home Price Index,"Index Jan 2000=100, Seasonally Adjusted",percent change
 STDSAUTO,Net Percentage of Domestic Banks Tightening Standards for Auto Loans,"Percent, Not Seasonally Adjusted",dividir entre 100 y diff
 TCU,Capacity Utilization: Total Industry,"Percent of Capacity, Seasonally Adjusted",percent change
