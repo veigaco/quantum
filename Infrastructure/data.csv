@@ -636,12 +636,12 @@
 571,Asset Class,industry,Asset Class,LGDRTRUU Index,time_series,Global Agg Credit,Bloomberg,https://www.bloomberg.com/
 572,Asset Class,industry,Asset Class,EMUSTRUU Index,time_series,EM USD Agg Credit,Bloomberg,https://www.bloomberg.com/
 573,Asset Class,industry,Asset Class,BEBGTRUU Index,time_series,EM High Yield ,Bloomberg,https://www.bloomberg.com/
-574,Macro-economic Indicator,,Income / Expenditure,AHETPI ,time_series,Average Hourly Earnings of Production and Nonsupervisory Employees: Total Private,FRED,https://fred.stlouisfed.org/
-575,Macro-economic Indicator,,Economic Activity,AMDMUS ,time_series,Durable: Inventories to Unfilled Orders,FRED,https://fred.stlouisfed.org/
-576,Macro-economic Indicator,,Economic Activity,BSCICP02USM460S,time_series,Business confidence ,FRED,https://fred.stlouisfed.org/
-577,Macro-economic Indicator,,Labor,CE16OV,time_series,Employment ,FRED,https://fred.stlouisfed.org/
-578,Macro-economic Indicator,,Economic Activity,DGORDER,time_series,New Orders: Durable Goods,FRED,https://fred.stlouisfed.org/
-579,Macro-economic Indicator,,Income / Expenditure,GPDI,time_series,Investment ,FRED,https://fred.stlouisfed.org/
-580,Macro-economic Indicator,,Real Estate,HOUST,time_series,Housing starts ,FRED,https://fred.stlouisfed.org/
-581,Macro-economic Indicator,,Income / Expenditure,PRS85006091,time_series,Nonfarm: Real Output Per Hour of All Persons (Productivity),FRED,https://fred.stlouisfed.org/
-582,Macro-economic Indicator,,Income / Expenditure,PRS88003111 ,time_series,Nonfinancial Corporations Sector: Unit Labor Costs,FRED,https://fred.stlouisfed.org/
+574,Macro-economic Indicator,industry,Income / Expenditure,AHETPI ,time_series,Average Hourly Earnings of Production and Nonsupervisory Employees: Total Private,FRED,https://fred.stlouisfed.org/
+575,Macro-economic Indicator,industry,Economic Activity,AMDMUS ,time_series,Durable: Inventories to Unfilled Orders,FRED,https://fred.stlouisfed.org/
+576,Macro-economic Indicator,industry,Economic Activity,BSCICP02USM460S,time_series,Business confidence ,FRED,https://fred.stlouisfed.org/
+577,Macro-economic Indicator,industry,Labor,CE16OV,time_series,Employment ,FRED,https://fred.stlouisfed.org/
+578,Macro-economic Indicator,industry,Economic Activity,DGORDER,time_series,New Orders: Durable Goods,FRED,https://fred.stlouisfed.org/
+579,Macro-economic Indicator,industry,Income / Expenditure,GPDI,time_series,Investment ,FRED,https://fred.stlouisfed.org/
+580,Macro-economic Indicator,industry,Real Estate,HOUST,time_series,Housing starts ,FRED,https://fred.stlouisfed.org/
+581,Macro-economic Indicator,industry,Income / Expenditure,PRS85006091,time_series,Nonfarm: Real Output Per Hour of All Persons (Productivity),FRED,https://fred.stlouisfed.org/
+582,Macro-economic Indicator,industry,Income / Expenditure,PRS88003111 ,time_series,Nonfinancial Corporations Sector: Unit Labor Costs,FRED,https://fred.stlouisfed.org/
