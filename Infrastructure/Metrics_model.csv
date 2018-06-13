@@ -1,57 +1,57 @@
 ﻿Serie,Category,Desc,Units,transformacion
-A229RX0,Income / Expenditure,Real Disposable Personal Income: Per Capita,"Chained 2009 Dollars,Seasonally Adjusted Annual Rate",percent change
-ACOGNO,Economic Activity,Value of Manufacturers' New Orders for Consumer Goods Industries,"Million of Dollars, Seasonally Adjusted",percent change
-AHETPI,Income / Expenditure,Average Hourly Earnings of Production and Nonsupervisory Employees: Total Private,"Dollars per Hour, Seasonally Adjusted",percent change
-ALTSALES,Retail Sector,Light Weight Vehicle Sales: Autos and Light Trucks,"Millions of Units,Seasonally Adjusted Annual Rate",percent change
-AMDMUS,Economic Activity,Durable: Inventories to Unfilled Orders,"Ratio, Seasonally Adjusted",percent change
-AWHNONAG,Labor,Average Weekly Hours of Production and Nonsupervisory Employees: Total private,"Hours,Seasonally Adjusted",percent change
-BASE,Money Supply,St. Louis Adjusted Monetary Base,"Billions of Dollars, Seasonally Adjusted",percent change
-BSCICP02USM460S,Economic Activity,Business confidence ,"Net Percent, Seasonally Adjusted",dividir entre 100 y diff
+A229RX0,Income / Expenditure,Real Disposable Personal Income: Per Capita,"Chained 2009 Dollars,Seasonally Adjusted Annual Rate",Percen Change One Year Ago
+ACOGNO,Economic Activity,Value of Manufacturers' New Orders for Consumer Goods Industries,"Million of Dollars, Seasonally Adjusted",Percen Change One Year Ago
+AHETPI,Income / Expenditure,Average Hourly Earnings of Production and Nonsupervisory Employees: Total Private,"Dollars per Hour, Seasonally Adjusted",Percen Change One Year Ago
+ALTSALES,Retail Sector,Light Weight Vehicle Sales: Autos and Light Trucks,"Millions of Units,Seasonally Adjusted Annual Rate",Percen Change One Year Ago
+AMDMUS,Economic Activity,Durable: Inventories to Unfilled Orders,"Ratio, Seasonally Adjusted",Percen Change One Year Ago
+AWHNONAG,Labor,Average Weekly Hours of Production and Nonsupervisory Employees: Total private,"Hours,Seasonally Adjusted",Percen Change One Year Ago
+BASE,Money Supply,St. Louis Adjusted Monetary Base,"Billions of Dollars, Seasonally Adjusted",Percen Change One Year Ago
+BSCICP02USM460S,Economic Activity,Business confidence ,"Net Percent, Seasonally Adjusted",Divided by 100 and difference One Year Ago
 CBIC1_GDP,Economic Activity,Change in Real Private Inventories/GDP,Billions of Chained 2009 Dollars/Billions of Dollars,No aplica
-CE16OV,Labor,Employment ,"Thousands of Persons,Seasonally Adjusted",percent change
-CP,Income / Expenditure,Corporate Profits After Tax (without IVA and CCAdj),"Billions of Dollars, Seasonally Adjusted Annual Rate",percent change
-CPILFESL,Prices and Inflation,Consumer Price Index for All Urban Consumers: All Items Less Food and Energy,"Index 1982-1984=100, Seasonally Adjusted",percent change
-CSUSHPINSA,Real Estate,S&P/Case-Shiller U.S. National Home Price Index,"Index Jan 2000=100, Not Seasonally Adjusted",percent change
-DCOILWTICO,Commodity,"Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma","Dollars per Barrel, Not Seasonally Adjusted",percent change
-DGORDER,Economic Activity,New Orders: Durable Goods,"Millions of Dollars, Seasonally Adjusted",percent change
+CE16OV,Labor,Employment ,"Thousands of Persons,Seasonally Adjusted",Percen Change One Year Ago
+CP,Income / Expenditure,Corporate Profits After Tax (without IVA and CCAdj),"Billions of Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago
+CPILFESL,Prices and Inflation,Consumer Price Index for All Urban Consumers: All Items Less Food and Energy,"Index 1982-1984=100, Seasonally Adjusted",Percen Change One Year Ago
+CSUSHPINSA,Real Estate,S&P/Case-Shiller U.S. National Home Price Index,"Index Jan 2000=100, Not Seasonally Adjusted",Percen Change One Year Ago
+DCOILWTICO,Commodity,"Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma","Dollars per Barrel, Not Seasonally Adjusted",Percen Change One Year Ago
+DGORDER,Economic Activity,New Orders: Durable Goods,"Millions of Dollars, Seasonally Adjusted",Percen Change One Year Ago
 DGS10,Interest Rates,10-Year Treasury Constant Maturity Rate,"Percent, Not Seasonally Adjusted",X/3Yr avg
-DRISCFLM,Credit - Loan Survey,Net Percentage of Domestic Banks Increasing Spreads of Loan Rates over Banks' Cost of Funds to Large and Middle-Market Firms,"Percent,Not Seasonally Adjusted",dividir entre 100 y diff
-DRTSCILM,Credit - Loan Survey,Net Percentage of Domestic Banks Tightening Standards for Commercial and Industrial Loans to Large and Middle-Market Firms,"Percent, Not Seasonally Adjusted",dividir entre 100 y diff
-DRTSCLCC,Credit - Loan Survey,"Net Percentage of Domestic Banks Tightening Standards on Consumer Loans, Credit Cards","Percent, Not Seasonally Adjusted",dividir entre 100 y diff
-DSPIC96,Income / Expenditure,Real Disposable Personal Income,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",percent change
+DRISCFLM,Credit - Loan Survey,Net Percentage of Domestic Banks Increasing Spreads of Loan Rates over Banks' Cost of Funds to Large and Middle-Market Firms,"Percent,Not Seasonally Adjusted",Divided by 100 and difference One Year Ago
+DRTSCILM,Credit - Loan Survey,Net Percentage of Domestic Banks Tightening Standards for Commercial and Industrial Loans to Large and Middle-Market Firms,"Percent, Not Seasonally Adjusted",Divided by 100 and difference One Year Ago
+DRTSCLCC,Credit - Loan Survey,"Net Percentage of Domestic Banks Tightening Standards on Consumer Loans, Credit Cards","Percent, Not Seasonally Adjusted",Divided by 100 and difference One Year Ago
+DSPIC96,Income / Expenditure,Real Disposable Personal Income,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago
 DTB3,Interest Rates,3-Month Treasury Bill: Secondary Market Rate,"Percent, Not Seasonally Adjusted",X/3Yr avg
-FYFSGDA188S,Government Sector,Federal Surplus or Deficit [-] as Percent of Gross Domestic Product,"Percent of GDP, Not Seasonally Adjusted",dividir entre 100
-GDP,Government Sector,Gross Domestic Product,"Billions of Dollars, Seasonally Adjusted Annual Rate",percent change
-GDPC1,National Accounts,Real Gross Domestic Product,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",percent change
-GOLDPMGBD228NLBM,Commodity,"Gold Fixing Price 3:00 P.M. (London time) in London Bullion Market, based in U.S. Dollars","U.S. Dollars per Troy Ounce, Not Seasonally Adjusted",percent change
-GPDI,Income / Expenditure,Investment ,"Billions of Dollars, Seasonally Adjusted Annual Rate",percent change
-HOUST,Real Estate,Housing starts ,"Thousands of Units, Seasonally Adjusted Annual Rate",percent change
-HSN1F,Real Estate,New One Family Houses Sold: United States,"Thousands, Seasonally Adjusted Annual Rate",percent change
-IC4WSA,Labor,4-Week Moving Average of Initial Claims,"Number, Seasonally Adjusted",percent change
-ICSA,Labor,Initial Claims,"Number,Seasonally Adjusted",percent change
-INDPRO,Output,Industrial Production Index,"Index 2012=100, Seasonally Adjusted",percent change
-M1,Money Supply,M1 Money Stock,"Billions of Dollars,Seasonally Adjusted",percent change
+FYFSGDA188S,Government Sector,Federal Surplus or Deficit [-] as Percent of Gross Domestic Product,"Percent of GDP, Not Seasonally Adjusted",Divided by 100 and difference One Year Ago
+GDP,Government Sector,Gross Domestic Product,"Billions of Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago
+GDPC1,National Accounts,Real Gross Domestic Product,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago
+GOLDPMGBD228NLBM,Commodity,"Gold Fixing Price 3:00 P.M. (London time) in London Bullion Market, based in U.S. Dollars","U.S. Dollars per Troy Ounce, Not Seasonally Adjusted",Percen Change One Year Ago
+GPDI,Income / Expenditure,Investment ,"Billions of Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago
+HOUST,Real Estate,Housing starts ,"Thousands of Units, Seasonally Adjusted Annual Rate",Percen Change One Year Ago
+HSN1F,Real Estate,New One Family Houses Sold: United States,"Thousands, Seasonally Adjusted Annual Rate",Percen Change One Year Ago
+IC4WSA,Labor,4-Week Moving Average of Initial Claims,"Number, Seasonally Adjusted",Percen Change One Year Ago
+ICSA,Labor,Initial Claims,"Number,Seasonally Adjusted",Percen Change One Year Ago
+INDPRO,Output,Industrial Production Index,"Index 2012=100, Seasonally Adjusted",Percen Change One Year Ago
+M1,Money Supply,M1 Money Stock,"Billions of Dollars,Seasonally Adjusted",Percen Change One Year Ago
 MORTGAGE30US,Money Supply,30-Year Fixed Rate Mortgage Average in the United States,"Percent,Not Seasonally Adjusted",X/3Yr avg
-NEWORDER,Interest Rates,Manufacturers' New Orders: Nondefense Capital Goods Excluding Aircraft,"Millions of Dollars, Seasonally Adjusted",percent change
-PALLFNFINDEXQ,Economic Activity,Global Price Index of All Commodities,"Index 2005 = 100,Not Seasonally Adjusted",percent change
-PAYEMS,Labor,All Employees: Total Nonfarm Payrolls,"Thousands of Persons, Seasonally Adjusted",percent change
-PCEC96,Consumer,Real Personal Consumption Expenditures,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",percent change
-PCEPILFE,Consumer,Personal Consumption Expenditures Excluding Food and Energy (Chain-Type Price Index),"Index 2009=100,Seasonally Adjusted",percent change
-PERMIT,Real Estate,New Private Housing Units Authorized by Building Permits,"Thousands of Units,Seasonally Adjusted Annual Rate",percent change
-PPIACO,Real Estate,Producer Price Index for All Commodities,"Index 1982=100, Not Seasonally Adjusted",percent change
-PRS85006091,Income / Expenditure,Nonfarm: Real Output Per Hour of All Persons (Productivity),"Percent Change From Quarter One Year Ago,Seasonally Adjusted",dividir entre 100 y diff
-PRS88003111,Income / Expenditure,Nonfinancial Corporations Sector: Unit Labor Costs,"Percent Change From Quarter One Year Ago, Seasonally Adjusted",dividir entre 100 y diff
-PSAVERT,Consumer,Personal Saving Rate,"Percent, Seasonally Adjusted Annual Rate",dividir entre 100 y diff
-RRSFS,Retail Sector,Advance Real Retail and Food Services Sales,"Millions of Dollars, Seasonally Adjusted",percent change
-RSFSXMV,Retail Sector,Advance Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers,"Millions of Dollars, Seasonally Adjusted",percent change
-RSXFS,Retail Sector,Advance Retail Sales: Retail (Excluding Food Services),"Millions of Dollars,Seasonally Adjusted",percent change
-SP500_m,Financial Markets,S&P 500,"Index,Not Seasonally Adjusted",percent change
-SPCS20RSA,Real Estate,S&P/Case-Shiller 20-City Composite Home Price Index,"Index Jan 2000=100, Seasonally Adjusted",percent change
-STDSAUTO,Credit - Loan Survey,Net Percentage of Domestic Banks Tightening Standards for Auto Loans,"Percent, Not Seasonally Adjusted",dividir entre 100 y diff
-TCU,Economic Activity,Capacity Utilization: Total Industry,"Percent of Capacity, Seasonally Adjusted",percent change
-TEDRATE,Interest Rates,TED Spread,"Percent, Not Seasonally Adjusted",dividir entre 100
-TOTALSA,Retail Sector,Total Vehicle Sales,"Millions of Units, Seasonally Adjusted Annual Rate",percent change
-TOTALSL,Consumer,"Total Consumer Credit Owned and Securitized, Outstanding","Billions of Dollars, Seasonally Adjusted",percent change
-UNRATE,Labor,Civilian Unemployment Rate,"Percent, Seasonally Adjusted",dividir entre 100 y diff
-USSLIND,Other,Leading Index for the United States,"Percent,Seasonally Adjusted",dividir entre 100
-WTISPLC,Commodity,Spot Crude Oil Price: West Texas Intermediate (WTI),"Dollars per Barrel,Not Seasonally Adjusted",percent change
+NEWORDER,Interest Rates,Manufacturers' New Orders: Nondefense Capital Goods Excluding Aircraft,"Millions of Dollars, Seasonally Adjusted",Percen Change One Year Ago
+PALLFNFINDEXQ,Economic Activity,Global Price Index of All Commodities,"Index 2005 = 100,Not Seasonally Adjusted",Percen Change One Year Ago
+PAYEMS,Labor,All Employees: Total Nonfarm Payrolls,"Thousands of Persons, Seasonally Adjusted",Percen Change One Year Ago
+PCEC96,Consumer,Real Personal Consumption Expenditures,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago
+PCEPILFE,Consumer,Personal Consumption Expenditures Excluding Food and Energy (Chain-Type Price Index),"Index 2009=100,Seasonally Adjusted",Percen Change One Year Ago
+PERMIT,Real Estate,New Private Housing Units Authorized by Building Permits,"Thousands of Units,Seasonally Adjusted Annual Rate",Percen Change One Year Ago
+PPIACO,Real Estate,Producer Price Index for All Commodities,"Index 1982=100, Not Seasonally Adjusted",Percen Change One Year Ago
+PRS85006091,Income / Expenditure,Nonfarm: Real Output Per Hour of All Persons (Productivity),"Percent Change From Quarter One Year Ago,Seasonally Adjusted",Divided by 100 and difference One Year Ago
+PRS88003111,Income / Expenditure,Nonfinancial Corporations Sector: Unit Labor Costs,"Percent Change From Quarter One Year Ago, Seasonally Adjusted",Divided by 100 and difference One Year Ago
+PSAVERT,Consumer,Personal Saving Rate,"Percent, Seasonally Adjusted Annual Rate",Divided by 100 and difference One Year Ago
+RRSFS,Retail Sector,Advance Real Retail and Food Services Sales,"Millions of Dollars, Seasonally Adjusted",Percen Change One Year Ago
+RSFSXMV,Retail Sector,Advance Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers,"Millions of Dollars, Seasonally Adjusted",Percen Change One Year Ago
+RSXFS,Retail Sector,Advance Retail Sales: Retail (Excluding Food Services),"Millions of Dollars,Seasonally Adjusted",Percen Change One Year Ago
+SP500_m,Financial Markets,S&P 500,"Index,Not Seasonally Adjusted",Percen Change Three Months Ago
+SPCS20RSA,Real Estate,S&P/Case-Shiller 20-City Composite Home Price Index,"Index Jan 2000=100, Seasonally Adjusted",Percen Change One Year Ago
+STDSAUTO,Credit - Loan Survey,Net Percentage of Domestic Banks Tightening Standards for Auto Loans,"Percent, Not Seasonally Adjusted",Divided by 100 and difference One Year Ago
+TCU,Economic Activity,Capacity Utilization: Total Industry,"Percent of Capacity, Seasonally Adjusted",Percen Change One Year Ago
+TEDRATE,Interest Rates,TED Spread,"Percent, Not Seasonally Adjusted",Divided by 100
+TOTALSA,Retail Sector,Total Vehicle Sales,"Millions of Units, Seasonally Adjusted Annual Rate",Percen Change One Year Ago
+TOTALSL,Consumer,"Total Consumer Credit Owned and Securitized, Outstanding","Billions of Dollars, Seasonally Adjusted",Percen Change One Year Ago
+UNRATE,Labor,Civilian Unemployment Rate,"Percent, Seasonally Adjusted",Divided by 100 and difference One Year Ago
+USSLIND,Other,Leading Index for the United States,"Percent,Seasonally Adjusted",Divided by 100
+WTISPLC,Commodity,Spot Crude Oil Price: West Texas Intermediate (WTI),"Dollars per Barrel,Not Seasonally Adjusted",Percen Change One Year Ago
