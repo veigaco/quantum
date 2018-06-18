@@ -645,3 +645,15 @@
 580,Macro-economic Indicator,industry,Real Estate,HOUST,time_series,Housing starts ,FRED,https://fred.stlouisfed.org/
 581,Macro-economic Indicator,industry,Income / Expenditure,PRS85006091,time_series,Nonfarm: Real Output Per Hour of All Persons (Productivity),FRED,https://fred.stlouisfed.org/
 582,Macro-economic Indicator,industry,Income / Expenditure,PRS88003111,time_series,Nonfinancial Corporations Sector: Unit Labor Costs,FRED,https://fred.stlouisfed.org/
+583,Macro-economic Indicator,industry,Interest Rates,DGS2,time_series,2-Year Treasury Constant Maturity Rate,FRED,https://fred.stlouisfed.org/
+584,Macro-economic Indicator,industry,Interest Rates,DGS3MO,time_series,3-Month Treasury Constant Maturity Rate,FRED,https://fred.stlouisfed.org/
+585,Macro-economic Indicator,industry,Economic Activity,EXPGSC96,time_series,Real Exports of Goods and Services,FRED,https://fred.stlouisfed.org/
+586,Macro-economic Indicator,industry,Interest Rates,FF,time_series,Effective Federal Funds Rate ,FRED,https://fred.stlouisfed.org/
+587,Macro-economic Indicator,industry,Financial Balances,FYFSD,time_series,Federal Surplus or Deficit,FRED,https://fred.stlouisfed.org/
+588,Macro-economic Indicator,industry,Financial Balances,FYGFGDQ188S,time_series,Federal Debt Held by the Public as Percent of Gross Domestic Product,FRED,https://fred.stlouisfed.org/
+589,Macro-economic Indicator,industry,Economic Activity,GCEC96,time_series,Real Government Consumption Expenditures and Gross Investment ,FRED,https://fred.stlouisfed.org/
+590,Macro-economic Indicator,industry,Economic Activity,GPDIC96,time_series,Real Gross Private Domestic Investment,FRED,https://fred.stlouisfed.org/
+591,Macro-economic Indicator,industry,Economic Activity,IMPGSC96,time_series,Real imports of goods and services,FRED,https://fred.stlouisfed.org/
+592,Macro-economic Indicator,industry,External Balances,NETFI,time_series,"Balance on Current Account, NIPA's",FRED,https://fred.stlouisfed.org/
+593,Macro-economic Indicator,industry,Price Indices,PCEPI,time_series,Personal Consumption Expenditures: Chain-type Price Index,FRED,https://fred.stlouisfed.org/
+594,Macro-economic Indicator,industry,Exchange Rate,TWEXM,time_series,Trade Weighted U.S. Dollar Index: Major Currencies,FRED,https://fred.stlouisfed.org/
