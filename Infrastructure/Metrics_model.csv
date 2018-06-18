@@ -26,7 +26,7 @@ EXPGSC96,Economic Activity,Real Exports of Goods and Services,"Billions of Chain
 FF,Interest Rates,Effective Federal Funds Rate ,"Percent, Not Seasonally Adjusted",z score (mean reversion),"Weekly, Ending Wednesday",1
 FYFSD,Financial Balances,Federal Surplus or Deficit,"Millions of Dollars, Not Seasonally Adjusted",As % of Nominal GDP,"Annual,Fiscal Year",1
 FYFSGDA188S,Government Sector,Federal Surplus or Deficit [-] as Percent of Gross Domestic Product,"Percent of GDP, Not Seasonally Adjusted",Divided by 100 and difference One Year Ago,Annual,
-FYGFGDQ188S,Financial Balances,Federal Debt Held by the Public as Percent of Gross Domestic Product,"Percent of GDP, Seasonally Adjusted",As % of Nominal GDP,Quarterly,1
+FYGFGDQ188S,Financial Balances,Federal Debt Held by the Public as Percent of Gross Domestic Product,"Percent of GDP, Seasonally Adjusted",,Quarterly,1
 GCEC96,Economic Activity,Real Government Consumption Expenditures and Gross Investment ,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1
 GDP,Government Sector,Gross Domestic Product,"Billions of Dollars, Seasonally Adjusted Annual Rate",Only for reference,Quarterly,1
 GDPC1,National Accounts,Real Gross Domestic Product,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1
@@ -64,6 +64,6 @@ TEDRATE,Interest Rates,TED Spread,"Percent, Not Seasonally Adjusted",Divided by 
 TOTALSA,Retail Sector,Total Vehicle Sales,"Millions of Units, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,
 TOTALSL,Consumer,"Total Consumer Credit Owned and Securitized, Outstanding","Billions of Dollars, Seasonally Adjusted",Percen Change One Year Ago,"Monthly, EOP",
 TWEXM,Exchange Rate,Trade Weighted U.S. Dollar Index: Major Currencies,"Index Mar 1973=100, Not Seasonally Adjusted",z score (mean reversion),"Weekly, Ending Wednesday",1
-UNRATE,Labor,Civilian Unemployment Rate,"Percent, Seasonally Adjusted",% rate,Monthly,1
+UNRATE,Labor,Civilian Unemployment Rate,"Percent, Seasonally Adjusted",,Monthly,1
 USSLIND,Other,Leading Index for the United States,"Percent,Seasonally Adjusted",Divided by 100,Monthly,
 WTISPLC,Commodity,Spot Crude Oil Price: West Texas Intermediate (WTI),"Dollars per Barrel,Not Seasonally Adjusted",Percen Change One Year Ago,Monthly,
