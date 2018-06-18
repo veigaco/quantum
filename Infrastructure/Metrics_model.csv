@@ -14,7 +14,7 @@ CPILFESL,Prices and Inflation,Consumer Price Index for All Urban Consumers: All 
 CSUSHPINSA,Real Estate,S&P/Case-Shiller U.S. National Home Price Index,"Index Jan 2000=100, Not Seasonally Adjusted",Percen Change One Year Ago,Monthly,
 DCOILWTICO,Commodity,"Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma","Dollars per Barrel, Not Seasonally Adjusted",Percen Change One Year Ago,Daily,
 DGORDER,Economic Activity,New Orders: Durable Goods,"Millions of Dollars, Seasonally Adjusted",Percen Change One Year Ago,Monthly,
-DGS10,Interest Rates,10-Year Treasury Constant Maturity Rate,"Percent, Not Seasonally Adjusted",X/3Yr avg,Daily,1
+DGS10,Interest Rates,10-Year Treasury Constant Maturity Rate,"Percent, Not Seasonally Adjusted",z score (mean reversion),Daily,1
 DGS2,Interest Rates,2-Year Treasury Constant Maturity Rate,"Percent,Not Seasonally Adjusted",z score (mean reversion),Daily,1
 DGS3MO,Interest Rates,3-Month Treasury Constant Maturity Rate,"Percent, Not Seasonally Adjusted",z score (mean reversion),Daily,1
 DRISCFLM,Credit - Loan Survey,Net Percentage of Domestic Banks Increasing Spreads of Loan Rates over Banks' Cost of Funds to Large and Middle-Market Firms,"Percent,Not Seasonally Adjusted",Divided by 100 and difference One Year Ago,"Quarterly, EOP",
