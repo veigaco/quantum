@@ -657,3 +657,4 @@
 592,Macro-economic Indicator,industry,External Balances,NETFI,time_series,"Balance on Current Account, NIPA's",FRED,https://fred.stlouisfed.org/
 593,Macro-economic Indicator,industry,Price Indices,PCEPI,time_series,Personal Consumption Expenditures: Chain-type Price Index,FRED,https://fred.stlouisfed.org/
 594,Macro-economic Indicator,industry,Exchange Rate,TWEXM,time_series,Trade Weighted U.S. Dollar Index: Major Currencies,FRED,https://fred.stlouisfed.org/
+595,Asset Class,industry,Asset Class,WILL5000IND,time_series,Wilshire 5000 Total Market Index,FRED,https://fred.stlouisfed.org/
