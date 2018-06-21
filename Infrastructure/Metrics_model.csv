@@ -67,4 +67,4 @@ TWEXM,Exchange Rate,Trade Weighted U.S. Dollar Index: Major Currencies,"Index Ma
 UNRATE,Labor,Civilian Unemployment Rate,"Percent, Seasonally Adjusted",,Monthly,1,1968-07-01
 USSLIND,Other,Leading Index for the United States,"Percent,Seasonally Adjusted",Divided by 100,Monthly,,
 WTISPLC,Commodity,Spot Crude Oil Price: West Texas Intermediate (WTI),"Dollars per Barrel,Not Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
-WILL5000INDFC,Financial Markets,Wilshire 5000 Total Market Full Cap Index,"Index,Not Seasonally Adjusted",Percen Change One Year Ago,"Daily,Close",1,1971-01-01
+WILL5000IND,Financial Markets,Wilshire 5000 Total Market Full Cap Index,"Index,Not Seasonally Adjusted",Percen Change One Year Ago,"Daily,Close",1,1971-01-01
