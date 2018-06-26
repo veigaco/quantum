@@ -1,7 +1,7 @@
 ﻿Serie,Category,Desc,Units,transformacion,Frequency,flag,date_ini
 A229RX0,Income / Expenditure,Real Disposable Personal Income: Per Capita,"Chained 2009 Dollars,Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,,
 ACOGNO,Economic Activity,Value of Manufacturers' New Orders for Consumer Goods Industries,"Million of Dollars, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
-AHETPI,Income / Expenditure,Average Hourly Earnings of Production and Nonsupervisory Employees: Total Private,"Dollars per Hour, Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,1968-07-01
+AHETPI,Income / Expenditure,Average Hourly Earnings of Production and Nonsupervisory Employees: Total Private,"Dollars per Hour, Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,01/07/68
 ALTSALES,Retail Sector,Light Weight Vehicle Sales: Autos and Light Trucks,"Millions of Units,Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,,
 AMDMUS,Economic Activity,Durable: Inventories to Unfilled Orders,"Ratio, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 AWHNONAG,Labor,Average Weekly Hours of Production and Nonsupervisory Employees: Total private,"Hours,Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
@@ -10,45 +10,45 @@ BSCICP02USM460S,Economic Activity,Business confidence ,"Net Percent, Seasonally 
 CBIC1_GDP,Economic Activity,Change in Real Private Inventories/GDP,Billions of Chained 2009 Dollars/Billions of Dollars,No aplica,Quarterly,,
 CE16OV,Labor,Employment ,"Thousands of Persons,Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 CP,Income / Expenditure,Corporate Profits After Tax (without IVA and CCAdj),"Billions of Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,,
-CPILFESL,Prices and Inflation,Consumer Price Index for All Urban Consumers: All Items Less Food and Energy,"Index 1982-1984=100, Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,1968-07-01
+CPILFESL,Prices and Inflation,Consumer Price Index for All Urban Consumers: All Items Less Food and Energy,"Index 1982-1984=100, Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,01/07/68
 CSUSHPINSA,Real Estate,S&P/Case-Shiller U.S. National Home Price Index,"Index Jan 2000=100, Not Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 DCOILWTICO,Commodity,"Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma","Dollars per Barrel, Not Seasonally Adjusted",Percen Change One Year Ago,Daily,,
 DGORDER,Economic Activity,New Orders: Durable Goods,"Millions of Dollars, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
-DGS10,Interest Rates,10-Year Treasury Constant Maturity Rate,"Percent, Not Seasonally Adjusted",z score (mean reversion),Daily,1,1968-07-01
-DGS2,Interest Rates,2-Year Treasury Constant Maturity Rate,"Percent,Not Seasonally Adjusted",z score (mean reversion),Daily,1,1976-04-01
-DGS3MO,Interest Rates,3-Month Treasury Constant Maturity Rate,"Percent, Not Seasonally Adjusted",z score (mean reversion),Daily,1,1982-01-01
+DGS10,Interest Rates,10-Year Treasury Constant Maturity Rate,"Percent, Not Seasonally Adjusted",z score (mean reversion),Daily,1,01/07/68
+DGS2,Interest Rates,2-Year Treasury Constant Maturity Rate,"Percent,Not Seasonally Adjusted",z score (mean reversion),Daily,1,01/04/76
+DGS3MO,Interest Rates,3-Month Treasury Constant Maturity Rate,"Percent, Not Seasonally Adjusted",z score (mean reversion),Daily,1,01/01/82
 DRISCFLM,Credit - Loan Survey,Net Percentage of Domestic Banks Increasing Spreads of Loan Rates over Banks' Cost of Funds to Large and Middle-Market Firms,"Percent,Not Seasonally Adjusted",Divided by 100 and difference One Year Ago,"Quarterly, EOP",,
 DRTSCILM,Credit - Loan Survey,Net Percentage of Domestic Banks Tightening Standards for Commercial and Industrial Loans to Large and Middle-Market Firms,"Percent, Not Seasonally Adjusted",Divided by 100 and difference One Year Ago,"Quarterly, EOP",,
 DRTSCLCC,Credit - Loan Survey,"Net Percentage of Domestic Banks Tightening Standards on Consumer Loans, Credit Cards","Percent, Not Seasonally Adjusted",Divided by 100 and difference One Year Ago,"Quarterly, EOP",,
 DSPIC96,Income / Expenditure,Real Disposable Personal Income,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,,
 DTB3,Interest Rates,3-Month Treasury Bill: Secondary Market Rate,"Percent, Not Seasonally Adjusted",X/3Yr avg,Daily,,
-EXPGSC96,Economic Activity,Real Exports of Goods and Services,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,1967-07-01
-FF,Interest Rates,Effective Federal Funds Rate ,"Percent, Not Seasonally Adjusted",z score (mean reversion),"Weekly, Ending Wednesday",1,1968-07-01
-FYFSD,Financial Balances,Federal Surplus or Deficit,"Millions of Dollars, Not Seasonally Adjusted",As % of Nominal GDP,"Annual,Fiscal Year",1,1968-06-30
+EXPGSC96,Economic Activity,Real Exports of Goods and Services,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,01/07/67
+FF,Interest Rates,Effective Federal Funds Rate ,"Percent, Not Seasonally Adjusted",z score (mean reversion),"Weekly, Ending Wednesday",1,01/07/68
+FYFSD,Financial Balances,Federal Surplus or Deficit,"Millions of Dollars, Not Seasonally Adjusted",As % of Nominal GDP,"Annual,Fiscal Year",1,30/06/68
 FYFSGDA188S,Government Sector,Federal Surplus or Deficit [-] as Percent of Gross Domestic Product,"Percent of GDP, Not Seasonally Adjusted",Divided by 100 and difference One Year Ago,Annual,,
-FYGFGDQ188S,Financial Balances,Federal Debt Held by the Public as Percent of Gross Domestic Product,"Percent of GDP, Seasonally Adjusted",,Quarterly,1,1970-01-01
-GCEC96,Economic Activity,Real Government Consumption Expenditures and Gross Investment ,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,1967-07-01
-GDP,Government Sector,Gross Domestic Product,"Billions of Dollars, Seasonally Adjusted Annual Rate",,Quarterly,1,1968-04-01
-GDPC1,National Accounts,Real Gross Domestic Product,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,1968-04-01
+FYGFGDQ188S,Financial Balances,Federal Debt Held by the Public as Percent of Gross Domestic Product,"Percent of GDP, Seasonally Adjusted",,Quarterly,1,01/01/70
+GCEC96,Economic Activity,Real Government Consumption Expenditures and Gross Investment ,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,01/07/67
+GDP,Government Sector,Gross Domestic Product,"Billions of Dollars, Seasonally Adjusted Annual Rate",,Quarterly,1,01/04/68
+GDPC1,National Accounts,Real Gross Domestic Product,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,01/04/68
 GOLDPMGBD228NLBM,Commodity,"Gold Fixing Price 3:00 P.M. (London time) in London Bullion Market, based in U.S. Dollars","U.S. Dollars per Troy Ounce, Not Seasonally Adjusted",Percen Change One Year Ago,Daily,,
 GPDI,Income / Expenditure,Investment ,"Billions of Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,,
-GPDIC96,Economic Activity,Real Gross Private Domestic Investment,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,1967-07-01
-HOUST,Real Estate,Housing starts ,"Thousands of Units, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,1,1968-07-01
-HSN1F,Real Estate,New One Family Houses Sold: United States,"Thousands, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,1,1968-07-01
+GPDIC96,Economic Activity,Real Gross Private Domestic Investment,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,01/07/67
+HOUST,Real Estate,Housing starts ,"Thousands of Units, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,1,01/07/68
+HSN1F,Real Estate,New One Family Houses Sold: United States,"Thousands, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,1,01/07/68
 IC4WSA,Labor,4-Week Moving Average of Initial Claims,"Number, Seasonally Adjusted",Percen Change One Year Ago,"Weekly, Ending Saturday",,
 ICSA,Labor,Initial Claims,"Number,Seasonally Adjusted",Percen Change One Year Ago,"Weekly, Ending Saturday",,
-IMPGSC96,Economic Activity,Real imports of goods and services,"Billions of Chained 2009 Dollars,Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,1967-07-01
-INDPRO,Output,Industrial Production Index,"Index 2012=100, Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,1968-07-01
+IMPGSC96,Economic Activity,Real imports of goods and services,"Billions of Chained 2009 Dollars,Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,01/07/67
+INDPRO,Output,Industrial Production Index,"Index 2012=100, Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,01/07/68
 M1,Money Supply,M1 Money Stock,"Billions of Dollars,Seasonally Adjusted",Percen Change One Year Ago,"Quarterly, EOP",,
 MORTGAGE30US,Money Supply,30-Year Fixed Rate Mortgage Average in the United States,"Percent,Not Seasonally Adjusted",X/3Yr avg,"Weekly, Ending Thursday",,
-NETFI,External Balances,"Balance on Current Account, NIPA's","Billions of Dollars,Seasonally Adjusted Annual Rate",As % of Nominal GDP,Quarterly,1,1968-04-01
+NETFI,External Balances,"Balance on Current Account, NIPA's","Billions of Dollars,Seasonally Adjusted Annual Rate",As % of Nominal GDP,Quarterly,1,01/04/68
 NEWORDER,Interest Rates,Manufacturers' New Orders: Nondefense Capital Goods Excluding Aircraft,"Millions of Dollars, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 PALLFNFINDEXQ,Economic Activity,Global Price Index of All Commodities,"Index 2005 = 100,Not Seasonally Adjusted",Percen Change One Year Ago,Quarterly,,
-PAYEMS,Labor,All Employees: Total Nonfarm Payrolls,"Thousands of Persons, Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,1968-07-01
-PCEC96,Consumer,Real Personal Consumption Expenditures,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,1,1968-04-01
-PCEPI,Price Indices,Personal Consumption Expenditures: Chain-type Price Index,"Index 2009=100, Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,1968-07-01
-PCEPILFE,Consumer,Personal Consumption Expenditures Excluding Food and Energy (Chain-Type Price Index),"Index 2009=100,Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,1968-07-01
-PERMIT,Real Estate,New Private Housing Units Authorized by Building Permits,"Thousands of Units,Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,1,1968-07-01
+PAYEMS,Labor,All Employees: Total Nonfarm Payrolls,"Thousands of Persons, Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,01/07/68
+PCEC96,Consumer,Real Personal Consumption Expenditures,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,1,01/04/68
+PCEPI,Price Indices,Personal Consumption Expenditures: Chain-type Price Index,"Index 2009=100, Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,01/07/68
+PCEPILFE,Consumer,Personal Consumption Expenditures Excluding Food and Energy (Chain-Type Price Index),"Index 2009=100,Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,01/07/68
+PERMIT,Real Estate,New Private Housing Units Authorized by Building Permits,"Thousands of Units,Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,1,01/07/68
 PPIACO,Real Estate,Producer Price Index for All Commodities,"Index 1982=100, Not Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 PRS85006091,Income / Expenditure,Nonfarm: Real Output Per Hour of All Persons (Productivity),"Percent Change From Quarter One Year Ago,Seasonally Adjusted",Divided by 100 and difference One Year Ago,Quarterly,,
 PRS88003111,Income / Expenditure,Nonfinancial Corporations Sector: Unit Labor Costs,"Percent Change From Quarter One Year Ago, Seasonally Adjusted",Divided by 100 and difference One Year Ago,Quarterly,,
@@ -56,15 +56,15 @@ PSAVERT,Consumer,Personal Saving Rate,"Percent, Seasonally Adjusted Annual Rate"
 RRSFS,Retail Sector,Advance Real Retail and Food Services Sales,"Millions of Dollars, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 RSFSXMV,Retail Sector,Advance Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers,"Millions of Dollars, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 RSXFS,Retail Sector,Advance Retail Sales: Retail (Excluding Food Services),"Millions of Dollars,Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
-SP500_m,Financial Markets,S&P 500,"Index,Not Seasonally Adjusted",Percen Change Three Months Ago,Monthly,,
+SP500_m,Financial Markets,S&P 500,"Index,Not Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,01/01/68
 SPCS20RSA,Real Estate,S&P/Case-Shiller 20-City Composite Home Price Index,"Index Jan 2000=100, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 STDSAUTO,Credit - Loan Survey,Net Percentage of Domestic Banks Tightening Standards for Auto Loans,"Percent, Not Seasonally Adjusted",Divided by 100 and difference One Year Ago,Quarterly,,
 TCU,Economic Activity,Capacity Utilization: Total Industry,"Percent of Capacity, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 TEDRATE,Interest Rates,TED Spread,"Percent, Not Seasonally Adjusted",Divided by 100,Daily,,
 TOTALSA,Retail Sector,Total Vehicle Sales,"Millions of Units, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Monthly,,
 TOTALSL,Consumer,"Total Consumer Credit Owned and Securitized, Outstanding","Billions of Dollars, Seasonally Adjusted",Percen Change One Year Ago,"Monthly, EOP",,
-TWEXM,Exchange Rate,Trade Weighted U.S. Dollar Index: Major Currencies,"Index Mar 1973=100, Not Seasonally Adjusted",z score (mean reversion),"Weekly, Ending Wednesday",1,1973-01-01
-UNRATE,Labor,Civilian Unemployment Rate,"Percent, Seasonally Adjusted",,Monthly,1,1968-07-01
+TWEXM,Exchange Rate,Trade Weighted U.S. Dollar Index: Major Currencies,"Index Mar 1973=100, Not Seasonally Adjusted",z score (mean reversion),"Weekly, Ending Wednesday",1,01/01/73
+UNRATE,Labor,Civilian Unemployment Rate,"Percent, Seasonally Adjusted",,Monthly,1,01/07/68
 USSLIND,Other,Leading Index for the United States,"Percent,Seasonally Adjusted",Divided by 100,Monthly,,
 WTISPLC,Commodity,Spot Crude Oil Price: West Texas Intermediate (WTI),"Dollars per Barrel,Not Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
-WILL5000IND,Financial Markets,Wilshire 5000 Total Market Full Cap Index,"Index,Not Seasonally Adjusted",Percen Change One Year Ago,"Daily,Close",1,1971-01-01
+WILL5000IND,Financial Markets,Wilshire 5000 Total Market Full Cap Index,"Index,Not Seasonally Adjusted",Percen Change One Year Ago,"Daily,Close",1,01/01/71
