@@ -56,7 +56,7 @@ PSAVERT,Consumer,Personal Saving Rate,"Percent, Seasonally Adjusted Annual Rate"
 RRSFS,Retail Sector,Advance Real Retail and Food Services Sales,"Millions of Dollars, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 RSFSXMV,Retail Sector,Advance Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers,"Millions of Dollars, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 RSXFS,Retail Sector,Advance Retail Sales: Retail (Excluding Food Services),"Millions of Dollars,Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
-SP500_m,Financial Markets,S&P 500,"Index,Not Seasonally Adjusted",Percen Change One Year Ago,Monthly,1,01/01/1968
+SP500_m,Financial Markets,S&P 500,"Index,Not Seasonally Adjusted",Percen Change Three Months Ago,Monthly,1,01/01/1968
 SPCS20RSA,Real Estate,S&P/Case-Shiller 20-City Composite Home Price Index,"Index Jan 2000=100, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
 STDSAUTO,Credit - Loan Survey,Net Percentage of Domestic Banks Tightening Standards for Auto Loans,"Percent, Not Seasonally Adjusted",Divided by 100 and difference One Year Ago,Quarterly,,
 TCU,Economic Activity,Capacity Utilization: Total Industry,"Percent of Capacity, Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
@@ -67,4 +67,4 @@ TWEXM,Exchange Rate,Trade Weighted U.S. Dollar Index: Major Currencies,"Index Ma
 UNRATE,Labor,Civilian Unemployment Rate,"Percent, Seasonally Adjusted",,Monthly,1,01/07/1968
 USSLIND,Other,Leading Index for the United States,"Percent,Seasonally Adjusted",Divided by 100,Monthly,,
 WTISPLC,Commodity,Spot Crude Oil Price: West Texas Intermediate (WTI),"Dollars per Barrel,Not Seasonally Adjusted",Percen Change One Year Ago,Monthly,,
-WILL5000IND,Financial Markets,Wilshire 5000 Total Market Full Cap Index,"Index,Not Seasonally Adjusted",Percen Change One Year Ago,"Daily,Close",1,01/01/1971
+WILL5000IND,Financial Markets,Wilshire 5000 Total Market Full Cap Index,"Index,Not Seasonally Adjusted",Percen Change One Year Ago,"Daily,Close",,01/01/1971
