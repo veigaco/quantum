@@ -28,7 +28,7 @@ FYFSD,Financial Balances,Federal Surplus or Deficit,"Millions of Dollars, Not Se
 FYFSGDA188S,Government Sector,Federal Surplus or Deficit [-] as Percent of Gross Domestic Product,"Percent of GDP, Not Seasonally Adjusted",Divided by 100 and difference One Year Ago,Annual,,
 FYGFGDQ188S,Financial Balances,Federal Debt Held by the Public as Percent of Gross Domestic Product,"Percent of GDP, Seasonally Adjusted",,Quarterly,1,01/01/1970
 GCEC96,Economic Activity,Real Government Consumption Expenditures and Gross Investment ,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,01/07/1967
-GDP,Government Sector,Gross Domestic Product,"Billions of Dollars, Seasonally Adjusted Annual Rate",,Quarterly,1,01/04/1968
+GDP,Government Sector,Gross Domestic Product,"Billions of Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,01/04/1968
 GDPC1,National Accounts,Real Gross Domestic Product,"Billions of Chained 2009 Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,1,01/04/1968
 GOLDPMGBD228NLBM,Commodity,"Gold Fixing Price 3:00 P.M. (London time) in London Bullion Market, based in U.S. Dollars","U.S. Dollars per Troy Ounce, Not Seasonally Adjusted",Percen Change One Year Ago,Daily,,
 GPDI,Income / Expenditure,Investment ,"Billions of Dollars, Seasonally Adjusted Annual Rate",Percen Change One Year Ago,Quarterly,,
