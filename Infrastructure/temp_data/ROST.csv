@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,ROST,2018-07-02,Open,84.230003,376,2
-1,ROST,2018-07-02,High,84.589996,376,2
-2,ROST,2018-07-02,Low,83.040001,376,2
-3,ROST,2018-07-02,Close,84.57,376,2
-4,ROST,2018-07-02,Adj Close,84.57,376,2
-5,ROST,2018-07-02,Volume,1809289.0,376,2

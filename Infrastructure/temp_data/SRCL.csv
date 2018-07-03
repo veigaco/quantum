@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,SRCL,2018-07-02,Open,65.0,385,2
-1,SRCL,2018-07-02,High,65.190002,385,2
-2,SRCL,2018-07-02,Low,64.371002,385,2
-3,SRCL,2018-07-02,Close,65.089996,385,2
-4,SRCL,2018-07-02,Adj Close,65.089996,385,2
-5,SRCL,2018-07-02,Volume,678536.0,385,2

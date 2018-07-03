@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,CNC,2018-07-02,Open,122.809998,468,2
-1,CNC,2018-07-02,High,124.129997,468,2
-2,CNC,2018-07-02,Low,121.010002,468,2
-3,CNC,2018-07-02,Close,124.059998,468,2
-4,CNC,2018-07-02,Adj Close,124.059998,468,2
-5,CNC,2018-07-02,Volume,1043810.0,468,2

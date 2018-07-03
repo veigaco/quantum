@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,ZBH,2018-07-02,Open,110.489998,539,2
-1,ZBH,2018-07-02,High,111.91999799999999,539,2
-2,ZBH,2018-07-02,Low,109.980003,539,2
-3,ZBH,2018-07-02,Close,111.82,539,2
-4,ZBH,2018-07-02,Adj Close,111.82,539,2
-5,ZBH,2018-07-02,Volume,769924.0,539,2

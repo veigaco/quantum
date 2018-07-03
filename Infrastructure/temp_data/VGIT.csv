@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,VGIT,2018-07-02,Open,62.57,61,2
-1,VGIT,2018-07-02,High,62.584,61,2
-2,VGIT,2018-07-02,Low,62.470001,61,2
-3,VGIT,2018-07-02,Close,62.48,61,2
-4,VGIT,2018-07-02,Adj Close,62.48,61,2
-5,VGIT,2018-07-02,Volume,324602.0,61,2

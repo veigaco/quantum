@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,AON,2018-07-02,Open,136.639999,94,2
-1,AON,2018-07-02,High,137.634995,94,2
-2,AON,2018-07-02,Low,136.559998,94,2
-3,AON,2018-07-02,Close,137.25,94,2
-4,AON,2018-07-02,Adj Close,137.25,94,2
-5,AON,2018-07-02,Volume,777625.0,94,2

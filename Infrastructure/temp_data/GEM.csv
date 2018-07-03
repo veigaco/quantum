@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,GEM,2018-07-02,Open,32.669998,39,2
-1,GEM,2018-07-02,High,32.827599,39,2
-2,GEM,2018-07-02,Low,32.584801,39,2
-3,GEM,2018-07-02,Close,32.82,39,2
-4,GEM,2018-07-02,Adj Close,32.82,39,2
-5,GEM,2018-07-02,Volume,203683.0,39,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,FLIR,2018-07-02,Open,51.720001,208,2
-1,FLIR,2018-07-02,High,52.48,208,2
-2,FLIR,2018-07-02,Low,51.32,208,2
-3,FLIR,2018-07-02,Close,52.419998,208,2
-4,FLIR,2018-07-02,Adj Close,52.419998,208,2
-5,FLIR,2018-07-02,Volume,388168.0,208,2

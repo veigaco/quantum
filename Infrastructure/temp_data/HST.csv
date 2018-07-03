@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,HST,2018-07-02,Open,21.030001000000002,235,2
-1,HST,2018-07-02,High,21.08,235,2
-2,HST,2018-07-02,Low,20.709999,235,2
-3,HST,2018-07-02,Close,20.84,235,2
-4,HST,2018-07-02,Adj Close,20.84,235,2
-5,HST,2018-07-02,Volume,5866392.0,235,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,DVN,2018-07-02,Open,43.41,169,2
-1,DVN,2018-07-02,High,43.849998,169,2
-2,DVN,2018-07-02,Low,42.959998999999996,169,2
-3,DVN,2018-07-02,Close,43.529999,169,2
-4,DVN,2018-07-02,Adj Close,43.529999,169,2
-5,DVN,2018-07-02,Volume,4360380.0,169,2

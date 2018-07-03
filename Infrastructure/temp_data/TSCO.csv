@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,TSCO,2018-07-02,Open,75.849998,451,2
-1,TSCO,2018-07-02,High,76.029999,451,2
-2,TSCO,2018-07-02,Low,74.93,451,2
-3,TSCO,2018-07-02,Close,75.739998,451,2
-4,TSCO,2018-07-02,Adj Close,75.739998,451,2
-5,TSCO,2018-07-02,Volume,1089312.0,451,2

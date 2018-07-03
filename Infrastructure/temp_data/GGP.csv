@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,GGP,2018-07-02,Open,20.459999,210,2
-1,GGP,2018-07-02,High,20.48,210,2
-2,GGP,2018-07-02,Low,20.18,210,2
-3,GGP,2018-07-02,Close,20.389999,210,2
-4,GGP,2018-07-02,Adj Close,20.389999,210,2
-5,GGP,2018-07-02,Volume,6332649.0,210,2

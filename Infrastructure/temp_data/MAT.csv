@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,MAT,2018-07-02,Open,16.35,293,2
-1,MAT,2018-07-02,High,16.540001,293,2
-2,MAT,2018-07-02,Low,16.09,293,2
-3,MAT,2018-07-02,Close,16.540001,293,2
-4,MAT,2018-07-02,Adj Close,16.540001,293,2
-5,MAT,2018-07-02,Volume,2383950.0,293,2

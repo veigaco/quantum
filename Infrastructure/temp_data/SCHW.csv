@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,SCHW,2018-07-02,Open,50.560001,381,2
-1,SCHW,2018-07-02,High,51.325001,381,2
-2,SCHW,2018-07-02,Low,50.32,381,2
-3,SCHW,2018-07-02,Close,51.299999,381,2
-4,SCHW,2018-07-02,Adj Close,51.299999,381,2
-5,SCHW,2018-07-02,Volume,6474768.0,381,2

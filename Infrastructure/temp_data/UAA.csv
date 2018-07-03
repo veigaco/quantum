@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,UAA,2018-07-02,Open,22.290001,551,2
-1,UAA,2018-07-02,High,22.799999,551,2
-2,UAA,2018-07-02,Low,21.969998999999998,551,2
-3,UAA,2018-07-02,Close,22.52,551,2
-4,UAA,2018-07-02,Adj Close,22.52,551,2
-5,UAA,2018-07-02,Volume,4331067.0,551,2

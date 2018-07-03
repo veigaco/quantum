@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,WHR,2018-07-02,Open,144.75,432,2
-1,WHR,2018-07-02,High,147.169998,432,2
-2,WHR,2018-07-02,Low,143.794998,432,2
-3,WHR,2018-07-02,Close,146.940002,432,2
-4,WHR,2018-07-02,Adj Close,146.940002,432,2
-5,WHR,2018-07-02,Volume,703417.0,432,2

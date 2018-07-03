@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,IEI,2018-07-02,Open,119.849998,47,2
-1,IEI,2018-07-02,High,119.860001,47,2
-2,IEI,2018-07-02,Low,119.699997,47,2
-3,IEI,2018-07-02,Close,119.699997,47,2
-4,IEI,2018-07-02,Adj Close,119.699997,47,2
-5,IEI,2018-07-02,Volume,837041.0,47,2

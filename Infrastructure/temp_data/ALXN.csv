@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,ALXN,2018-07-02,Open,124.16999799999999,81,2
-1,ALXN,2018-07-02,High,125.220001,81,2
-2,ALXN,2018-07-02,Low,122.0,81,2
-3,ALXN,2018-07-02,Close,125.0,81,2
-4,ALXN,2018-07-02,Adj Close,125.0,81,2
-5,ALXN,2018-07-02,Volume,795862.0,81,2

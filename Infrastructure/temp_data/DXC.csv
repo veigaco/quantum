@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,DXC,2018-07-02,Open,79.665001,552,2
-1,DXC,2018-07-02,High,82.059998,552,2
-2,DXC,2018-07-02,Low,79.665001,552,2
-3,DXC,2018-07-02,Close,82.0,552,2
-4,DXC,2018-07-02,Adj Close,82.0,552,2
-5,DXC,2018-07-02,Volume,2432198.0,552,2

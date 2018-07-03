@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,APA,2018-07-02,Open,46.119999,98,2
-1,APA,2018-07-02,High,46.43,98,2
-2,APA,2018-07-02,Low,44.369999,98,2
-3,APA,2018-07-02,Close,44.68,98,2
-4,APA,2018-07-02,Adj Close,44.68,98,2
-5,APA,2018-07-02,Volume,4250770.0,98,2

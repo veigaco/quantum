@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,HUM,2018-07-02,Open,296.890015,237,2
-1,HUM,2018-07-02,High,299.630005,237,2
-2,HUM,2018-07-02,Low,293.579987,237,2
-3,HUM,2018-07-02,Close,298.799988,237,2
-4,HUM,2018-07-02,Adj Close,298.799988,237,2
-5,HUM,2018-07-02,Volume,366365.0,237,2

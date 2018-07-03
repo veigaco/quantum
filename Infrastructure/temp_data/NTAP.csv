@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,NTAP,2018-07-02,Open,77.940002,330,2
-1,NTAP,2018-07-02,High,79.57,330,2
-2,NTAP,2018-07-02,Low,77.58000200000001,330,2
-3,NTAP,2018-07-02,Close,79.18,330,2
-4,NTAP,2018-07-02,Adj Close,79.18,330,2
-5,NTAP,2018-07-02,Volume,1968851.0,330,2

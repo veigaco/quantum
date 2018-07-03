@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,ATVI,2018-07-02,Open,75.360001,452,2
-1,ATVI,2018-07-02,High,77.32,452,2
-2,ATVI,2018-07-02,Low,75.0,452,2
-3,ATVI,2018-07-02,Close,77.279999,452,2
-4,ATVI,2018-07-02,Adj Close,77.279999,452,2
-5,ATVI,2018-07-02,Volume,2696567.0,452,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,IBM,2018-07-02,Open,138.279999,245,2
-1,IBM,2018-07-02,High,140.220001,245,2
-2,IBM,2018-07-02,Low,138.199997,245,2
-3,IBM,2018-07-02,Close,139.860001,245,2
-4,IBM,2018-07-02,Adj Close,139.860001,245,2
-5,IBM,2018-07-02,Volume,3405642.0,245,2

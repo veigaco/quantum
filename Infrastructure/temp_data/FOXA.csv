@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,FOXA,2018-07-02,Open,49.560001,204,2
-1,FOXA,2018-07-02,High,49.880001,204,2
-2,FOXA,2018-07-02,Low,48.93,204,2
-3,FOXA,2018-07-02,Close,49.200001,204,2
-4,FOXA,2018-07-02,Adj Close,49.200001,204,2
-5,FOXA,2018-07-02,Volume,10515980.0,204,2

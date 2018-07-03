@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,USB,2018-07-02,Open,49.619999,420,2
-1,USB,2018-07-02,High,50.439999,420,2
-2,USB,2018-07-02,Low,49.59,420,2
-3,USB,2018-07-02,Close,50.41,420,2
-4,USB,2018-07-02,Adj Close,50.41,420,2
-5,USB,2018-07-02,Volume,5063765.0,420,2

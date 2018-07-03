@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,HYG,2018-07-02,Open,84.639999,55,2
-1,HYG,2018-07-02,High,84.800003,55,2
-2,HYG,2018-07-02,Low,84.599998,55,2
-3,HYG,2018-07-02,Close,84.779999,55,2
-4,HYG,2018-07-02,Adj Close,84.779999,55,2
-5,HYG,2018-07-02,Volume,22438584.0,55,2

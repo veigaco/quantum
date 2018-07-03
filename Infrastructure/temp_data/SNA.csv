@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,SNA,2018-07-02,Open,159.699997,382,2
-1,SNA,2018-07-02,High,161.300003,382,2
-2,SNA,2018-07-02,Low,157.5,382,2
-3,SNA,2018-07-02,Close,160.350006,382,2
-4,SNA,2018-07-02,Adj Close,160.350006,382,2
-5,SNA,2018-07-02,Volume,558127.0,382,2

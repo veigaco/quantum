@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,WDC,2018-07-02,Open,76.5,426,2
-1,WDC,2018-07-02,High,78.150002,426,2
-2,WDC,2018-07-02,Low,76.059998,426,2
-3,WDC,2018-07-02,Close,78.040001,426,2
-4,WDC,2018-07-02,Adj Close,78.040001,426,2
-5,WDC,2018-07-02,Volume,2132324.0,426,2

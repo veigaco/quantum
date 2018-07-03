@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,FLS,2018-07-02,Open,40.009997999999996,201,2
-1,FLS,2018-07-02,High,40.380001,201,2
-2,FLS,2018-07-02,Low,39.48,201,2
-3,FLS,2018-07-02,Close,40.099998,201,2
-4,FLS,2018-07-02,Adj Close,40.099998,201,2
-5,FLS,2018-07-02,Volume,950092.0,201,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,APTV,2018-07-02,Open,91.010002,561,2
-1,APTV,2018-07-02,High,92.190002,561,2
-2,APTV,2018-07-02,Low,89.5,561,2
-3,APTV,2018-07-02,Close,92.150002,561,2
-4,APTV,2018-07-02,Adj Close,92.150002,561,2
-5,APTV,2018-07-02,Volume,1682529.0,561,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,ETN,2018-07-02,Open,74.190002,187,2
-1,ETN,2018-07-02,High,75.08899699999999,187,2
-2,ETN,2018-07-02,Low,74.105003,187,2
-3,ETN,2018-07-02,Close,74.93,187,2
-4,ETN,2018-07-02,Adj Close,74.93,187,2
-5,ETN,2018-07-02,Volume,2660116.0,187,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,AXP,2018-07-02,Open,97.400002,100,2
-1,AXP,2018-07-02,High,99.040001,100,2
-2,AXP,2018-07-02,Low,97.160004,100,2
-3,AXP,2018-07-02,Close,99.0,100,2
-4,AXP,2018-07-02,Adj Close,99.0,100,2
-5,AXP,2018-07-02,Volume,3148710.0,100,2

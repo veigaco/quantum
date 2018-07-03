@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,FOX,2018-07-02,Open,49.029999,510,2
-1,FOX,2018-07-02,High,49.325001,510,2
-2,FOX,2018-07-02,Low,48.400002,510,2
-3,FOX,2018-07-02,Close,48.669998,510,2
-4,FOX,2018-07-02,Adj Close,48.669998,510,2
-5,FOX,2018-07-02,Volume,5373731.0,510,2

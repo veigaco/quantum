@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,BXP,2018-07-02,Open,125.260002,116,2
-1,BXP,2018-07-02,High,125.550003,116,2
-2,BXP,2018-07-02,Low,123.260002,116,2
-3,BXP,2018-07-02,Close,124.690002,116,2
-4,BXP,2018-07-02,Adj Close,124.690002,116,2
-5,BXP,2018-07-02,Volume,688905.0,116,2

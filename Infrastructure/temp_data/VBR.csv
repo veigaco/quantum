@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,VBR,2018-07-02,Open,135.050003,34,2
-1,VBR,2018-07-02,High,136.119995,34,2
-2,VBR,2018-07-02,Low,134.634003,34,2
-3,VBR,2018-07-02,Close,136.119995,34,2
-4,VBR,2018-07-02,Adj Close,136.119995,34,2
-5,VBR,2018-07-02,Volume,622707.0,34,2

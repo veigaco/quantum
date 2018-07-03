@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,BWA,2018-07-02,Open,42.599998,114,2
-1,BWA,2018-07-02,High,43.77,114,2
-2,BWA,2018-07-02,Low,42.060001,114,2
-3,BWA,2018-07-02,Close,43.75,114,2
-4,BWA,2018-07-02,Adj Close,43.75,114,2
-5,BWA,2018-07-02,Volume,2270580.0,114,2

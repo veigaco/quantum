@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,UDR,2018-07-02,Open,37.540001000000004,528,2
-1,UDR,2018-07-02,High,37.639998999999996,528,2
-2,UDR,2018-07-02,Low,36.82,528,2
-3,UDR,2018-07-02,Close,37.23,528,2
-4,UDR,2018-07-02,Adj Close,37.23,528,2
-5,UDR,2018-07-02,Volume,1277956.0,528,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,CERN,2018-07-02,Open,59.59,125,2
-1,CERN,2018-07-02,High,61.195,125,2
-2,CERN,2018-07-02,Low,59.490002000000004,125,2
-3,CERN,2018-07-02,Close,61.16,125,2
-4,CERN,2018-07-02,Adj Close,61.16,125,2
-5,CERN,2018-07-02,Volume,1943826.0,125,2

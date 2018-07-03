@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,HOLX,2018-07-02,Open,39.48,484,2
-1,HOLX,2018-07-02,High,39.68,484,2
-2,HOLX,2018-07-02,Low,38.830002,484,2
-3,HOLX,2018-07-02,Close,39.630001,484,2
-4,HOLX,2018-07-02,Adj Close,39.630001,484,2
-5,HOLX,2018-07-02,Volume,1165646.0,484,2

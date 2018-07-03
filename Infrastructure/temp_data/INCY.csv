@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,INCY,2018-07-02,Open,66.82,489,2
-1,INCY,2018-07-02,High,69.050003,489,2
-2,INCY,2018-07-02,Low,66.279999,489,2
-3,INCY,2018-07-02,Close,68.620003,489,2
-4,INCY,2018-07-02,Adj Close,68.620003,489,2
-5,INCY,2018-07-02,Volume,1337404.0,489,2

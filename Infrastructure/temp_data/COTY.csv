@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,COTY,2018-07-02,Open,14.05,474,2
-1,COTY,2018-07-02,High,14.05,474,2
-2,COTY,2018-07-02,Low,13.53,474,2
-3,COTY,2018-07-02,Close,13.87,474,2
-4,COTY,2018-07-02,Adj Close,13.87,474,2
-5,COTY,2018-07-02,Volume,4601346.0,474,2

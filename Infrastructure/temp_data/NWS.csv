@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,NWS,2018-07-02,Open,15.7,497,2
-1,NWS,2018-07-02,High,15.8,497,2
-2,NWS,2018-07-02,Low,15.4,497,2
-3,NWS,2018-07-02,Close,15.45,497,2
-4,NWS,2018-07-02,Adj Close,15.45,497,2
-5,NWS,2018-07-02,Volume,435734.0,497,2

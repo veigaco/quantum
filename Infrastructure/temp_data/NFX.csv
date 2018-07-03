@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,NFX,2018-07-02,Open,29.82,323,2
-1,NFX,2018-07-02,High,29.98,323,2
-2,NFX,2018-07-02,Low,29.334999,323,2
-3,NFX,2018-07-02,Close,29.68,323,2
-4,NFX,2018-07-02,Adj Close,29.68,323,2
-5,NFX,2018-07-02,Volume,2276298.0,323,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,PAYX,2018-07-02,Open,67.800003,334,2
-1,PAYX,2018-07-02,High,68.644997,334,2
-2,PAYX,2018-07-02,Low,67.239998,334,2
-3,PAYX,2018-07-02,Close,68.040001,334,2
-4,PAYX,2018-07-02,Adj Close,68.040001,334,2
-5,PAYX,2018-07-02,Volume,2806141.0,334,2

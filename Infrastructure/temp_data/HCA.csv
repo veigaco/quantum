@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,HCA,2018-07-02,Open,102.290001,482,2
-1,HCA,2018-07-02,High,103.239998,482,2
-2,HCA,2018-07-02,Low,101.300003,482,2
-3,HCA,2018-07-02,Close,103.190002,482,2
-4,HCA,2018-07-02,Adj Close,103.190002,482,2
-5,HCA,2018-07-02,Volume,1403054.0,482,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,GIS,2018-07-02,Open,44.02,216,2
-1,GIS,2018-07-02,High,44.16,216,2
-2,GIS,2018-07-02,Low,43.360001000000004,216,2
-3,GIS,2018-07-02,Close,43.439999,216,2
-4,GIS,2018-07-02,Adj Close,43.439999,216,2
-5,GIS,2018-07-02,Volume,7075614.0,216,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,LEMB,2018-07-02,Open,44.02,38,2
-1,LEMB,2018-07-02,High,44.119999,38,2
-2,LEMB,2018-07-02,Low,43.939999,38,2
-3,LEMB,2018-07-02,Close,44.119999,38,2
-4,LEMB,2018-07-02,Adj Close,44.119999,38,2
-5,LEMB,2018-07-02,Volume,54042.0,38,2

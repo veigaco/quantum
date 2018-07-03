@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,RJF,2018-07-02,Open,88.529999,500,2
-1,RJF,2018-07-02,High,90.33000200000001,500,2
-2,RJF,2018-07-02,Low,88.43,500,2
-3,RJF,2018-07-02,Close,90.300003,500,2
-4,RJF,2018-07-02,Adj Close,90.300003,500,2
-5,RJF,2018-07-02,Volume,660438.0,500,2

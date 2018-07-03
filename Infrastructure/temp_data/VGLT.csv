@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,VGLT,2018-07-02,Open,74.82,60,2
-1,VGLT,2018-07-02,High,74.839996,60,2
-2,VGLT,2018-07-02,Low,74.54499799999999,60,2
-3,VGLT,2018-07-02,Close,74.589996,60,2
-4,VGLT,2018-07-02,Adj Close,74.589996,60,2
-5,VGLT,2018-07-02,Volume,78937.0,60,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,BIL,2018-07-02,Open,91.449997,53,2
-1,BIL,2018-07-02,High,91.459999,53,2
-2,BIL,2018-07-02,Low,91.440002,53,2
-3,BIL,2018-07-02,Close,91.440002,53,2
-4,BIL,2018-07-02,Adj Close,91.440002,53,2
-5,BIL,2018-07-02,Volume,1826915.0,53,2

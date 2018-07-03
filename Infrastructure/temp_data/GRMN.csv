@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,GRMN,2018-07-02,Open,60.75,217,2
-1,GRMN,2018-07-02,High,61.09,217,2
-2,GRMN,2018-07-02,Low,60.200001,217,2
-3,GRMN,2018-07-02,Close,60.919998,217,2
-4,GRMN,2018-07-02,Adj Close,60.919998,217,2
-5,GRMN,2018-07-02,Volume,628543.0,217,2

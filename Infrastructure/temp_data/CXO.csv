@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,CXO,2018-07-02,Open,136.929993,472,2
-1,CXO,2018-07-02,High,137.799896,472,2
-2,CXO,2018-07-02,Low,133.399994,472,2
-3,CXO,2018-07-02,Close,135.389999,472,2
-4,CXO,2018-07-02,Adj Close,135.389999,472,2
-5,CXO,2018-07-02,Volume,1410928.0,472,2

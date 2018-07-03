@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,XRAY,2018-07-02,Open,43.66,443,2
-1,XRAY,2018-07-02,High,44.07,443,2
-2,XRAY,2018-07-02,Low,42.912102000000004,443,2
-3,XRAY,2018-07-02,Close,43.98,443,2
-4,XRAY,2018-07-02,Adj Close,43.98,443,2
-5,XRAY,2018-07-02,Volume,1677142.0,443,2

@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,LQD,2018-07-02,Open,114.410004,31,2
-1,LQD,2018-07-02,High,114.410004,31,2
-2,LQD,2018-07-02,Low,114.160004,31,2
-3,LQD,2018-07-02,Close,114.239998,31,2
-4,LQD,2018-07-02,Adj Close,114.239998,31,2
-5,LQD,2018-07-02,Volume,4806225.0,31,2

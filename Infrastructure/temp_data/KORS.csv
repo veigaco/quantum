@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,KORS,2018-07-02,Open,66.360001,269,2
-1,KORS,2018-07-02,High,66.599998,269,2
-2,KORS,2018-07-02,Low,65.379997,269,2
-3,KORS,2018-07-02,Close,66.489998,269,2
-4,KORS,2018-07-02,Adj Close,66.489998,269,2
-5,KORS,2018-07-02,Volume,2015863.0,269,2

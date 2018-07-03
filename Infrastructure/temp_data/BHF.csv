@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,BHF,2018-07-02,Open,40.049999,557,2
-1,BHF,2018-07-02,High,40.825001,557,2
-2,BHF,2018-07-02,Low,39.25,557,2
-3,BHF,2018-07-02,Close,40.779999,557,2
-4,BHF,2018-07-02,Adj Close,40.779999,557,2
-5,BHF,2018-07-02,Volume,1793723.0,557,2

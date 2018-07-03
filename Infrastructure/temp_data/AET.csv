@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,AET,2018-07-02,Open,183.470001,74,2
-1,AET,2018-07-02,High,185.679993,74,2
-2,AET,2018-07-02,Low,183.470001,74,2
-3,AET,2018-07-02,Close,185.679993,74,2
-4,AET,2018-07-02,Adj Close,185.679993,74,2
-5,AET,2018-07-02,Volume,1693459.0,74,2

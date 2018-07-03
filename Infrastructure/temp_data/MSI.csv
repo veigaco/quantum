@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,MSI,2018-07-02,Open,115.870003,305,2
-1,MSI,2018-07-02,High,116.550003,305,2
-2,MSI,2018-07-02,Low,114.949997,305,2
-3,MSI,2018-07-02,Close,116.510002,305,2
-4,MSI,2018-07-02,Adj Close,116.510002,305,2
-5,MSI,2018-07-02,Volume,871839.0,305,2

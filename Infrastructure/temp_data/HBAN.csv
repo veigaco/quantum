@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,HBAN,2018-07-02,Open,14.85,228,2
-1,HBAN,2018-07-02,High,14.875,228,2
-2,HBAN,2018-07-02,Low,14.69,228,2
-3,HBAN,2018-07-02,Close,14.83,228,2
-4,HBAN,2018-07-02,Adj Close,14.83,228,2
-5,HBAN,2018-07-02,Volume,9620271.0,228,2

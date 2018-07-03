@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,CSJ,2018-07-02,Open,103.57,52,2
-1,CSJ,2018-07-02,High,103.619904,52,2
-2,CSJ,2018-07-02,Low,103.470001,52,2
-3,CSJ,2018-07-02,Close,103.5,52,2
-4,CSJ,2018-07-02,Adj Close,103.5,52,2
-5,CSJ,2018-07-02,Volume,877350.0,52,2

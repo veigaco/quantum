@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,PKG,2018-07-02,Open,111.07,499,2
-1,PKG,2018-07-02,High,112.41999799999999,499,2
-2,PKG,2018-07-02,Low,110.25,499,2
-3,PKG,2018-07-02,Close,112.370003,499,2
-4,PKG,2018-07-02,Adj Close,112.370003,499,2
-5,PKG,2018-07-02,Volume,653835.0,499,2

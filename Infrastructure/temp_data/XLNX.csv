@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,XLNX,2018-07-02,Open,64.769997,440,2
-1,XLNX,2018-07-02,High,65.699997,440,2
-2,XLNX,2018-07-02,Low,64.300003,440,2
-3,XLNX,2018-07-02,Close,65.639999,440,2
-4,XLNX,2018-07-02,Adj Close,65.639999,440,2
-5,XLNX,2018-07-02,Volume,1342144.0,440,2

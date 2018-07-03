@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,SNPS,2018-07-02,Open,85.129997,507,2
-1,SNPS,2018-07-02,High,86.459999,507,2
-2,SNPS,2018-07-02,Low,84.75,507,2
-3,SNPS,2018-07-02,Close,86.400002,507,2
-4,SNPS,2018-07-02,Adj Close,86.400002,507,2
-5,SNPS,2018-07-02,Volume,731605.0,507,2

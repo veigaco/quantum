@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,VNQ,2018-07-02,Open,81.519997,54,2
-1,VNQ,2018-07-02,High,81.540001,54,2
-2,VNQ,2018-07-02,Low,80.08000200000001,54,2
-3,VNQ,2018-07-02,Close,80.940002,54,2
-4,VNQ,2018-07-02,Adj Close,80.940002,54,2
-5,VNQ,2018-07-02,Volume,7412051.0,54,2

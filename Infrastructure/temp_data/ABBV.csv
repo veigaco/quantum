@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,ABBV,2018-07-02,Open,92.059998,65,2
-1,ABBV,2018-07-02,High,93.300003,65,2
-2,ABBV,2018-07-02,Low,91.849998,65,2
-3,ABBV,2018-07-02,Close,93.110001,65,2
-4,ABBV,2018-07-02,Adj Close,93.110001,65,2
-5,ABBV,2018-07-02,Volume,3854576.0,65,2

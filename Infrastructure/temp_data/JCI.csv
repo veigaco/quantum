@@ -1,7 +1,0 @@
-,ticker,date_,category,value,instrument_id,data_vendor_id
-0,JCI,2018-07-02,Open,33.150002,250,2
-1,JCI,2018-07-02,High,33.349998,250,2
-2,JCI,2018-07-02,Low,32.93,250,2
-3,JCI,2018-07-02,Close,33.32,250,2
-4,JCI,2018-07-02,Adj Close,33.32,250,2
-5,JCI,2018-07-02,Volume,3427133.0,250,2
