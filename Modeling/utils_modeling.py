@@ -102,7 +102,7 @@ def get_ts_qs_transf(df2,transfor):#macro,
     '''Compute monthly time series with transformation from name macro'''
     #df1=get_price_ts(macro)
     #df2=get_ts_qs(df1)
-    macro=asset_class.columns.tolist()[0]
+    macro=df2.columns.tolist()[0]
     if transfor=="Percen Change One Year Ago":
         df3=pct_change_annual(df2) 
     elif transfor=="Percen Change Three Months Ago":
