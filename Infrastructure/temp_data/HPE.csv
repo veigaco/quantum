@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,HPE,2018-07-02,Open,14.5,543,2
+1,HPE,2018-07-02,High,14.84,543,2
+2,HPE,2018-07-02,Low,14.46,543,2
+3,HPE,2018-07-02,Close,14.8,543,2
+4,HPE,2018-07-02,Adj Close,14.8,543,2
+5,HPE,2018-07-02,Volume,7088704.0,543,2

@@ -1,0 +1,121 @@
+,instrument_id,equity_fundamental_id,data_vendor_id,refreshed_at,Period,Metric,Value
+0,109,8,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),No. of Analysts,21.0
+1,109,8,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Avg. Estimate,0.82
+2,109,8,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Low Estimate,0.8
+3,109,8,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),High Estimate,0.86
+4,109,8,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Year Ago EPS,0.69
+5,109,8,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),No. of Analysts,21.0
+6,109,8,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Avg. Estimate,0.92
+7,109,8,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Low Estimate,0.86
+8,109,8,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),High Estimate,1.02
+9,109,8,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Year Ago EPS,0.78
+10,109,8,2,2018-07-03 00:19:18,Current Year (2019),No. of Analysts,23.0
+11,109,8,2,2018-07-03 00:19:18,Current Year (2019),Avg. Estimate,5.01
+12,109,8,2,2018-07-03 00:19:18,Current Year (2019),Low Estimate,4.9
+13,109,8,2,2018-07-03 00:19:18,Current Year (2019),High Estimate,5.14
+14,109,8,2,2018-07-03 00:19:18,Current Year (2019),Year Ago EPS,4.42
+15,109,8,2,2018-07-03 00:19:18,Next Year (2020),No. of Analysts,23.0
+16,109,8,2,2018-07-03 00:19:18,Next Year (2020),Avg. Estimate,5.39
+17,109,8,2,2018-07-03 00:19:18,Next Year (2020),Low Estimate,5.19
+18,109,8,2,2018-07-03 00:19:18,Next Year (2020),High Estimate,5.77
+19,109,8,2,2018-07-03 00:19:18,Next Year (2020),Year Ago EPS,5.01
+0,109,9,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),No. of Analysts,19
+1,109,9,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Avg. Estimate,9.22B
+2,109,9,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Low Estimate,9.12B
+3,109,9,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),High Estimate,9.34B
+4,109,9,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Year Ago Sales,8.94B
+5,109,9,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Sales Growth (year/est),3.20%
+6,109,9,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),No. of Analysts,18
+7,109,9,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Avg. Estimate,9.47B
+8,109,9,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Low Estimate,9.15B
+9,109,9,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),High Estimate,9.61B
+10,109,9,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Year Ago Sales,9.32B
+11,109,9,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Sales Growth (year/est),1.60%
+12,109,9,2,2018-07-03 00:19:18,Current Year (2019),No. of Analysts,23
+13,109,9,2,2018-07-03 00:19:18,Current Year (2019),Avg. Estimate,42.25B
+14,109,9,2,2018-07-03 00:19:18,Current Year (2019),Low Estimate,41.5B
+15,109,9,2,2018-07-03 00:19:18,Current Year (2019),High Estimate,42.78B
+16,109,9,2,2018-07-03 00:19:18,Current Year (2019),Year Ago Sales,42.15B
+17,109,9,2,2018-07-03 00:19:18,Current Year (2019),Sales Growth (year/est),0.20%
+18,109,9,2,2018-07-03 00:19:18,Next Year (2020),No. of Analysts,23
+19,109,9,2,2018-07-03 00:19:18,Next Year (2020),Avg. Estimate,42.81B
+20,109,9,2,2018-07-03 00:19:18,Next Year (2020),Low Estimate,41.53B
+21,109,9,2,2018-07-03 00:19:18,Next Year (2020),High Estimate,44.92B
+22,109,9,2,2018-07-03 00:19:18,Next Year (2020),Year Ago Sales,42.25B
+23,109,9,2,2018-07-03 00:19:18,Next Year (2020),Sales Growth (year/est),1.30%
+0,109,10,2,2018-07-03 00:19:18,7/30/2017,EPS Est.,0.63
+1,109,10,2,2018-07-03 00:19:18,7/30/2017,EPS Actual,0.69
+2,109,10,2,2018-07-03 00:19:18,7/30/2017,Difference,0.06
+3,109,10,2,2018-07-03 00:19:18,7/30/2017,Surprise %,9.50%
+4,109,10,2,2018-07-03 00:19:18,10/30/2017,EPS Est.,0.78
+5,109,10,2,2018-07-03 00:19:18,10/30/2017,EPS Actual,0.78
+6,109,10,2,2018-07-03 00:19:18,10/30/2017,Difference,0
+7,109,10,2,2018-07-03 00:19:18,10/30/2017,Surprise %,0.00%
+8,109,10,2,2018-07-03 00:19:18,1/30/2018,EPS Est.,2.04
+9,109,10,2,2018-07-03 00:19:18,1/30/2018,EPS Actual,2.42
+10,109,10,2,2018-07-03 00:19:18,1/30/2018,Difference,0.38
+11,109,10,2,2018-07-03 00:19:18,1/30/2018,Surprise %,18.60%
+12,109,10,2,2018-07-03 00:19:18,4/29/2018,EPS Est.,0.74
+13,109,10,2,2018-07-03 00:19:18,4/29/2018,EPS Actual,0.82
+14,109,10,2,2018-07-03 00:19:18,4/29/2018,Difference,0.08
+15,109,10,2,2018-07-03 00:19:18,4/29/2018,Surprise %,10.80%
+0,109,11,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Current Estimate,0.82
+1,109,11,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),7 Days Ago,0.82
+2,109,11,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),30 Days Ago,0.82
+3,109,11,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),60 Days Ago,0.82
+4,109,11,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),90 Days Ago,0.83
+5,109,11,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Current Estimate,0.92
+6,109,11,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),7 Days Ago,0.92
+7,109,11,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),30 Days Ago,0.92
+8,109,11,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),60 Days Ago,0.94
+9,109,11,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),90 Days Ago,0.94
+10,109,11,2,2018-07-03 00:19:18,Current Year (2019),Current Estimate,5.01
+11,109,11,2,2018-07-03 00:19:18,Current Year (2019),7 Days Ago,5.01
+12,109,11,2,2018-07-03 00:19:18,Current Year (2019),30 Days Ago,5.01
+13,109,11,2,2018-07-03 00:19:18,Current Year (2019),60 Days Ago,4.97
+14,109,11,2,2018-07-03 00:19:18,Current Year (2019),90 Days Ago,4.97
+15,109,11,2,2018-07-03 00:19:18,Next Year (2020),Current Estimate,5.39
+16,109,11,2,2018-07-03 00:19:18,Next Year (2020),7 Days Ago,5.39
+17,109,11,2,2018-07-03 00:19:18,Next Year (2020),30 Days Ago,5.37
+18,109,11,2,2018-07-03 00:19:18,Next Year (2020),60 Days Ago,5.34
+19,109,11,2,2018-07-03 00:19:18,Next Year (2020),90 Days Ago,5.35
+0,109,12,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Up Last 7 Days,
+1,109,12,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Up Last 30 Days,
+2,109,12,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Down Last 7 Days,
+3,109,12,2,2018-07-03 00:19:18,Current Qtr. (Jul 2018),Down Last 30 Days,
+4,109,12,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Up Last 7 Days,
+5,109,12,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Up Last 30 Days,
+6,109,12,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Down Last 7 Days,
+7,109,12,2,2018-07-03 00:19:18,Next Qtr. (Oct 2018),Down Last 30 Days,
+8,109,12,2,2018-07-03 00:19:18,Current Year (2019),Up Last 7 Days,
+9,109,12,2,2018-07-03 00:19:18,Current Year (2019),Up Last 30 Days,
+10,109,12,2,2018-07-03 00:19:18,Current Year (2019),Down Last 7 Days,
+11,109,12,2,2018-07-03 00:19:18,Current Year (2019),Down Last 30 Days,
+12,109,12,2,2018-07-03 00:19:18,Next Year (2020),Up Last 7 Days,
+13,109,12,2,2018-07-03 00:19:18,Next Year (2020),Up Last 30 Days,
+14,109,12,2,2018-07-03 00:19:18,Next Year (2020),Down Last 7 Days,
+15,109,12,2,2018-07-03 00:19:18,Next Year (2020),Down Last 30 Days,
+0,109,13,2,2018-07-03 00:19:18,Current Qtr.,BBY,18.80%
+1,109,13,2,2018-07-03 00:19:18,Next Qtr.,BBY,17.90%
+2,109,13,2,2018-07-03 00:19:18,Current Year,BBY,13.30%
+3,109,13,2,2018-07-03 00:19:18,Next Year,BBY,7.60%
+4,109,13,2,2018-07-03 00:19:18,Next 5 Years (per annum),BBY,12.75%
+5,109,13,2,2018-07-03 00:19:18,Past 5 Years (per annum),BBY,27.03%
+6,109,13,2,2018-07-03 00:19:18,Current Qtr.,Industry,
+7,109,13,2,2018-07-03 00:19:18,Next Qtr.,Industry,
+8,109,13,2,2018-07-03 00:19:18,Current Year,Industry,
+9,109,13,2,2018-07-03 00:19:18,Next Year,Industry,
+10,109,13,2,2018-07-03 00:19:18,Next 5 Years (per annum),Industry,
+11,109,13,2,2018-07-03 00:19:18,Past 5 Years (per annum),Industry,
+12,109,13,2,2018-07-03 00:19:18,Current Qtr.,Sector,
+13,109,13,2,2018-07-03 00:19:18,Next Qtr.,Sector,
+14,109,13,2,2018-07-03 00:19:18,Current Year,Sector,
+15,109,13,2,2018-07-03 00:19:18,Next Year,Sector,
+16,109,13,2,2018-07-03 00:19:18,Next 5 Years (per annum),Sector,
+17,109,13,2,2018-07-03 00:19:18,Past 5 Years (per annum),Sector,
+18,109,13,2,2018-07-03 00:19:18,Current Qtr.,S&P 500,0.42
+19,109,13,2,2018-07-03 00:19:18,Next Qtr.,S&P 500,0.47
+20,109,13,2,2018-07-03 00:19:18,Current Year,S&P 500,0.22
+21,109,13,2,2018-07-03 00:19:18,Next Year,S&P 500,0.1
+22,109,13,2,2018-07-03 00:19:18,Next 5 Years (per annum),S&P 500,0.11
+23,109,13,2,2018-07-03 00:19:18,Past 5 Years (per annum),S&P 500,

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,TPR,2018-07-02,Open,46.02,559,2
+1,TPR,2018-07-02,High,46.389998999999996,559,2
+2,TPR,2018-07-02,Low,45.560001,559,2
+3,TPR,2018-07-02,Close,46.369999,559,2
+4,TPR,2018-07-02,Adj Close,46.369999,559,2
+5,TPR,2018-07-02,Volume,2148527.0,559,2

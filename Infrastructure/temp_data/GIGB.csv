@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,GIGB,2018-07-02,Open,47.810001,42,2
+1,GIGB,2018-07-02,High,47.82,42,2
+2,GIGB,2018-07-02,Low,47.77,42,2
+3,GIGB,2018-07-02,Close,47.779999,42,2
+4,GIGB,2018-07-02,Adj Close,47.779999,42,2
+5,GIGB,2018-07-02,Volume,4573.0,42,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,NEM,2018-07-02,Open,37.470001,321,2
+1,NEM,2018-07-02,High,37.825001,321,2
+2,NEM,2018-07-02,Low,37.23,321,2
+3,NEM,2018-07-02,Close,37.549999,321,2
+4,NEM,2018-07-02,Adj Close,37.549999,321,2
+5,NEM,2018-07-02,Volume,2813113.0,321,2

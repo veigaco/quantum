@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,HBI,2018-07-02,Open,21.91,481,2
+1,HBI,2018-07-02,High,22.049999,481,2
+2,HBI,2018-07-02,Low,21.629998999999998,481,2
+3,HBI,2018-07-02,Close,22.049999,481,2
+4,HBI,2018-07-02,Adj Close,22.049999,481,2
+5,HBI,2018-07-02,Volume,3585419.0,481,2

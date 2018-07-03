@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,ARNC,2018-07-02,Open,16.84,549,2
+1,ARNC,2018-07-02,High,16.959999,549,2
+2,ARNC,2018-07-02,Low,16.645,549,2
+3,ARNC,2018-07-02,Close,16.860001,549,2
+4,ARNC,2018-07-02,Adj Close,16.860001,549,2
+5,ARNC,2018-07-02,Volume,3133827.0,549,2

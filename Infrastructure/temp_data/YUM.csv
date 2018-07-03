@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,YUM,2018-07-02,Open,77.519997,446,2
+1,YUM,2018-07-02,High,78.150002,446,2
+2,YUM,2018-07-02,Low,77.089996,446,2
+3,YUM,2018-07-02,Close,78.110001,446,2
+4,YUM,2018-07-02,Adj Close,78.110001,446,2
+5,YUM,2018-07-02,Volume,1599141.0,446,2

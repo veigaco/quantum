@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,MSFT,2018-07-02,Open,98.099998,312,2
+1,MSFT,2018-07-02,High,100.059998,312,2
+2,MSFT,2018-07-02,Low,98.0,312,2
+3,MSFT,2018-07-02,Close,100.010002,312,2
+4,MSFT,2018-07-02,Adj Close,100.010002,312,2
+5,MSFT,2018-07-02,Volume,16228699.0,312,2

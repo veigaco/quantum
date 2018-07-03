@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,SYF,2018-07-02,Open,33.110001000000004,544,2
+1,SYF,2018-07-02,High,33.84,544,2
+2,SYF,2018-07-02,Low,33.110001000000004,544,2
+3,SYF,2018-07-02,Close,33.84,544,2
+4,SYF,2018-07-02,Adj Close,33.84,544,2
+5,SYF,2018-07-02,Volume,4422098.0,544,2

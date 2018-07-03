@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,AMAT,2018-07-02,Open,45.099998,83,2
+1,AMAT,2018-07-02,High,45.709998999999996,83,2
+2,AMAT,2018-07-02,Low,44.919998,83,2
+3,AMAT,2018-07-02,Close,45.68,83,2
+4,AMAT,2018-07-02,Adj Close,45.68,83,2
+5,AMAT,2018-07-02,Volume,8778399.0,83,2

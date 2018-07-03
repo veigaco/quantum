@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,WMB,2018-07-02,Open,26.809998999999998,435,2
+1,WMB,2018-07-02,High,27.01,435,2
+2,WMB,2018-07-02,Low,26.51,435,2
+3,WMB,2018-07-02,Close,26.700001,435,2
+4,WMB,2018-07-02,Adj Close,26.700001,435,2
+5,WMB,2018-07-02,Volume,6812910.0,435,2

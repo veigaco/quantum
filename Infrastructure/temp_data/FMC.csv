@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,FMC,2018-07-02,Open,88.540001,202,2
+1,FMC,2018-07-02,High,88.989998,202,2
+2,FMC,2018-07-02,Low,87.620003,202,2
+3,FMC,2018-07-02,Close,87.989998,202,2
+4,FMC,2018-07-02,Adj Close,87.989998,202,2
+5,FMC,2018-07-02,Volume,843299.0,202,2

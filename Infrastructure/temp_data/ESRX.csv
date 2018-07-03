@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,ESRX,2018-07-02,Open,77.050003,183,2
+1,ESRX,2018-07-02,High,78.059998,183,2
+2,ESRX,2018-07-02,Low,76.824997,183,2
+3,ESRX,2018-07-02,Close,77.989998,183,2
+4,ESRX,2018-07-02,Adj Close,77.989998,183,2
+5,ESRX,2018-07-02,Volume,1337022.0,183,2

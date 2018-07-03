@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,SYMC,2018-07-02,Open,20.5,393,2
+1,SYMC,2018-07-02,High,20.91,393,2
+2,SYMC,2018-07-02,Low,20.389999,393,2
+3,SYMC,2018-07-02,Close,20.889999,393,2
+4,SYMC,2018-07-02,Adj Close,20.889999,393,2
+5,SYMC,2018-07-02,Volume,5859688.0,393,2

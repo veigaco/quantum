@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,UHS,2018-07-02,Open,111.339996,515,2
+1,UHS,2018-07-02,High,111.339996,515,2
+2,UHS,2018-07-02,Low,109.370003,515,2
+3,UHS,2018-07-02,Close,110.980003,515,2
+4,UHS,2018-07-02,Adj Close,110.980003,515,2
+5,UHS,2018-07-02,Volume,716605.0,515,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,CBS,2018-07-02,Open,55.970001,120,2
+1,CBS,2018-07-02,High,56.290001000000004,120,2
+2,CBS,2018-07-02,Low,55.494999,120,2
+3,CBS,2018-07-02,Close,55.98,120,2
+4,CBS,2018-07-02,Adj Close,55.98,120,2
+5,CBS,2018-07-02,Volume,1766741.0,120,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,AMD,2018-07-02,Open,14.8,455,2
+1,AMD,2018-07-02,High,15.18,455,2
+2,AMD,2018-07-02,Low,14.74,455,2
+3,AMD,2018-07-02,Close,15.16,455,2
+4,AMD,2018-07-02,Adj Close,15.16,455,2
+5,AMD,2018-07-02,Volume,40615910.0,455,2

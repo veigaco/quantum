@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,IVZ,2018-07-02,Open,26.35,254,2
+1,IVZ,2018-07-02,High,26.83,254,2
+2,IVZ,2018-07-02,Low,26.235001,254,2
+3,IVZ,2018-07-02,Close,26.790001,254,2
+4,IVZ,2018-07-02,Adj Close,26.790001,254,2
+5,IVZ,2018-07-02,Volume,4330088.0,254,2

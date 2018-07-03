@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,MUB,2018-07-02,Open,108.809998,30,2
+1,MUB,2018-07-02,High,108.824997,30,2
+2,MUB,2018-07-02,Low,108.709999,30,2
+3,MUB,2018-07-02,Close,108.769997,30,2
+4,MUB,2018-07-02,Adj Close,108.769997,30,2
+5,MUB,2018-07-02,Volume,434174.0,30,2

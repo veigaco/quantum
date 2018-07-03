@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,UNM,2018-07-02,Open,36.779999,538,2
+1,UNM,2018-07-02,High,37.619999,538,2
+2,UNM,2018-07-02,Low,36.759997999999996,538,2
+3,UNM,2018-07-02,Close,37.59,538,2
+4,UNM,2018-07-02,Adj Close,37.59,538,2
+5,UNM,2018-07-02,Volume,1606879.0,538,2

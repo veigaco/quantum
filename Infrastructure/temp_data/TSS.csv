@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,TSS,2018-07-02,Open,84.010002,409,2
+1,TSS,2018-07-02,High,86.050003,409,2
+2,TSS,2018-07-02,Low,84.010002,409,2
+3,TSS,2018-07-02,Close,85.879997,409,2
+4,TSS,2018-07-02,Adj Close,85.879997,409,2
+5,TSS,2018-07-02,Volume,1109823.0,409,2

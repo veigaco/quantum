@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,TAP,2018-07-02,Open,67.709999,395,2
+1,TAP,2018-07-02,High,68.139999,395,2
+2,TAP,2018-07-02,Low,67.199997,395,2
+3,TAP,2018-07-02,Close,67.620003,395,2
+4,TAP,2018-07-02,Adj Close,67.620003,395,2
+5,TAP,2018-07-02,Volume,1101515.0,395,2

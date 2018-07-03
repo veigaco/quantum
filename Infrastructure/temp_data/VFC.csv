@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,VFC,2018-07-02,Open,80.790001,417,2
+1,VFC,2018-07-02,High,81.543198,417,2
+2,VFC,2018-07-02,Low,80.459999,417,2
+3,VFC,2018-07-02,Close,81.230003,417,2
+4,VFC,2018-07-02,Adj Close,81.230003,417,2
+5,VFC,2018-07-02,Volume,1366048.0,417,2

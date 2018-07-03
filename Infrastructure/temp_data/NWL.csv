@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,NWL,2018-07-02,Open,25.549999,328,2
+1,NWL,2018-07-02,High,26.299999,328,2
+2,NWL,2018-07-02,Low,25.530001000000002,328,2
+3,NWL,2018-07-02,Close,26.27,328,2
+4,NWL,2018-07-02,Adj Close,26.27,328,2
+5,NWL,2018-07-02,Volume,4474432.0,328,2

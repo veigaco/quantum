@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,VEA,2018-07-02,Open,42.240002000000004,25,2
+1,VEA,2018-07-02,High,42.446899,25,2
+2,VEA,2018-07-02,Low,42.205002,25,2
+3,VEA,2018-07-02,Close,42.439999,25,2
+4,VEA,2018-07-02,Adj Close,42.439999,25,2
+5,VEA,2018-07-02,Volume,10628658.0,25,2

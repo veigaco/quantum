@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,XEC,2018-07-02,Open,100.849998,471,2
+1,XEC,2018-07-02,High,101.5,471,2
+2,XEC,2018-07-02,Low,97.050003,471,2
+3,XEC,2018-07-02,Close,97.660004,471,2
+4,XEC,2018-07-02,Adj Close,97.660004,471,2
+5,XEC,2018-07-02,Volume,1605380.0,471,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,SPY,2018-07-02,Open,269.51001,57,2
+1,SPY,2018-07-02,High,272.040009,57,2
+2,SPY,2018-07-02,Low,269.23999,57,2
+3,SPY,2018-07-02,Close,271.839996,57,2
+4,SPY,2018-07-02,Adj Close,271.839996,57,2
+5,SPY,2018-07-02,Volume,55634527.0,57,2

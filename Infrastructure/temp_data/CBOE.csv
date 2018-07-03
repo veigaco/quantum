@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,CBOE,2018-07-02,Open,103.379997,467,2
+1,CBOE,2018-07-02,High,103.889999,467,2
+2,CBOE,2018-07-02,Low,103.110001,467,2
+3,CBOE,2018-07-02,Close,103.75,467,2
+4,CBOE,2018-07-02,Adj Close,103.75,467,2
+5,CBOE,2018-07-02,Volume,509364.0,467,2

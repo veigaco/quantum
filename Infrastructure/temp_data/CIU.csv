@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,CIU,2018-07-02,Open,106.050003,50,2
+1,CIU,2018-07-02,High,106.08000200000001,50,2
+2,CIU,2018-07-02,Low,105.900002,50,2
+3,CIU,2018-07-02,Close,105.989998,50,2
+4,CIU,2018-07-02,Adj Close,105.989998,50,2
+5,CIU,2018-07-02,Volume,265882.0,50,2

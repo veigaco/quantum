@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,BMY,2018-07-02,Open,55.169998,118,2
+1,BMY,2018-07-02,High,55.240002000000004,118,2
+2,BMY,2018-07-02,Low,54.48,118,2
+3,BMY,2018-07-02,Close,55.189999,118,2
+4,BMY,2018-07-02,Adj Close,55.189999,118,2
+5,BMY,2018-07-02,Volume,5499341.0,118,2

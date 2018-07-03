@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,LKQ,2018-07-02,Open,31.82,491,2
+1,LKQ,2018-07-02,High,31.84,491,2
+2,LKQ,2018-07-02,Low,31.25,491,2
+3,LKQ,2018-07-02,Close,31.75,491,2
+4,LKQ,2018-07-02,Adj Close,31.75,491,2
+5,LKQ,2018-07-02,Volume,1933676.0,491,2

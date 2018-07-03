@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,VTI,2018-07-02,Open,139.559998,35,2
+1,VTI,2018-07-02,High,140.880005,35,2
+2,VTI,2018-07-02,Low,139.429993,35,2
+3,VTI,2018-07-02,Close,140.820007,35,2
+4,VTI,2018-07-02,Adj Close,140.820007,35,2
+5,VTI,2018-07-02,Volume,2779724.0,35,2

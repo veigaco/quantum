@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,BSX,2018-07-02,Open,32.509997999999996,112,2
+1,BSX,2018-07-02,High,32.91,112,2
+2,BSX,2018-07-02,Low,32.349998,112,2
+3,BSX,2018-07-02,Close,32.830002,112,2
+4,BSX,2018-07-02,Adj Close,32.830002,112,2
+5,BSX,2018-07-02,Volume,4860858.0,112,2

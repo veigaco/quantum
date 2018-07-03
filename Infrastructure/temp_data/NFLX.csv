@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,NFLX,2018-07-02,Open,385.450012,316,2
+1,NFLX,2018-07-02,High,398.380005,316,2
+2,NFLX,2018-07-02,Low,380.0,316,2
+3,NFLX,2018-07-02,Close,398.179993,316,2
+4,NFLX,2018-07-02,Adj Close,398.179993,316,2
+5,NFLX,2018-07-02,Volume,7435004.0,316,2

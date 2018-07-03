@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,QRVO,2018-07-02,Open,79.75,535,2
+1,QRVO,2018-07-02,High,80.269997,535,2
+2,QRVO,2018-07-02,Low,78.809998,535,2
+3,QRVO,2018-07-02,Close,80.099998,535,2
+4,QRVO,2018-07-02,Adj Close,80.099998,535,2
+5,QRVO,2018-07-02,Volume,595339.0,535,2

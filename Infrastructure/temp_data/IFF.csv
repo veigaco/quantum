@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,IFF,2018-07-02,Open,123.720001,246,2
+1,IFF,2018-07-02,High,124.089996,246,2
+2,IFF,2018-07-02,Low,122.934998,246,2
+3,IFF,2018-07-02,Close,123.559998,246,2
+4,IFF,2018-07-02,Adj Close,123.559998,246,2
+5,IFF,2018-07-02,Volume,440616.0,246,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,SPG,2018-07-02,Open,170.149994,389,2
+1,SPG,2018-07-02,High,170.720001,389,2
+2,SPG,2018-07-02,Low,167.169998,389,2
+3,SPG,2018-07-02,Close,169.679993,389,2
+4,SPG,2018-07-02,Adj Close,169.679993,389,2
+5,SPG,2018-07-02,Volume,1131093.0,389,2

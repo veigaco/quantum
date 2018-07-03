@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,UTX,2018-07-02,Open,123.870003,414,2
+1,UTX,2018-07-02,High,125.040001,414,2
+2,UTX,2018-07-02,Low,123.099998,414,2
+3,UTX,2018-07-02,Close,125.029999,414,2
+4,UTX,2018-07-02,Adj Close,125.029999,414,2
+5,UTX,2018-07-02,Volume,4220715.0,414,2

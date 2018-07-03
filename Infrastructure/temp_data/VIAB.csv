@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,VIAB,2018-07-02,Open,30.0,423,2
+1,VIAB,2018-07-02,High,30.09,423,2
+2,VIAB,2018-07-02,Low,29.42,423,2
+3,VIAB,2018-07-02,Close,29.450001,423,2
+4,VIAB,2018-07-02,Adj Close,29.450001,423,2
+5,VIAB,2018-07-02,Volume,1917102.0,423,2

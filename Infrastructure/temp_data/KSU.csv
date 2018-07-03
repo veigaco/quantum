@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,KSU,2018-07-02,Open,105.5,265,2
+1,KSU,2018-07-02,High,107.050003,265,2
+2,KSU,2018-07-02,Low,104.710098,265,2
+3,KSU,2018-07-02,Close,106.949997,265,2
+4,KSU,2018-07-02,Adj Close,106.949997,265,2
+5,KSU,2018-07-02,Volume,787712.0,265,2

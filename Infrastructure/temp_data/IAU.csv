@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,IAU,2018-07-02,Open,11.98,59,2
+1,IAU,2018-07-02,High,11.98,59,2
+2,IAU,2018-07-02,Low,11.89,59,2
+3,IAU,2018-07-02,Close,11.9,59,2
+4,IAU,2018-07-02,Adj Close,11.9,59,2
+5,IAU,2018-07-02,Volume,18689265.0,59,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,SJM,2018-07-02,Open,107.230003,384,2
+1,SJM,2018-07-02,High,107.620003,384,2
+2,SJM,2018-07-02,Low,104.639999,384,2
+3,SJM,2018-07-02,Close,105.160004,384,2
+4,SJM,2018-07-02,Adj Close,105.160004,384,2
+5,SJM,2018-07-02,Volume,956989.0,384,2

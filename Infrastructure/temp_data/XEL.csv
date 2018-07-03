@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,XEL,2018-07-02,Open,45.84,445,2
+1,XEL,2018-07-02,High,46.27,445,2
+2,XEL,2018-07-02,Low,45.700001,445,2
+3,XEL,2018-07-02,Close,46.23,445,2
+4,XEL,2018-07-02,Adj Close,46.23,445,2
+5,XEL,2018-07-02,Volume,2563546.0,445,2

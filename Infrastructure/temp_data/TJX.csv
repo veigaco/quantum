@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,TJX,2018-07-02,Open,94.790001,400,2
+1,TJX,2018-07-02,High,95.110001,400,2
+2,TJX,2018-07-02,Low,94.220398,400,2
+3,TJX,2018-07-02,Close,94.910004,400,2
+4,TJX,2018-07-02,Adj Close,94.910004,400,2
+5,TJX,2018-07-02,Volume,2841383.0,400,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,DRI,2018-07-02,Open,106.849998,174,2
+1,DRI,2018-07-02,High,109.734001,174,2
+2,DRI,2018-07-02,Low,106.129997,174,2
+3,DRI,2018-07-02,Close,109.510002,174,2
+4,DRI,2018-07-02,Adj Close,109.510002,174,2
+5,DRI,2018-07-02,Volume,2053260.0,174,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,GBIL,2018-07-02,Open,99.959999,41,2
+1,GBIL,2018-07-02,High,100.022003,41,2
+2,GBIL,2018-07-02,Low,99.959999,41,2
+3,GBIL,2018-07-02,Close,100.010002,41,2
+4,GBIL,2018-07-02,Adj Close,100.010002,41,2
+5,GBIL,2018-07-02,Volume,333782.0,41,2

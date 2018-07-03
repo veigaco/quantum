@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,HSIC,2018-07-02,Open,72.510002,483,2
+1,HSIC,2018-07-02,High,73.410004,483,2
+2,HSIC,2018-07-02,Low,72.089996,483,2
+3,HSIC,2018-07-02,Close,73.339996,483,2
+4,HSIC,2018-07-02,Adj Close,73.339996,483,2
+5,HSIC,2018-07-02,Volume,1115730.0,483,2

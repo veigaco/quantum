@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,AES,2018-07-02,Open,13.05,80,2
+1,AES,2018-07-02,High,13.14,80,2
+2,AES,2018-07-02,Low,12.81,80,2
+3,AES,2018-07-02,Close,13.14,80,2
+4,AES,2018-07-02,Adj Close,13.14,80,2
+5,AES,2018-07-02,Volume,7761348.0,80,2

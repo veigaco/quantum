@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,XRX,2018-07-02,Open,23.799999,444,2
+1,XRX,2018-07-02,High,24.26,444,2
+2,XRX,2018-07-02,Low,23.709999,444,2
+3,XRX,2018-07-02,Close,24.200001,444,2
+4,XRX,2018-07-02,Adj Close,24.200001,444,2
+5,XRX,2018-07-02,Volume,2459654.0,444,2

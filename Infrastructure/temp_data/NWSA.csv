@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,NWSA,2018-07-02,Open,15.44,336,2
+1,NWSA,2018-07-02,High,15.48,336,2
+2,NWSA,2018-07-02,Low,15.06,336,2
+3,NWSA,2018-07-02,Close,15.15,336,2
+4,NWSA,2018-07-02,Adj Close,15.15,336,2
+5,NWSA,2018-07-02,Volume,2209657.0,336,2

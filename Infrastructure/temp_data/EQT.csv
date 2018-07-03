@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,EQT,2018-07-02,Open,54.5,190,2
+1,EQT,2018-07-02,High,54.66,190,2
+2,EQT,2018-07-02,Low,53.75,190,2
+3,EQT,2018-07-02,Close,54.450001,190,2
+4,EQT,2018-07-02,Adj Close,54.450001,190,2
+5,EQT,2018-07-02,Volume,1708139.0,190,2

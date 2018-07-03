@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,JEC,2018-07-02,Open,62.869999,256,2
+1,JEC,2018-07-02,High,64.089996,256,2
+2,JEC,2018-07-02,Low,62.790001000000004,256,2
+3,JEC,2018-07-02,Close,64.0,256,2
+4,JEC,2018-07-02,Adj Close,64.0,256,2
+5,JEC,2018-07-02,Volume,1005517.0,256,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,NUE,2018-07-02,Open,62.029999,326,2
+1,NUE,2018-07-02,High,63.025002,326,2
+2,NUE,2018-07-02,Low,62.0,326,2
+3,NUE,2018-07-02,Close,62.849998,326,2
+4,NUE,2018-07-02,Adj Close,62.849998,326,2
+5,NUE,2018-07-02,Volume,1505257.0,326,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,GSSC,2018-07-02,Open,46.680099,46,2
+1,GSSC,2018-07-02,High,46.82,46,2
+2,GSSC,2018-07-02,Low,46.680099,46,2
+3,GSSC,2018-07-02,Close,46.810001,46,2
+4,GSSC,2018-07-02,Adj Close,46.810001,46,2
+5,GSSC,2018-07-02,Volume,8808.0,46,2

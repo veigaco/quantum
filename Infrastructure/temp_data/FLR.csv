@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,FLR,2018-07-02,Open,48.299999,209,2
+1,FLR,2018-07-02,High,48.759997999999996,209,2
+2,FLR,2018-07-02,Low,47.91,209,2
+3,FLR,2018-07-02,Close,48.59,209,2
+4,FLR,2018-07-02,Adj Close,48.59,209,2
+5,FLR,2018-07-02,Volume,1194022.0,209,2

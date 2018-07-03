@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,ICE,2018-07-02,Open,73.309998,239,2
+1,ICE,2018-07-02,High,73.775002,239,2
+2,ICE,2018-07-02,Low,72.879997,239,2
+3,ICE,2018-07-02,Close,73.730003,239,2
+4,ICE,2018-07-02,Adj Close,73.730003,239,2
+5,ICE,2018-07-02,Volume,2067688.0,239,2

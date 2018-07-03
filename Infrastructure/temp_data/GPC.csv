@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,GPC,2018-07-02,Open,91.360001,222,2
+1,GPC,2018-07-02,High,91.440002,222,2
+2,GPC,2018-07-02,Low,90.370003,222,2
+3,GPC,2018-07-02,Close,91.010002,222,2
+4,GPC,2018-07-02,Adj Close,91.010002,222,2
+5,GPC,2018-07-02,Volume,527063.0,222,2

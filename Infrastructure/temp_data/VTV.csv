@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,VTV,2018-07-02,Open,103.190002,32,2
+1,VTV,2018-07-02,High,104.029999,32,2
+2,VTV,2018-07-02,Low,103.099998,32,2
+3,VTV,2018-07-02,Close,103.980003,32,2
+4,VTV,2018-07-02,Adj Close,103.980003,32,2
+5,VTV,2018-07-02,Volume,1005525.0,32,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,AEP,2018-07-02,Open,69.41999799999999,72,2
+1,AEP,2018-07-02,High,70.095001,72,2
+2,AEP,2018-07-02,Low,69.120003,72,2
+3,AEP,2018-07-02,Close,70.050003,72,2
+4,AEP,2018-07-02,Adj Close,70.050003,72,2
+5,AEP,2018-07-02,Volume,2211667.0,72,2

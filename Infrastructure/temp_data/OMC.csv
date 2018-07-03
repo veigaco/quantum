@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,OMC,2018-07-02,Open,75.790001,331,2
+1,OMC,2018-07-02,High,76.059998,331,2
+2,OMC,2018-07-02,Low,74.870003,331,2
+3,OMC,2018-07-02,Close,75.5,331,2
+4,OMC,2018-07-02,Adj Close,75.5,331,2
+5,OMC,2018-07-02,Volume,1381207.0,331,2

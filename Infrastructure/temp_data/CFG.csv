@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,CFG,2018-07-02,Open,38.700001,546,2
+1,CFG,2018-07-02,High,39.41,546,2
+2,CFG,2018-07-02,Low,38.650002,546,2
+3,CFG,2018-07-02,Close,39.380001,546,2
+4,CFG,2018-07-02,Adj Close,39.380001,546,2
+5,CFG,2018-07-02,Volume,4336664.0,546,2

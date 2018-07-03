@@ -1,0 +1,5 @@
+,instrument_id,equity_fundamental_id,data_vendor_id,refreshed_at,Period,Metric,Value
+0,533,14,2,2018-07-03 02:58:11,2018-07-03,% of Shares Held by All Insider,14.69%
+1,533,14,2,2018-07-03 02:58:11,2018-07-03,% of Shares Held by Institutions,62.31%
+2,533,14,2,2018-07-03 02:58:11,2018-07-03,% of Float Held by Institutions,73.04%
+3,533,14,2,2018-07-03 02:58:11,2018-07-03,Number of Institutions Holding Shares,1666

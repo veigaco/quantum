@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,SRE,2018-07-02,Open,115.260002,390,2
+1,SRE,2018-07-02,High,116.370003,390,2
+2,SRE,2018-07-02,Low,114.629997,390,2
+3,SRE,2018-07-02,Close,115.540001,390,2
+4,SRE,2018-07-02,Adj Close,115.540001,390,2
+5,SRE,2018-07-02,Volume,1563885.0,390,2

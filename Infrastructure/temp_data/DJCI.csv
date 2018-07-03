@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,DJCI,2018-07-02,Open,15.93,58,2
+1,DJCI,2018-07-02,High,15.93,58,2
+2,DJCI,2018-07-02,Low,15.76,58,2
+3,DJCI,2018-07-02,Close,15.76,58,2
+4,DJCI,2018-07-02,Adj Close,15.76,58,2
+5,DJCI,2018-07-02,Volume,1743.0,58,2

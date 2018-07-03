@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,AKAM,2018-07-02,Open,72.68,88,2
+1,AKAM,2018-07-02,High,74.519997,88,2
+2,AKAM,2018-07-02,Low,72.190002,88,2
+3,AKAM,2018-07-02,Close,74.440002,88,2
+4,AKAM,2018-07-02,Adj Close,74.440002,88,2
+5,AKAM,2018-07-02,Volume,1469473.0,88,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,CBRE,2018-07-02,Open,47.279999,564,2
+1,CBRE,2018-07-02,High,47.68,564,2
+2,CBRE,2018-07-02,Low,46.509997999999996,564,2
+3,CBRE,2018-07-02,Close,47.66,564,2
+4,CBRE,2018-07-02,Adj Close,47.66,564,2
+5,CBRE,2018-07-02,Volume,1877018.0,564,2

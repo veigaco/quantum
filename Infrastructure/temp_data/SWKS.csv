@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,SWKS,2018-07-02,Open,95.459999,504,2
+1,SWKS,2018-07-02,High,97.195,504,2
+2,SWKS,2018-07-02,Low,95.050003,504,2
+3,SWKS,2018-07-02,Close,97.059998,504,2
+4,SWKS,2018-07-02,Adj Close,97.059998,504,2
+5,SWKS,2018-07-02,Volume,1417414.0,504,2

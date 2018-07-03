@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,EFX,2018-07-02,Open,123.849998,182,2
+1,EFX,2018-07-02,High,124.32,182,2
+2,EFX,2018-07-02,Low,122.68,182,2
+3,EFX,2018-07-02,Close,124.230003,182,2
+4,EFX,2018-07-02,Adj Close,124.230003,182,2
+5,EFX,2018-07-02,Volume,674414.0,182,2

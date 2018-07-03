@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,MCD,2018-07-02,Open,155.990005,287,2
+1,MCD,2018-07-02,High,156.869995,287,2
+2,MCD,2018-07-02,Low,155.449997,287,2
+3,MCD,2018-07-02,Close,156.869995,287,2
+4,MCD,2018-07-02,Adj Close,156.869995,287,2
+5,MCD,2018-07-02,Volume,3023959.0,287,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,AAPL,2018-07-02,Open,183.820007,63,2
+1,AAPL,2018-07-02,High,187.300003,63,2
+2,AAPL,2018-07-02,Low,183.419998,63,2
+3,AAPL,2018-07-02,Close,187.179993,63,2
+4,AAPL,2018-07-02,Adj Close,187.179993,63,2
+5,AAPL,2018-07-02,Volume,15349865.0,63,2

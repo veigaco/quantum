@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,FCX,2018-07-02,Open,17.02,194,2
+1,FCX,2018-07-02,High,17.17,194,2
+2,FCX,2018-07-02,Low,16.785,194,2
+3,FCX,2018-07-02,Close,17.16,194,2
+4,FCX,2018-07-02,Adj Close,17.16,194,2
+5,FCX,2018-07-02,Volume,14426426.0,194,2

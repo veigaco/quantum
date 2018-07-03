@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,VTIP,2018-07-02,Open,48.869999,28,2
+1,VTIP,2018-07-02,High,48.869999,28,2
+2,VTIP,2018-07-02,Low,48.82,28,2
+3,VTIP,2018-07-02,Close,48.84,28,2
+4,VTIP,2018-07-02,Adj Close,48.84,28,2
+5,VTIP,2018-07-02,Volume,413962.0,28,2

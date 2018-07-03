@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,BEN,2018-07-02,Open,31.700001,105,2
+1,BEN,2018-07-02,High,31.91,105,2
+2,BEN,2018-07-02,Low,31.280001000000002,105,2
+3,BEN,2018-07-02,Close,31.610001,105,2
+4,BEN,2018-07-02,Adj Close,31.610001,105,2
+5,BEN,2018-07-02,Volume,4297859.0,105,2

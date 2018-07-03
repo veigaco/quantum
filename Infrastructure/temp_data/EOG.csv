@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,EOG,2018-07-02,Open,123.809998,180,2
+1,EOG,2018-07-02,High,123.860001,180,2
+2,EOG,2018-07-02,Low,121.110001,180,2
+3,EOG,2018-07-02,Close,122.400002,180,2
+4,EOG,2018-07-02,Adj Close,122.400002,180,2
+5,EOG,2018-07-02,Volume,2310840.0,180,2

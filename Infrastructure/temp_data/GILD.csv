@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,GILD,2018-07-02,Open,70.699997,215,2
+1,GILD,2018-07-02,High,71.379898,215,2
+2,GILD,2018-07-02,Low,70.300003,215,2
+3,GILD,2018-07-02,Close,71.279999,215,2
+4,GILD,2018-07-02,Adj Close,71.279999,215,2
+5,GILD,2018-07-02,Volume,3539952.0,215,2

@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,MRO,2018-07-02,Open,20.65,304,2
+1,MRO,2018-07-02,High,20.76,304,2
+2,MRO,2018-07-02,Low,20.165001,304,2
+3,MRO,2018-07-02,Close,20.66,304,2
+4,MRO,2018-07-02,Adj Close,20.66,304,2
+5,MRO,2018-07-02,Volume,12467428.0,304,2

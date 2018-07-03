@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,GOOG,2018-07-02,Open,1099.0,214,2
+1,GOOG,2018-07-02,High,1128.0,214,2
+2,GOOG,2018-07-02,Low,1093.800049,214,2
+3,GOOG,2018-07-02,Close,1127.459961,214,2
+4,GOOG,2018-07-02,Adj Close,1127.459961,214,2
+5,GOOG,2018-07-02,Volume,1102958.0,214,2

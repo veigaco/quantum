@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,DPS,2018-07-02,Open,121.32,172,2
+1,DPS,2018-07-02,High,123.75,172,2
+2,DPS,2018-07-02,Low,121.32,172,2
+3,DPS,2018-07-02,Close,123.68,172,2
+4,DPS,2018-07-02,Adj Close,123.68,172,2
+5,DPS,2018-07-02,Volume,5890321.0,172,2

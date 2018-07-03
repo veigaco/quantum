@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,VRSN,2018-07-02,Open,136.729996,430,2
+1,VRSN,2018-07-02,High,140.25,430,2
+2,VRSN,2018-07-02,Low,136.630005,430,2
+3,VRSN,2018-07-02,Close,140.220001,430,2
+4,VRSN,2018-07-02,Adj Close,140.220001,430,2
+5,VRSN,2018-07-02,Volume,411027.0,430,2

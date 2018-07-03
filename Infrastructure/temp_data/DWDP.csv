@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,DWDP,2018-07-02,Open,65.529999,558,2
+1,DWDP,2018-07-02,High,65.849998,558,2
+2,DWDP,2018-07-02,Low,64.760002,558,2
+3,DWDP,2018-07-02,Close,65.769997,558,2
+4,DWDP,2018-07-02,Adj Close,65.769997,558,2
+5,DWDP,2018-07-02,Volume,6377874.0,558,2

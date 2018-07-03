@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,ETFC,2018-07-02,Open,60.720001,186,2
+1,ETFC,2018-07-02,High,61.659901,186,2
+2,ETFC,2018-07-02,Low,60.25,186,2
+3,ETFC,2018-07-02,Close,61.619999,186,2
+4,ETFC,2018-07-02,Adj Close,61.619999,186,2
+5,ETFC,2018-07-02,Volume,1637645.0,186,2

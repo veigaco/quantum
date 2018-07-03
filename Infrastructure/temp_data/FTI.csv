@@ -1,0 +1,7 @@
+,ticker,date_,category,value,instrument_id,data_vendor_id
+0,FTI,2018-07-02,Open,31.01,207,2
+1,FTI,2018-07-02,High,31.08,207,2
+2,FTI,2018-07-02,Low,30.559998999999998,207,2
+3,FTI,2018-07-02,Close,30.67,207,2
+4,FTI,2018-07-02,Adj Close,30.67,207,2
+5,FTI,2018-07-02,Volume,2891139.0,207,2
