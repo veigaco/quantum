@@ -78,7 +78,6 @@ def pct_3avgyr(data2):
 
 def z_score(df2):
     macro=df2.columns.tolist()[0]
-    #df2=df2.loc[df2.index>=dictionary["date_ini"][macro]]
     mean=df2.mean()  # Scale the data*
     std=df2.std()
     df3=pd.DataFrame(index=df2.index,
@@ -100,8 +99,6 @@ def get_ts_qs(test):
 
 def get_ts_qs_transf(df2,transfor):#macro,
     '''Compute monthly time series with transformation from name macro'''
-    #df1=get_price_ts(macro)
-    #df2=get_ts_qs(df1)
     macro=df2.columns.tolist()[0]
     if transfor=="Percen Change One Year Ago":
         df3=pct_change_annual(df2) 
