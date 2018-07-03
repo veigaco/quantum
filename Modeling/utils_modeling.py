@@ -117,6 +117,7 @@ def get_ts_qs_transf(df2,transfor):#macro,
         df3=pct_gdp(df2)
     else:
         df3=df2
+
     if macro!="SP500": #(macro!="GDP")&(
         df4=z_score(df3)
     else:
