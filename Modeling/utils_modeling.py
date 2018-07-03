@@ -102,8 +102,10 @@ def get_ts_qs_transf(df2,transfor):#macro,
     macro=df2.columns.tolist()[0]
     if transfor=="Percen Change One Year Ago":
         df3=pct_change_annual(df2) 
-    elif transfor=="Percen Change Three Months Ago":
+    elif transfor=="Percen Change Three Months":
         df3=pct_change_m(df2,-1)
+    elif transfor=="Percen Change Three Months Ago":
+        df3=pct_change_m(df2,1)
     elif transfor=="Divided by 100 and difference One Year Ago":
         df3=diff_annual(df2/100)
     elif transfor=="Divided by 100":
