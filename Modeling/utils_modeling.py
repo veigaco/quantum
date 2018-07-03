@@ -78,7 +78,7 @@ def pct_3avgyr(data2):
 
 def z_score(df2):
     macro=df2.columns.tolist()[0]
-    df2=df2.loc[df2.index>=dictionary["date_ini"][macro]]
+    #df2=df2.loc[df2.index>=dictionary["date_ini"][macro]]
     mean=df2.mean()  # Scale the data*
     std=df2.std()
     df3=pd.DataFrame(index=df2.index,
