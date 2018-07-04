@@ -97,7 +97,7 @@ def get_ts_qs(test):
     test1=test.resample("QS").mean()#ffill()
     return test1
 
-def get_ts_qs_transf(df2,transfor):#macro,
+def get_ts_qs_transf(df2,transfor,name_asset):#macro,
     '''Compute monthly time series with transformation from name macro'''
     macro=df2.columns.tolist()[0]
     if transfor=="Percen Change One Year Ago":
@@ -117,7 +117,7 @@ def get_ts_qs_transf(df2,transfor):#macro,
     else:
         df3=df2
 
-    if macro!="SP500": #(macro!="GDP")&(
+    if macro!=name_asset: #(macro!="GDP")&(
         df4=z_score(df3)
     else:
         df4=df3.copy()
